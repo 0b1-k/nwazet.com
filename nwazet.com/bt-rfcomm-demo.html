@@ -1,0 +1,543 @@
+
+<!DOCTYPE html> 
+<html lang="en-US" class="static detail-sample contents"> 
+<head> 
+    <meta charset="utf-8" />
+    <title>Nwazet-Bluetooth RFCOMM demo</title> 
+    <link href="http://nwazet.com/Themes/Nwazet/Styles/Site.min.css" rel="stylesheet" type="text/css" />
+<script src="http://nwazet.com/Modules/Orchard.jQuery/scripts/jquery-1.11.1.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="/Core/Shapes/scripts/html5.js" type="text/javascript"></script>
+<![endif]-->
+<meta content="Orchard" name="generator" />
+<meta content="IE=edge,chrome=1" name="X-UA-Compatible" />
+<meta content="4503599629930432" property="twitter:account_id" />
+<link href="http://nwazet.com/Media/Default/favicon/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+<link rel="alternate" type="application/rss+xml" title="Products" href="http://nwazet.com/rss?projection=21941" />
+
+    <script>(function(d){d.className="dyn"+d.className.substring(6,d.className.length);})(document.documentElement);</script> 
+</head> 
+<body>
+
+
+<div class="aside-2" id="layout-wrapper">
+    <header id="layout-header" class="group">
+        <div id="header">
+            <div class="zone zone-header">
+<div class="brandlogo"><a href="index.html"><img alt="Nwazet" src="http://nwazet.com/Themes/Nwazet/Content/NwazetLogo.png"/></a></div>
+<h1 id="branding"><a href="index.html">Nwazet</a></h1>
+<h2 id="punchline">Build.Something("Epic!")</h2>
+</div>
+            <div class="user-display">
+        <span class="user-actions" title="You do not need an account in order to be able to buy on this site."><a href="http://nwazet.com/Users/Account/LogOn?ReturnUrl=%2Fbt-rfcomm-demo" rel="nofollow">Sign In</a></span>
+</div>
+        </div>
+    </header>
+<div id="layout-navigation" class="group">
+    <div class="zone zone-navigation">
+<article class="widget-navigation widget-menu-widget widget">
+    
+<nav>
+    <ul class="menu menu-main-menu">
+        
+        
+<li class="dropdown first"><a href="index.html">Products</a>
+                <ul>
+                    
+<li><a href="http://nwazet.com/product/automation">Automation</a>
+</li>
+<li><a href="http://nwazet.com/product/connectors">Cables & Connectors</a>
+</li>
+<li><a href="http://nwazet.com/product/mounting-solution">Cases & Plates</a>
+</li>
+<li><a href="http://nwazet.com/product/component">Components</a>
+</li>
+<li><a href="http://nwazet.com/cool">Cooling Solutions</a>
+</li>
+<li><a href="http://nwazet.com/product/data-acquisition">Data Acquisition</a>
+</li>
+<li><a href="http://nwazet.com/product/display-solutions">Display Solutions</a>
+</li>
+<li><a href="http://nwazet.com/fasteners">Fasteners</a>
+</li>
+<li><a href="http://nwazet.com/product/data-input">Input Devices</a>
+</li>
+<li><a href="http://nwazet.com/product/kit">Kits & Systems</a>
+</li>
+<li><a href="http://nwazet.com/product/microcontroller">Mainboards</a>
+</li>
+<li><a href="http://nwazet.com/product/networking">Networking</a>
+</li>
+<li><a href="http://nwazet.com/os">Operating Systems</a>
+</li>
+<li><a href="http://nwazet.com/product/optical-solutions">Optical Solutions</a>
+</li>
+<li><a href="http://nwazet.com/product/power-solutions">Power Solutions</a>
+</li>
+<li><a href="http://nwazet.com/product/prototyping">Prototyping</a>
+</li>
+<li><a href="http://nwazet.com/product/sensors">Sensors</a>
+</li>
+<li>
+
+    <a href="http://nwazet.com/discount">Discounted Items</a> 
+</li>
+<li>
+
+    <a href="http://nwazet.com/retired">Retired Products</a> 
+</li>
+                </ul>
+</li>
+<li>
+
+    <a href="http://nwazet.com/blog">Blog</a> 
+</li>
+<li><a href="http://nwazet.com/faq">FAQ</a>
+</li>
+<li class="dropdown last"><a href="http://nwazet.com/us">About</a>
+                <ul>
+                    
+<li>
+
+    <a href="http://nwazet.com/distributors">Distributors</a> 
+</li>
+<li>
+
+    <a href="http://nwazet.com/testimonials">Testimonials</a> 
+</li>
+<li><a href="http://nwazet.com/contact">Contact us</a>
+</li>
+                </ul>
+</li>
+    </ul>
+</nav>
+</article>
+<article class="widget-navigation widget-search-form widget">
+    
+<form action="http://nwazet.com/Search" class="search-form" method="get">    <fieldset>
+        <input id="q" name="q" placeholder="Search" type="text" value="" />
+        <button type="button" class="cancel" title="Cancel" data-cancels="q">&times;</button>
+    </fieldset>
+</form>
+</article></div>
+</div>
+<div id="layout-main-container">
+<div id="layout-main" class="group">
+    <div id="layout-content" class="group">
+                        <div id="content" class="group">
+            <div class="zone zone-content">
+<article class="sample content-item">
+    <header>
+        
+
+<h1>Bluetooth RFCOMM demo</h1>
+    </header>
+    <p>Plug your Bluetooth USB dongle into your machine and check that it is recognized.</p>
+
+<p>From the Linux command line, run <code>lsusb</code>.</p>
+
+<pre><code>root@dev:/home# lsusb
+Bus 001 Device 002: ID 0424:9514 Standard Microsystems Corp. 
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp. 
+Bus 001 Device 004: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
+</code></pre>
+
+<p>You should see a line containing <code>Bluetooth Dongle</code> among the listed devices.
+If not, reboot your machine, log in and run <code>dmesg | grep usb</code> looking for USB-related issues.</p>
+
+<p>Install the Bluetooth stack, utilities and library:</p>
+
+<pre><code>sudo apt-get install libbluetooth-dev bluez-utils
+</code></pre>
+
+<p>The Bluetooth daemon will automatically start upon installation.</p>
+
+<p>Check that a Bluetooth device has been registered using <code>hciconfig</code>.
+The output should look like this:</p>
+
+<pre><code>root@dev:/home# hciconfig
+hci0:   Type: BR/EDR  Bus: USB
+    BD Address: 00:1A:7D:DA:71:13  ACL MTU: 310:10  SCO MTU: 64:8
+    UP RUNNING PSCAN 
+    RX bytes:1449 acl:0 sco:0 events:69 errors:0
+    TX bytes:1328 acl:0 sco:0 commands:69 errors:0
+</code></pre>
+
+<p>Ensure that the Bluetooth device is discoverable and identifiable from another Bluetooth-enabled system with <code>hciconfig hci0 piscan</code>
+You may want to make the device permanently discoverable by adding <code>hciconfig hci0 piscan</code> to the <code>/etc/rc.local</code> file right before the <code>exit 0</code> statement at the end of the script. </p>
+
+<p>Validate with <code>hciconfig</code> again. The interface for the interface <code>hci0</code> should now reflect the following:</p>
+
+<pre><code>root@dev:/home# hciconfig
+hci0:   Type: BR/EDR  Bus: USB
+    BD Address: 00:1A:7D:DA:71:13  ACL MTU: 310:10  SCO MTU: 64:8
+    UP RUNNING PSCAN ISCAN 
+    RX bytes:1462 acl:0 sco:0 events:71 errors:0
+    TX bytes:1335 acl:0 sco:0 commands:71 errors:0
+</code></pre>
+
+<p>Don't enable the <code>auth</code> option at this stage. Remove it with <code>hciconfig hci0 noauth</code> if it is enabled. Leaving the <code>auth</code> option will cause errors such as <code>Bluetooth Error: (52, 'Invalid exchange')</code> later as the demo doesn't deal with authentication.</p>
+
+<p>To ensure that all is well, ping the Bluetooth MAC address of the Raspberry Pi using <code>sudo l2ping 00:1A:7D:DA:71:13</code> from another Bluetooth-capable system. Of course, replace the MAC address passed to the <code>l2ping</code> command with the one returned by <code>hciconfig hci0</code> on the line starting with <code>BD Address</code>.</p>
+
+<p>Install the Python 2.7 development environment, as needed:</p>
+
+<pre><code>sudo apt-get install python-dev
+</code></pre>
+
+<p>Switch to the <code>/home</code> directory of the machine (or any other that you like).
+Install PyBluez, the Bluetooth Python module.</p>
+
+<pre><code>cd /home
+wget http://pybluez.googlecode.com/files/PyBluez-0.18.tar.gz
+gunzip PyBluez-0.18.tar.gz
+tar -xf PyBluez-0.18.tar
+rm PyBluez-0.18.tar
+cd PyBluez-*
+python setup.py install
+</code></pre>
+
+<p>Note that there may be a newer version of PyBluez, so be sure to check <a href="http://pybluez.googlecode.com">http://pybluez.googlecode.com</a> for the latest version.</p>
+
+<p>Repeat this procedure on the client &amp; servers machines where Bluetooth python code will be running.</p>
+
+<p>Once the PyBluez module is compiled and installed where needed, test the sample client / server code that make use of it as follows.
+Note that the client and the server can run on any Bluetooth-capable system.
+In addition, the role of the machines can be switched at any time.</p>
+
+<p>Save the <code>bt.py</code> client/server demo code below in a file called <code>bt.py</code> and make it executable with</p>
+
+<pre><code>chmod +x bt.py
+</code></pre>
+
+<p>Run the server</p>
+
+<pre><code>root@dev:/home# ./bt.py server
+</code></pre>
+
+<p>The server will initialize itself with a message showing the MAC address of the first Bluetooth dongle it found:</p>
+
+<pre><code>Listening for connections on: 00:1A:7D:DA:71:13
+</code></pre>
+
+<p>Run the client on another bluetooth-capable machine.</p>
+
+<pre><code>fabien@fabien-desktop:~/Documents/Projects/Bluetooth$ ./bt.py client
+BT Discovery...
+BT device name: dev-0, MAC: 00:1A:7D:DA:71:13
+Connecting to first BT device found: dev-0, MAC: 00:1A:7D:DA:71:13
+Connected... Enter data or 'exit' to terminate the connection.
+</code></pre>
+
+<p>The client starts by searching for a Bluetooth device and attempts to connect to the first one it finds.</p>
+
+<pre><code>BT Discovery...
+BT device name: dev-0, MAC: 00:1A:7D:DA:71:13
+Connecting to first BT device found: dev-0, MAC: 00:1A:7D:DA:71:13
+Connected... Enter data or 'exit' to terminate the connection.
+Hi there!
+How is it going?
+Well... bye!
+exit
+</code></pre>
+
+<p><strong>References</strong></p>
+
+<p><strong>An Introduction to Bluetooth Programming</strong></p>
+
+<p><a href="http://people.csail.mit.edu/albert/bluez-intro/">http://people.csail.mit.edu/albert/bluez-intro/</a></p>
+
+<p><strong>Bluetooth Programming with Python 3</strong></p>
+
+<p><a href="http://blog.kevindoran.co/bluetooth-programming-with-python-3/">http://blog.kevindoran.co/bluetooth-programming-with-python-3/</a></p>
+
+<p><strong>pybluez</strong></p>
+
+<p><a href="https://code.google.com/p/pybluez/">https://code.google.com/p/pybluez/</a></p>
+
+<p><strong>Tools: hcitool, auth, rfcomm, obexftp</strong></p>
+
+<p><a href="http://www.pizzhacks.com/bugdrome/2010/12/bluetooth-applications-in-gnulinux-notes/">http://www.pizzhacks.com/bugdrome/2010/12/bluetooth-applications-in-gnulinux-notes/</a></p>
+
+<p><a href="http://www.computersolutions.cn/blog/2012/03/bluetooth-notes-for-debian-linux/">http://www.computersolutions.cn/blog/2012/03/bluetooth-notes-for-debian-linux/</a></p>
+
+
+<pre class="brush: python">#!/usr/bin/python
+import bluetooth
+from subprocess import Popen, PIPE
+import sys
+
+class BT(object):
+    def __init__(self, receiveSize=1024):
+        self.btSocket = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
+        self._ReceiveSize = receiveSize
+
+    def __exit__(self):
+        self.Disconnect()
+        
+    def Connect(self, mac, port= 3333):
+        self.btSocket.connect((mac, port))
+
+    def Disconnect(self):
+        try:
+            self.btSocket.close()
+        except Exception:
+            pass
+        
+    def Discover(self):
+        btDevices = bluetooth.discover_devices(lookup_names = True)
+        if (len(btDevices) &gt; 0):
+                return btDevices
+        else:
+            raise Exception(&#39;no BT device!&#39;)
+
+    def DumpDevices(self, btDeviceList):
+        for mac, name in btDeviceList:
+            print(&quot;BT device name: {0}, MAC: {1}&quot;.format(name, mac))
+    
+    def BindListen(self, mac, port=3333, backlog=1):
+        self.btSocket.bind((mac, port))
+        self.btSocket.listen(backlog)
+        
+    def Accept(self):
+        client, clientInfo = self.btSocket.accept()
+        return client, clientInfo
+        
+    def Send(self, data):
+        self.btSocket.send(data)
+        
+    def Receive(self):
+        return self.btSocket.recv(self._ReceiveSize)
+    
+    def GetReceiveSize(self):
+        return self._ReceiveSize
+        
+    
+def StartBTClient():
+    cli = BT()
+    print(&#39;BT Discovery...&#39;)
+    btDeviceList = cli.Discover()
+    cli.DumpDevices(btDeviceList)
+    mac = btDeviceList[0][0]
+    name = btDeviceList[0][1]
+    print(&#39;Connecting to first BT device found: {0}, MAC: {1}&#39;.format(name, mac))
+    cli.Connect(mac)
+    print(&#39;Connected... Enter data or \&#39;exit\&#39; to terminate the connection.&#39;)
+    while True:
+        data = raw_input()
+        if (data == &#39;exit&#39;):
+            break
+        try:
+            cli.Send(data)
+        except Exception as e:
+            print(e.__str__())
+            break
+    cli.Disconnect()
+
+def GetFirstMAC():
+    proc = Popen([&#39;hcitool&#39;, &#39;dev&#39;], stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    output, error = proc.communicate()
+    if (proc.returncode == 0):
+        lines = output.split(&#39;\r&#39;)
+        for line in lines:
+            if (&#39;hci0&#39; in line):
+                temp = line.split(&#39;\t&#39;)
+                temp = temp[2].strip(&#39;\n&#39;)
+                return temp
+        raise Exception(&#39;MAC not found&#39;)
+    else:
+        raise Exception(&#39;Command: {0} returned with error: {1}&#39;.format(cmd, error))
+
+def StartBTServer():
+    srv = BT()
+    mac = GetFirstMAC()
+    srv.BindListen(mac)
+    print(&#39;Listening for connections on: {0}&#39;.format(mac))
+    while True:
+        client, clientInfo = srv.Accept()
+        print(&#39;Connected to: {0}, port: {1}&#39;.format(clientInfo[0], clientInfo[1]))
+        try:
+            while True:
+                data = client.recv(srv.GetReceiveSize())
+                if (data is not None):
+                    print(data)
+                    client.send(data)
+        except:
+            print(&quot;Closing client socket&quot;)
+        client.close()
+    srv.Disconnect()
+
+if __name__ == &#39;__main__&#39;:
+    cmd = sys.argv[1]
+    if (cmd == &#39;server&#39;):
+        StartBTServer()
+    elif (cmd == &#39;client&#39;):
+        StartBTClient()
+    else:
+        print(&quot;Bluetooth RFCOMM client/server demo&quot;)
+        print(&quot;Copyright 2014 Nwazet, LLC.&quot;)
+        print(&quot;Please specify &#39;client&#39; or &#39;server&#39;&quot;)
+        print(&quot;This demo assumes a single Bluetooth interface per machine.&quot;)</pre>
+</article></div>
+        </div>
+            </div>
+        <aside id="aside-second" class="aside-second">
+        <div class="zone zone-aside-second">
+<article class="widget-aside-second widget-shopping-cart-widget widget">
+            <div class="shopping-cart-container minicart"
+             data-load="/nakedcart"
+             data-update="/Nwazet.Commerce/ShoppingCart/AjaxUpdate"
+             data-token="GGgEwUcAeLRZBQDPTPRIDk9Dw__YfuZYtBd4ExqIJt7rfhJk24Z294jAirVGOivtGZFFpmpcq_s64DbwOcZqz0nyB7k6zcVdoUnxMajGgYE1"></div>
+        <script type="text/javascript">
+            var Nwazet = window.Nwazet || {};
+            Nwazet.WaitWhileWeRestoreYourCart = "Please wait while we restore your shopping cart...";
+            Nwazet.FailedToLoadCart = "Failed to load the cart";
+        </script>
+
+
+</article>
+<article class="widget-social-links widget-aside-second widget-social-links widget">
+    <header>
+        <h1>Share &amp; Enjoy</h1>
+        
+    </header>
+    
+<div class="social-links">
+    <h6>Share this:</h6>
+    <a href="https://facebook.com/sharer.php?u=http://nwazet.com/bt-rfcomm-demo" target="_blank" class="icon-facebook" title="Share this on Facebook"><img src="http://nwazet.com/Themes/Nwazet/Content/icons/facebook.svg" alt="Share this on Facebook" class="svg" /></a>
+    <a href="https://twitter.com/intent/tweet?url=http://nwazet.com/bt-rfcomm-demo&text=Bluetooth RFCOMM demo&via=nwazet" class="icon-twitter" title="Share this on Twitter"><img src="http://nwazet.com/Themes/Nwazet/Content/icons/twitter.svg" alt="Share this on Twitter" class=" svg" /></a>
+    <a href="https://plus.google.com/share?url=http://nwazet.com/bt-rfcomm-demo" class="icon-googleplus" title="Share this on Google+"><img src="http://nwazet.com/Themes/Nwazet/Content/icons/googleplus.svg" alt="Share this on Google+" class="svg" /></a>
+    <a href="https://ssl.reddit.com/submit?url=http://nwazet.com/bt-rfcomm-demo" class="icon-reddit" title="Share this on Reddit"><img src="http://nwazet.com/Themes/Nwazet/Content/icons/reddit.svg" alt="Share this on Reddit" class="svg" /></a>
+</div>
+<div class="follow-links">
+    <h6>Follow us:</h6>
+    <a href="https://www.facebook.com/pages/Nwazet/151784651581722" target="_blank" class="icon-square-facebook" title="Follow us on Facebook"><img src="http://nwazet.com/Themes/Nwazet/Content/icons/squarefacebook.svg" alt="Follow us on Facebook" class="svg" /></a>
+    <a href="https://twitter.com/nwazet" class="icon-square-twitter" title="Follow us on Twitter"><img src="http://nwazet.com/Themes/Nwazet/Content/icons/squaretwitter.svg" alt="Follow us on Twitter" class=" svg" /></a>
+    <a href="http://nwazet.com/rss?projection=54" class="icon-square-rss" title="RSS Feed"><img src="http://nwazet.com/Themes/Nwazet/Content/icons/squarerss.svg" alt="RSS Feed" class="svg" /></a>
+</div>
+</article>
+<article class="widget-products widget-aside-second widget-projection-widget widget">
+    <header>
+        <h1>Products</h1>
+        
+    </header>
+    <ul class="terms"><li class="first"><div><span><a href="http://nwazet.com/product/automation">Automation</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/connectors">Cables &amp; Connectors</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/mounting-solution">Cases &amp; Plates</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/component">Components</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/cool">Cooling Solutions</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/data-acquisition">Data Acquisition</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/display-solutions">Display Solutions</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/fasteners">Fasteners</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/data-input">Input Devices</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/kit">Kits &amp; Systems</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/microcontroller">Mainboards</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/networking">Networking</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/os">Operating Systems</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/optical-solutions">Optical Solutions</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/power-solutions">Power Solutions</a></span></div>
+</li>
+<li><div><span><a href="http://nwazet.com/product/prototyping">Prototyping</a></span></div>
+</li>
+<li class="last"><div><span><a href="http://nwazet.com/product/sensors">Sensors</a></span></div>
+</li>
+</ul>
+
+</article>
+<article class="widget-discounts widget-aside-second widget-html-widget widget">
+    <p><a href="http://nwazet.com/discount"><img src="http://nwazet.com/Themes/Nwazet/Content/icons/SaleFlag.svg" alt="Sale" class="sale-flag" /> Discounted Items</a></p>
+</article>
+<article class="widget-retired widget-aside-second widget-html-widget widget">
+    <p><a href="http://nwazet.com/retired">Retired Items</a></p>
+</article></div>
+        </aside>
+</div>
+</div>
+<div id="layout-footer" class="group">
+    <footer id="footer">
+        <div id="footer-quad" class="group">
+                                            </div>
+            <div id="footer-sig" class="group">
+                <div class="zone zone-footer"><div class="bottomnav">
+    <span id="osh">Open Source Hardware and Software</span><br/>
+    <a href="shipping.html">Shipping</a> |
+    <a href="returns.html">Returns, Refunds &amp; Exchanges</a> |
+    <a href="privacy.html">Privacy</a> |
+    <a href="http://nwazet.com/contact">Contact us</a>
+</div>
+<div class="credits">
+    <a href="index.html" id="copyright">&#169; Nwazet 2011-2014</a> |
+    <span id="hostedby"><a href="http://orcsweb.com" target="_blank">Web Hosting By OrcsWeb.</a></span> |
+    <span id="poweredby">Powered by <a href="http://www.orchardproject.net" target="_blank">Orchard</a></span>
+</div>
+</div>
+            </div>
+    </footer>
+</div>
+    
+</div>
+
+<script src="http://platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+    twttr.conversion.trackPid('l4mn5');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4mn5&p_id=Twitter" />
+    <img height="1" width="1" style="display:none;" alt="" src="http://t.co/i/adsct?txn_id=l4mn5&amp;p_id=Twitter" />
+</noscript>
+
+<script src="http://nwazet.com/Modules/Nwazet.Commerce/scripts/referral.min.js" type="text/javascript"></script>
+<script src="Themes/Nwazet/scripts/SyntaxHighlighter/shCore.js" type="text/javascript"></script>
+<script src="Themes/Nwazet/scripts/SyntaxHighlighter/shBrushPython.js" type="text/javascript"></script>
+<script src="http://nwazet.com/Themes/Nwazet/scripts/nwazet.min.js" type="text/javascript"></script>
+<script src="http://nwazet.com/Modules/Nwazet.Commerce/scripts/shoppingcart.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function () {
+                SyntaxHighlighter.defaults['toolbar'] = false;
+                SyntaxHighlighter.all();
+            });
+        </script>
+
+        <script type="text/javascript">
+            $(".social-links").on("click", "a", function (e) {
+                var popup = window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+                if (popup) {
+                    popup.focus();
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+                return !!popup;
+            });
+        </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5109912-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

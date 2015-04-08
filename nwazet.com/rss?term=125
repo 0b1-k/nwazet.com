@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Components</title><link>http://nwazet.com:80/product/component</link><description>Components</description><item><title>8-Channel 10-Bit Analog to Digital Converter</title><link>http://nwazet.com:80/mcp3008-10bit-adc</link><description>&lt;p&gt;The Raspberry Pi is a great computer but there's just one thing that most hardware hackers will find missing: a few inputs for connecting analog sensors. This is where this handy chip comes in with eight 10-bit channels accessible over SPI. Thanks to the Raspberry Pi's SPI interfaces and its two 'Chip Select' pins available off of the main GPIO connector, the problem is solved.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;10-bit resolution&lt;/li&gt;
+&lt;li&gt;± 1 LSB max DNL&lt;/li&gt;
+&lt;li&gt;± 1 LSB max INL &lt;/li&gt;
+&lt;li&gt;8 input channels&lt;/li&gt;
+&lt;li&gt;Analog inputs programmable as single-ended or pseudo-differential pairs&lt;/li&gt;
+&lt;li&gt;On-chip sample and hold&lt;/li&gt;
+&lt;li&gt;SPI serial interface (modes 0,0 and 1,1)&lt;/li&gt;
+&lt;li&gt;Single supply operation: 2.7V - 5.5V&lt;/li&gt;
+&lt;li&gt;200 ksps max. sampling rate at VDD=5V&lt;/li&gt;
+&lt;li&gt;75 ksps max. sampling rate at VDD=2.7V&lt;/li&gt;
+&lt;li&gt;Low power CMOS technology&lt;/li&gt;
+&lt;li&gt;5 nA typical standby current, 2 µA max.&lt;/li&gt;
+&lt;li&gt;500 µA max. active current at 5V&lt;/li&gt;
+&lt;li&gt;Industrial temp range: -40°C to +85°C &lt;/li&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Datasheets/MCP3008.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Applications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sensor Interface&lt;/li&gt;
+&lt;li&gt;Process Control&lt;/li&gt;
+&lt;li&gt;Data Acquisition&lt;/li&gt;
+&lt;li&gt;Battery Operated Systems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;How-To&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The following sample assumes that you're running the latest official &lt;a href="/os"&gt;Raspbian distribution&lt;/a&gt;, that you're logged in as root and that you haven't yet customized Raspbian to use SPI from a Python script. By default, the kernel module managing SPI communications is not loaded on Raspbian, so let's ensure that the 'spidev' device is available.&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# lsmod
+Module                  Size  Used by
+snd_bcm2835            12808  0
+snd_pcm                74834  1 snd_bcm2835
+snd_seq                52536  0
+snd_timer              19698  2 snd_seq,snd_pcm
+snd_seq_device          6300  1 snd_seq
+snd                    52489  5 snd_seq_device,snd_timer,snd_seq,snd_pcm,snd_bcm2835
+snd_page_alloc          4951  1 snd_pcm
+&lt;/pre&gt;
+
+&lt;p&gt;If 'spidev' device is not listed, we need to remove it from the kernel module 'blacklist' so that it's automatically loaded on the next boot:&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# nano /etc/modprobe.d/raspi-blacklist.conf
+&lt;/pre&gt;
+
+&lt;p&gt;Put a hash character in front of the 'blacklist spi-bcm2708' statement and save the file:&lt;/p&gt;
+
+&lt;pre&gt;
+#blacklist spi-bcm2708
+&lt;/pre&gt;
+
+&lt;p&gt;then, manually load the SPI device:&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# modprobe spidev
+&lt;/pre&gt;
+
+&lt;p&gt;The command should just complete without returning an error. Validate the list of modules:&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# lsmod
+Module                  Size  Used by
+spi_bcm2708             4401  0
+spidev                  5136  0
+snd_bcm2835            12808  0
+snd_pcm                74834  1 snd_bcm2835
+snd_seq                52536  0
+snd_timer              19698  2 snd_seq,snd_pcm
+snd_seq_device          6300  1 snd_seq
+snd                    52489  5 snd_seq_device,snd_timer,snd_seq,snd_pcm,snd_bcm2835
+snd_page_alloc          4951  1 snd_pcm
+&lt;/pre&gt;
+
+&lt;p&gt;The 'spidev' device should now be available.&lt;/p&gt;
+
+&lt;p&gt;Next, install the 'git' package. It will be needed to install other packages from Github.&lt;/p&gt;
+
+&lt;pre&gt;
+apt-get install git-core
+&lt;/pre&gt;
+
+&lt;p&gt;Install the 'python-dev' package. It will be needed to compile the 'py-spidev' package.&lt;/p&gt;
+
+&lt;pre&gt;
+apt-get install python-dev
+&lt;/pre&gt;
+
+&lt;p&gt;Download and compile the '&lt;a href="https://github.com/doceme/py-spidev"&gt;py-spidev&lt;/a&gt;' package.&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# cd /home
+root@raspberrypi:/home# git clone git://github.com/doceme/py-spidev
+root@raspberrypi:/home# cd py-spidev/
+root@raspberrypi:/home# python setup.py install
+&lt;/pre&gt;
+
+&lt;p&gt;At this point, SPI is available from Python 2.7. Assuming that you have wired the MCP3008 to the &lt;a href="http://elinux.org/RPi_Low-level_peripherals"&gt;Raspberry Pi's SPI bus using CE0&lt;/a&gt; as the 'chip select' pin, you can read all eight analog inputs using the following Python script.&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/home# nano adc.py
+&lt;/pre&gt;
+
+&lt;p&gt;Paste the script below in the editor and save it.&lt;/p&gt;
+
+&lt;pre&gt;
+import spidev
+import time
+
+spi = spidev.SpiDev()
+spi.open(0,0)
+
+# read SPI data from MCP3008 chip, 8 possible adc's (0 thru 7)
+def readadc(adcnum):
+        if ((adcnum &gt; 7) or (adcnum &lt; 0)):
+                return -1
+        r = spi.xfer2([1,(8+adcnum)&lt;&lt;4,0])
+        adcout = ((r[1]&amp;3) &lt;&lt; 8) + r[2]
+        return adcout
+
+while True:
+        for adcInput in range(0,8):
+                print "ADC(", adcInput,")=", readadc(adcInput)
+        time.sleep(1)
+&lt;/pre&gt;
+
+&lt;p&gt;To execute the script&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/home# python adc.py
+&lt;/pre&gt;
+
+&lt;p&gt;Sample output using a 10K Ohm trimpot connected to the ADC's pin 3 and all other pins pulled down to ground using a 10k resistor.&lt;/p&gt;
+
+&lt;pre&gt;
+ADC( 0 )= 0
+ADC( 1 )= 0
+ADC( 2 )= 0
+ADC( 3 )= 507
+ADC( 4 )= 0
+ADC( 5 )= 0
+ADC( 6 )= 0
+ADC( 7 )= 0
+&lt;/pre&gt;
+
+&lt;p&gt;Credits go to &lt;a href="http://jeremyblythe.blogspot.co.uk/2012/09/raspberry-pi-hardware-spi-analog-inputs.html"&gt;Jeremy&lt;/a&gt; for his work on the 'py-spidev' Python module which makes working with the MCP3008 straight forward. Alternatively, checkout &lt;a href="https://projects.drogon.net/raspberry-pi/wiringpi/spi-library/"&gt;wiringPi's SPI&lt;/a&gt; functions if you prefer using a 'C' API.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Related Tutorials &amp;amp; Samples&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nwazet: &lt;a href="http://nwazet.com/code/loading-i2c-spi-and-1-wire-drivers-on-the-raspberry-pi-under-raspbian-wheezy"&gt;Loading I2C, SPI and 1-Wire drivers on the Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jeremyblythe.blogspot.co.uk/2012/09/raspberry-pi-hardware-spi-analog-inputs.html"&gt;Jeremy's Blog: Raspberry Pi hardware SPI analog inputs using the MCP3008&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://projects.drogon.net/raspberry-pi/wiringpi/"&gt;wiringPi 'C' API for interfacing with SPI, I2C, GPIOs and more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Adafruit Learning System
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://learn.adafruit.com/send-raspberry-pi-data-to-cosm/overview"&gt;Save and Graph Analog Temperature Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://learn.adafruit.com/reading-a-analog-in-and-controlling-audio-volume-with-the-raspberry-pi/overview"&gt;Converting analog inputs to digital and control audio volume&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/small-clear-breadboard"&gt;Small Clear Breadboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-gpio-ribbon"&gt;GPIO Ribbon Cable for Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/jumper-wires-mm-6inch"&gt;Jumper Wires Premium M/M 6" (10 pack)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Fri, 04 Jan 2013 05:36:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/mcp3008-10bit-adc</guid></item><item><title>40 Pin Headers - Straight - Set of 3</title><link>http://nwazet.com:80/40-pin-headers-straight-set-of-3</link><description>&lt;p&gt;These straight 40 pin headers are great for working with breadboards, building custom connectors, connecting sensors to similar GPIO connectors, adding headers to kits, etc. Just snap off the number of pins that you need and solder them up. They're a staple in just about any hardware project. Comes as a set of three pin headers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;# of pins / header: 40&lt;/li&gt;
+&lt;li&gt;Pin pitch: 2.54 mm (0.1")&lt;/li&gt;
+&lt;li&gt;Pin length: 11.5 mm (0.45")&lt;/li&gt;
+&lt;li&gt;Pin type: square&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/product/microcontroller"&gt;Main boards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/sensors"&gt;Sensors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/module"&gt;Modules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Fri, 04 Jan 2013 02:54:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/40-pin-headers-straight-set-of-3</guid></item><item><title>JST-PH Connector</title><link>http://nwazet.com:80/jst-ph-connector</link><description>&lt;p&gt;We use this through-hole, vertical insertion, JST connector on all of our Raspberry Pi products for board-to-board power. It provides reliable, shrouded contacts and is easy to solder.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2.0mm pitch&lt;/li&gt;
+&lt;li&gt;Current rating: 2A AC, DC (AWG #24)&lt;/li&gt;
+&lt;li&gt;Voltage rating: 100V AC, DC&lt;/li&gt;
+&lt;li&gt;Temperature range: -25C to +85C&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/jst-power"&gt;JST Power Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pecan-pi-relays"&gt;Nwazet Pecan Pi Relays&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-keylime"&gt;Nwazet Key Lime Pi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 02 Jan 2013 07:25:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/jst-ph-connector</guid></item><item><title>Black Dome Metal Knob</title><link>http://nwazet.com:80/black-dome-metal-knob</link><description>&lt;p&gt;This beautiful, heavy metal knob feels as good as it looks: it has a very smooth feedback when used with a potentiometer or a rotary encoder but feel free to use it on your Fender Telecaster guitar too ;)&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Black metal dome&lt;/li&gt;
+&lt;li&gt;Knurling&lt;/li&gt;
+&lt;li&gt;Brass insert&lt;/li&gt;
+&lt;li&gt;One straight set screw&lt;/li&gt;
+&lt;li&gt;1/4" shaft&lt;/li&gt;
+&lt;li&gt;Awesome&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Mon, 08 Oct 2012 07:26:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/black-dome-metal-knob</guid></item><item><title>Small Clear Breadboard</title><link>http://nwazet.com:80/small-clear-breadboard</link><description>&lt;p&gt;This transparent prototyping board provides four hundred 0.1" pitch connection points, four power rails, a 0.3" center divider for working with DIP chips and features interlocking connectors for fitting multiple boards together.&lt;/p&gt;
+
+&lt;h3&gt;Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Contacts: 400&lt;/li&gt;
+&lt;li&gt;Pitch: 0.1"&lt;/li&gt;
+&lt;li&gt;Center divider: 0.3"&lt;/li&gt;
+&lt;li&gt;Interlocking 'tongue and groove' mechanism&lt;/li&gt;
+&lt;li&gt;Contact life: 50K insertions&lt;/li&gt;
+&lt;li&gt;Electrical rating: 36 volts, 2 Amps&lt;/li&gt;
+&lt;li&gt;Wire size: 21 to 26 AWG&lt;/li&gt;
+&lt;li&gt;Adhesive back: permanent bond&lt;/li&gt;
+&lt;li&gt;Lead-free and RoHS compliant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Dimensions&lt;/h3&gt;
+
+&lt;p&gt;3.3" x 2.1" x 0.3" (84mm x 54mm x 9mm)&lt;/p&gt;
+</description><pubDate>Mon, 08 Oct 2012 06:41:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/small-clear-breadboard</guid></item><item><title>Four Digit Seven Segment Display</title><link>http://nwazet.com:80/fourdigitsevensegment</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;This nice blue seven segment display provides excellent segment uniformity and is highly visible up to seven meters away. It provides great readability even in bright ambient light. It looks slick with its white segments on a black surface.&lt;/p&gt;
+
+&lt;h2&gt;Related Components&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/leddriver"&gt;AS1100PL LED Driver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Datasheets/fourdigitsevensegment.pdf"&gt;Manufacturer Datasheet&lt;/a&gt; (See KW4-561CBB)&lt;/li&gt;
+&lt;li&gt;14.2mm (0.56") digit height&lt;/li&gt;
+&lt;li&gt;Color: blue (470nm +/- 25nm at 20mA)&lt;/li&gt;
+&lt;li&gt;Common cathode display&lt;/li&gt;
+&lt;li&gt;Maximum power dissipation per segment: 100mW&lt;/li&gt;
+&lt;li&gt;Maximum pulse peak forward current per segment (1/10th duty cycle, 0.1ms pulse width): 100mA&lt;/li&gt;
+&lt;li&gt;Maximum forward current per segment: 25mA&lt;/li&gt;
+&lt;li&gt;Maximum Additional power consumption above 50&amp;deg;C: 0.4mA/&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Maximum reverse voltage: 5V&lt;/li&gt;
+&lt;li&gt;Maximum reverse current: 50&amp;micro;A&lt;/li&gt;
+&lt;li&gt;Typical forward voltage: 3.2V at 20mA&lt;/li&gt;
+&lt;li&gt;Maximum forward voltage: 4V at 20mA&lt;/li&gt;
+&lt;li&gt;Operating temperature range: -40&amp;deg;C - +80&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Minimum luminous intensity: 6mcd&lt;/li&gt;
+&lt;li&gt;Typical luminous intensity: 12mcd&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/sevensegment.png" alt="Dimensions" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/sevensegmentwiring.PNG" alt="Wiring" /&gt;&lt;/p&gt;
+</description><pubDate>Thu, 30 Aug 2012 07:06:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/fourdigitsevensegment</guid></item><item><title>AS1100PL LED Driver</title><link>http://nwazet.com:80/leddriver</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;This LED driver is a drop-in replacement for the more expensive MAX7219CNG. This little chip is extremely useful when you need to control lots of LEDs, such as a LED matrix or a seven-segment display. Each driver can control up to 64 pixels or segments, and you can chain them to control more. They take SPI input to reliably produce a stable display. In addition, this driver natively understands LED matrices and segment displays so you don't have to make your life any harder than it already is by forcing you to map bits to pins.&lt;/p&gt;
+
+&lt;p&gt;The device includes a BCD code-B decoder, a multiplex scan circuitry, segment and display drivers, and a 64 Bit memory. The memory is used to store the LED settings, so that continuous reprogramming is not necessary. &lt;/p&gt;
+
+&lt;p&gt;Every individual segment can be addressed and updated separately. Only one external resistor is required to set the current through the LED display.&lt;/p&gt;
+
+&lt;p&gt;Brightness can be controlled either in an analog or digital way. The user can choose the internal code-B decoder to display numeric digits or to address each segment directly.&lt;/p&gt;
+
+&lt;p&gt;The AS1100 features an extremely low shutdown current of only 20µA and an operational current of less than 500µA. The number of visible digits can be programmed as well. The AS1100 can be reset by software and an external clock can be used. Several test modes support easy debugging.&lt;/p&gt;
+
+&lt;h2&gt;Related Components&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/ledmatrix"&gt;8x8 LED Matrix (Red Square Pixels)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/foudigitsevensegment"&gt;4 Digit Seven Segment LED Display&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Related Tutorials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://weblogs.asp.net/bleroy/archive/2011/03/24/driving-a-led-matrix-from-a-netduino-one-more-time-the-right-way.aspx"&gt;Driving a LED matrix from a Netduino one more time: The Right Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabienroyer.wordpress.com/2011/03/13/using-a-max7219max7221-led-display-driver-with-a-netduino/"&gt;Using a MAX7219/MAX7221 LED display driver with a netduino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Datasheets/AS1100_Datasheet_v1_36.pdf"&gt;AS1100PL Manufacturer Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Compare to &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX7219-MAX7221.pdf"&gt;MAX7219CNG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;10MHz Serial Interface&lt;/li&gt;
+&lt;li&gt;Individual LED Segment Control&lt;/li&gt;
+&lt;li&gt;Decode/No-Decode Digit Selection&lt;/li&gt;
+&lt;li&gt;20µA Low-Power Shutdown (Data Retained)&lt;/li&gt;
+&lt;li&gt;Extremely low Operating Current 0.5mA in open loop&lt;/li&gt;
+&lt;li&gt;Digital and Analog Brightness Control&lt;/li&gt;
+&lt;li&gt;Display Blanked on Power-Up&lt;/li&gt;
+&lt;li&gt;Drive Common-Cathode LED Display&lt;/li&gt;
+&lt;li&gt;Software Reset &lt;/li&gt;
+&lt;li&gt;Optional External clock&lt;/li&gt;
+&lt;li&gt;24-pin DIP package&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 30 Aug 2012 06:12:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/leddriver</guid></item><item><title>8x8 LED Matrix (Red Square Pixels)</title><link>http://nwazet.com:80/ledmatrix</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;A LED matrix is a great way to start playing with displays: as a simple array of LEDs with simple wiring, it's a system that is easy to understand and use. These LED matrices are controlled by 8 wires for rows, and eight for columns, making it easy to turn any pixel on or off. Pair it with our &lt;a href="/leddriver"&gt;LED Driver&lt;/a&gt; and all you have to do is send 8 bytes through SPI to enjoy a nice and stable 8x8 image.&lt;/p&gt;
+
+&lt;p&gt;This LED matrix is the same display that our &lt;a href="/pix6t4"&gt;PIX-6T4 handheld game console kit&lt;/a&gt; uses.&lt;/p&gt;
+
+&lt;h2&gt;Related Components&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/leddriver"&gt;AS1100PL LED Driver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Related Tutorials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://weblogs.asp.net/bleroy/archive/2010/12/06/displaying-an-image-on-a-led-matrix-with-a-netduino.aspx"&gt;Displaying an image on a LED matrix with a Netduino using persistence of vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabienroyer.wordpress.com/2010/12/03/driving-an-8x8-led-matrix-with-a-netduino-using-persistence-of-vision/"&gt;Driving an 8×8 LED matrix with a netduino using persistence of vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://weblogs.asp.net/bleroy/archive/2011/03/24/driving-a-led-matrix-from-a-netduino-one-more-time-the-right-way.aspx"&gt;Driving a LED matrix from a Netduino one more time: The Right Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabienroyer.wordpress.com/2011/03/13/using-a-max7219max7221-led-display-driver-with-a-netduino/"&gt;Using a MAX7219/MAX7221 LED display driver with a netduino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://netduinohelpers.codeplex.com"&gt;C# Driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;8x8 LED Matrix&lt;/li&gt;
+&lt;li&gt;Emitted Color: SH Hi-Red (Peak Wavelength: 660 nm)&lt;/li&gt;
+&lt;li&gt;Square 3mm pixels&lt;/li&gt;
+&lt;li&gt;Material: GaAlAs/GaAs&lt;/li&gt;
+&lt;li&gt;Forward Voltage: 1.80 - 2.20V&lt;/li&gt;
+&lt;li&gt;Absolute Maximum Ratings
+&lt;ul&gt;
+&lt;li&gt;Reverse Voltage(Vr): 5 V&lt;/li&gt;
+&lt;li&gt;Forward Current (If): 25 mA&lt;/li&gt;
+&lt;li&gt;Pulse Forward Current (Ifp): 100 mA&lt;/li&gt;
+&lt;li&gt;Power Dissipation (Pd): 60*64 mW&lt;/li&gt;
+&lt;li&gt;Operating Temperature(Topr): -40&amp;deg;C to +80&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Storage Temperature (Ttsg): -40&amp;deg;C to +85&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Lead Soldering Temperature: 260&amp;deg;C&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/media/default/datasheets/ledmatrix.pdf"&gt;Specification document&lt;/a&gt; (see NFM-12883A)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/LEDMatrix.PNG" alt="Dimensions" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/LEDMatrixWiring.PNG" alt="Wiring" /&gt;&lt;/p&gt;
+</description><pubDate>Thu, 30 Aug 2012 05:24:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/ledmatrix</guid></item></channel></rss>

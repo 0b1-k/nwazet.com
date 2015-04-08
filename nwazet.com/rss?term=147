@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Cables &amp; Connectors</title><link>http://nwazet.com:80/product/connectors</link><description>Cables &amp; Connectors</description><item><title>Adafruit MicroSD Card Adapter For Raspberry Pi</title><link>http://nwazet.com:80/pi-microsd-adapter</link><description>&lt;p&gt;With this microSD card adapter, you can help protect your Raspberry Pi from accidental damage to the SD card port and from file system corruptions caused by knocking the protruding SD card. &lt;/p&gt;
+
+&lt;p&gt;The adapter snaps into the Raspberry Pi's SD card slot, but only takes the space of half a card. Insert a micro-SD into it, and get a more compact and safer system.  The micro-SD is easily extracted by pushing on it a second time. &lt;/p&gt;
+
+&lt;p&gt;Please be aware that this adapter will not fit into most Raspberry Pi cases.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Compatible with any micro-SD card&lt;/li&gt;
+&lt;li&gt;Protrudes 3mm from the edge of the Raspberry Pi&lt;/li&gt;
+&lt;li&gt;5mm thick (clearance from the bottom of the Pi's PCB)&lt;/li&gt;
+&lt;li&gt;A micro-SD card is &lt;em&gt;not included&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Oct 2013 02:10:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-microsd-adapter</guid></item><item><title>Nwazet Key Lime Pi Wire Scorpion Kit</title><link>http://nwazet.com:80/pi-wirescorpion</link><description>&lt;p&gt;The 'Pi Wire Scorpion' kit is designed to provide a practical enclosure for &lt;a href="/pi-keylime"&gt;our 'Nwazet Key Lime Pi' breakout board&lt;/a&gt; (included). Use it as you build your project or as part of a final installation: it will do a great job at securing wires in place thanks to nine built-in zip-tie cutouts. The 'Pi Wire Scorpion' kit accommodates all the features of the &lt;a href="/pi-keylime"&gt;'Nwazet Key Lime Pi'&lt;/a&gt;, works well with right-angle and straight pin headers and includes all the essential cables and connectors needed to complete your project quickly and neatly and &lt;a href="http://nwazet.com/jumper-wires-mm-6inch"&gt;your choice of premium jumper wires&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1x 'Key Lime Pi' kit&lt;/li&gt;
+&lt;li&gt;2x 'Pi Wire Scorpion' plates (Fluorescent green)&lt;/li&gt;
+&lt;li&gt;1x Raspberry Pi GPIO cable&lt;/li&gt;
+&lt;li&gt;1x JST-PH power cable&lt;/li&gt;
+&lt;li&gt;1x JST-PH power connector&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nwazet.com/jumper-wires-mm-6inch"&gt;40x Premium jumper wires&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;8x 4" x 0.10" zip ties&lt;/li&gt;
+&lt;li&gt;4x rubber feet&lt;/li&gt;
+&lt;li&gt;3x short black screws (bottom plate)&lt;/li&gt;
+&lt;li&gt;3x long black screws (top plate)&lt;/li&gt;
+&lt;li&gt;3x hex F/F standoffs (Key Lime Pi breakout support, bottom plate)&lt;/li&gt;
+&lt;li&gt;3x round spacers (top plate support)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Board dimensions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Width: 6cm (2.36")&lt;/li&gt;
+&lt;li&gt;Length: 8.8cm (3.46")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Mouting holes&lt;/h2&gt;
+
+&lt;p&gt;The following distances are expressed from center to center of the mounting holes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Width: 4.75cm (1.87")&lt;/li&gt;
+&lt;li&gt;Length: 7.50cm (2.95")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Assembly time&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~5 minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/connectors"&gt;Connectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/fasteners"&gt;Fasteners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/module"&gt;Modules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 21 Mar 2013 02:26:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-wirescorpion</guid></item><item><title>Stereo Cable</title><link>http://nwazet.com:80/stereo-cable</link><description>&lt;p&gt;So, you're building a cool Internet radio player or streaming audio around the house using a Raspberry Pi? This cable is perfect when you need to output quality stereo sound and thanks to its right-angle jack, you'll be able to keep your build neat with the cord tucked-in closely to the computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Canon-brand&lt;/li&gt;
+&lt;li&gt;3.5mm stereo jack to two RCA plugs&lt;/li&gt;
+&lt;li&gt;Gold plated contacts&lt;/li&gt;
+&lt;li&gt;Right-angle jack keeps the cable out of the way&lt;/li&gt;
+&lt;li&gt;Cable dimensions: 1m (3.28') length x 2.7mm (0.1") thickness x 5.4mm (0.21") width&lt;/li&gt;
+&lt;li&gt;Cable gauge: 28AWG&lt;/li&gt;
+&lt;li&gt;Conductor resistance: 3.0 Ohm max.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/product/kit"&gt;Nwazet Pi XBMC Media Player&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/wireless-usb-mini-keyboard"&gt;Wireless USB Mini Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Fri, 18 Jan 2013 01:18:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/stereo-cable</guid></item><item><title>GPIO Ribbon Cable for Raspberry Pi</title><link>http://nwazet.com:80/pi-gpio-ribbon</link><description>&lt;p&gt;The Raspberry Pi is not just an inexpensive Linux computer, it also has a GPIO connector that enables lots of extensibility scenarios that are usually implemented on more conventional microcontrollers. Digital inputs and outputs, PWM, serial, I2C and SPI communication, as well as 5V and 3.3V pins are all supported on the 26-pin connector. It is not always practical however to connect directly there, especially if your Pi is in an enclosure such as our &lt;a href="/nwazet-pi-tuxedo-case"&gt;Pi Tuxedo Case&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our GPIO Ribbon Cable moves the connector 16cm away from the Pi, bringing a lot of flexibility for your projects. It's a nice black ribbon cable, with the same 26-pin connector on each end, giving access to the full GPIO connector. Pin 1 is identifiable as a white wire on the black ribbon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/small-clear-breadboard"&gt;Small Clear Breadboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/sensors"&gt;Sensors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/jumper-wires-mm-6inch"&gt;Jumper Wires Premium M/M 6" (10 pack)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Jan 2013 21:20:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-gpio-ribbon</guid></item><item><title>JST Power Cable (2")</title><link>http://nwazet.com:80/jst-power</link><description>&lt;p&gt;This simple three wire cable, with its JST PH connectors, provides a clean and secure connection between, for example, &lt;a href="/nwazet-pi-power-supply"&gt;our power supply&lt;/a&gt;, and your Pi-based projects when you need more than the 50mA that the GPIO connector can provide.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2 x JST PH connectors, 3 circuits: &lt;a href="/Media/Default/Datasheets/ePH.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;3 wires (red, black, white)&lt;/li&gt;
+&lt;li&gt;Length: 2 inches (50mm)&lt;/li&gt;
+&lt;li&gt;Current rating: 2A&lt;/li&gt;
+&lt;li&gt;Voltage rating: 100V AC/DC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Related Products&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/jst-ph-connector"&gt;JST PH connector&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Jan 2013 07:10:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/jst-power</guid></item><item><title>Ethernet Cable (Cat. 5, 350MHz, 10ft)</title><link>http://nwazet.com:80/ethernet-cable</link><description>&lt;p&gt;This Ethernet cable can connect your 10Mbps, 100Mbps, or 1Gbps switch, router, or modem to a Raspberry Pi, or any compatible device. Its length of ten feet (approximately 3m) will fit the most common scenarios.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;length: 10ft&lt;/li&gt;
+&lt;li&gt;Category 5&lt;/li&gt;
+&lt;li&gt;350MHz&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/hdmi-cable"&gt;HDMI Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/stereo-cable"&gt;Stereo Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-xbmc-raspberry-pi-included"&gt;Nwazet Pi XBMC (Raspberry Pi included)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Jan 2013 06:30:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/ethernet-cable</guid></item><item><title>HDMI Cable (3ft.)</title><link>http://nwazet.com:80/hdmi-cable</link><description>&lt;p&gt;This HDMI 1.3 cable is three feet long (about a meter) and will work perfectly with your Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/stereo-cable"&gt;Stereo Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ethernet-cable"&gt;Ethernet Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-xbmc-raspberry-pi-included"&gt;Nwazet Pi XBMC (Raspberry Pi included)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Jan 2013 06:10:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/hdmi-cable</guid></item><item><title>Micro USB adapter</title><link>http://nwazet.com:80/pi-usbadapter</link><description>&lt;p&gt;This compact adapter bridges standard USB A and Micro USB female plugs, from a USB power supply to a microcontroller, Raspberry Pi or phone. Its two male plugs are the shortest path between power and your device, for those cases where a cable just won't do.&lt;/p&gt;
+
+&lt;p&gt;We use that adapter in our &lt;a href="/pi-tuxedocase"&gt;Tuxedo Case&lt;/a&gt; and &lt;a href="/pi-xbmc"&gt;XBMC Bundle&lt;/a&gt; to connect the Raspberry Pi to our &lt;a href="/nwazet-pi-power-supply"&gt;power supply&lt;/a&gt;. It has exactly the right size, avoiding the mess of a cable inside the case.&lt;/p&gt;
+
+&lt;h2&gt;Related Products&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-xbmc"&gt;Nwazet Pi XBMC Bundle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-tuxedocase"&gt;Nwazet Pi Tuxedo Case&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Jan 2013 05:55:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-usbadapter</guid></item><item><title>JST-PH Connector</title><link>http://nwazet.com:80/jst-ph-connector</link><description>&lt;p&gt;We use this through-hole, vertical insertion, JST connector on all of our Raspberry Pi products for board-to-board power. It provides reliable, shrouded contacts and is easy to solder.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2.0mm pitch&lt;/li&gt;
+&lt;li&gt;Current rating: 2A AC, DC (AWG #24)&lt;/li&gt;
+&lt;li&gt;Voltage rating: 100V AC, DC&lt;/li&gt;
+&lt;li&gt;Temperature range: -25C to +85C&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/jst-power"&gt;JST Power Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pecan-pi-relays"&gt;Nwazet Pecan Pi Relays&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-keylime"&gt;Nwazet Key Lime Pi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 02 Jan 2013 07:25:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/jst-ph-connector</guid></item><item><title>Premium Jumper Wires (40x M/M, F/F, M/F)</title><link>http://nwazet.com:80/premium-jumper-wires</link><description>&lt;p&gt;These premium jumper wires fit perfectly side-by-side into 0.1" pin headers or prototyping boards.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;40x wires / pack&lt;/li&gt;
+&lt;li&gt;190mm (6")&lt;/li&gt;
+&lt;li&gt;M/M wires: individual wires, 28 AWG, 5 colors&lt;/li&gt;
+&lt;li&gt;M/F wires: 40 position pack, 28 AWG, multi-color&lt;/li&gt;
+&lt;li&gt;F/F wires: 40 position pack, 26 AWG, multi-color&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/40-pin-headers-straight-set-of-3"&gt;Pin Headers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-wirescorpion"&gt;Nwazet Key Lime Pi Wire Scorpion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/small-clear-breadboard"&gt;Breadboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Mon, 08 Oct 2012 07:01:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/premium-jumper-wires</guid></item></channel></rss>

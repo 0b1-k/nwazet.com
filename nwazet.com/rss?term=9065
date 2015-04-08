@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Input Devices</title><link>http://nwazet.com:80/product/data-input</link><description>Input Devices</description><item><title>Raspberry Pi Infrared Camera</title><link>http://nwazet.com:80/pi-camera</link><description>&lt;p&gt;If the Raspberry Pi was a revolution in the way we design microcontroller projects and embedded systems, its camera has similar potential. This is no mere MJPEG, serial, or even USB camera like those that until now were in projects requiring photo or video capabilities. With its specialized CSI connector on the Raspberry Pi, and its uncompromising design, it redefines what it is possible to do on such an inexpensive setup.&lt;/p&gt;
+
+&lt;p&gt;The Raspberry Pi Camera can shoot 1080p30 true high definition video, as well as 5 megapixel static images.&lt;/p&gt;
+
+&lt;p&gt;It is fully supported by all recent distributions of Linux for the Raspberry Pi, making it easy to shoot photos and videos from the command-line, or from your own programs. &lt;a href="https://itunes.apple.com/gb/app/berrycam/id687071023"&gt;Mobile applications&lt;/a&gt; exist that enable control of the camera from a phone. Standard Linux image processing libraries can be used to &lt;a href="http://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/"&gt;enable facial recognition&lt;/a&gt;, and other amazing applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;25mm x 20mm x 9mm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Video resolutions: 1080p30, 720p60, 640x480p60, 640x480p90&lt;/li&gt;
+&lt;li&gt;Photo resolution: 2592 x 1944 (5 megapixels)&lt;/li&gt;
+&lt;li&gt;Pi NoIR: no IR filter, includes blue filter&lt;/li&gt;
+&lt;li&gt;CSI bus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/wp-content/uploads/2013/07/RaspiCam-Documentation.pdf"&gt;Documentation for the camera can be downloaded from the Raspberry Pi Foundation's web site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/archives/tag/pi-noir"&gt;Pi NoIR blog post on the Raspberry Pi Foundation site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/archives/5672"&gt;Python interface for the Raspberry Pi camera&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://infragram.org/"&gt;Infrared image processing &amp;amp; software/&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 10 Sep 2013 00:39:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-camera</guid></item><item><title>Nwazet Pi Infrared Receiver (Model A, B, B+)</title><link>http://nwazet.com:80/nwazet-pi-infrared-receiver</link><description>&lt;p&gt;This little board plugs right into the Raspberry Pi's GPIO connector and decodes infrared signals sent to it from just about any generic IR remote control. This IR receiver is tuned for a 38kHz carrier frequency but it will accept IR frequencies slightly above or below that at the cost of a reduced range. The IR stream is fed to the Raspberry Pi on GPIO #18, which is the default pin used by the &lt;a href="http://aron.ws/projects/lirc_rpi/"&gt;Raspberry Pi's LIRC GPIO driver&lt;/a&gt;. If you're not familiar with LIRC, be sure to check out the &lt;a href="http://www.lirc.org/"&gt;project page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tutorials&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nwazet.com/nwazet-pi-infrared-receiver/harmony"&gt;Using a Logitech Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nwazet.com/mini-ir-remote"&gt;How-to create custom IR-decoding configuration files for LIRC&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Compatible with all Raspberry Pi models (A/B/B+)&lt;/li&gt;
+&lt;li&gt;IR decoder: &lt;a href="http://www.mouser.com/ds/2/427/tsop752w-82224.pdf"&gt;Vishay TSOP75238W&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Carrier Frequency: 38KHz&lt;/li&gt;
+&lt;li&gt;Transmission Distance: 30m (98.4 feet)&lt;/li&gt;
+&lt;li&gt;Output Current: 5 mA&lt;/li&gt;
+&lt;li&gt;Operating Voltage: 2.5V to 5.5V (3.3V on the Raspberry Pi)&lt;/li&gt;
+&lt;li&gt;Supply Current: 0.35 mA&lt;/li&gt;
+&lt;li&gt;Power Dissipation: 10 mW&lt;/li&gt;
+&lt;li&gt;Maximum Operating Temperature: +85 Celsius&lt;/li&gt;
+&lt;li&gt;Minimum Operating Temperature: -25 Celsius&lt;/li&gt;
+&lt;li&gt;Beam Angle: 75 degrees&lt;/li&gt;
+&lt;li&gt;Eagle design file: coming soon on Github&lt;/li&gt;
+&lt;li&gt;0.1" pin header friendly for hacking the Raspberry Pi's GPIO connector&lt;/li&gt;
+&lt;li&gt;Perfect fit in our 'Tuxedo Case'&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/kit"&gt;Nwazet Pi XBMC Media Player Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-tuxedo-case"&gt;Nwazet Pi Tuxedo Case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver/harmony"&gt;How to configure the IR receiver with a Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 23 Jan 2013 01:00:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-infrared-receiver</guid></item><item><title>Wireless USB Mini Keyboard</title><link>http://nwazet.com:80/wireless-usb-mini-keyboard</link><description>&lt;p&gt;This mini wireless USB keyboard is well built, compact and packed with features. This makes it an indispensable companion for your media player, your game console, your tablet or your Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wireless 2.4 GHz QWERTY keyboard / mouse / laser pointer combo&lt;/li&gt;
+&lt;li&gt;Built-in keyboard back light&lt;/li&gt;
+&lt;li&gt;Built-in mouse touch pad&lt;/li&gt;
+&lt;li&gt;Built-in directional pad with right and left mouse buttons&lt;/li&gt;
+&lt;li&gt;Built-in laser pointer (ideal for cats, sharks and presentations)&lt;/li&gt;
+&lt;li&gt;Built-in USB rechargeable battery&lt;/li&gt;
+&lt;li&gt;Multimedia control keys&lt;/li&gt;
+&lt;li&gt;USB HID interface compatible with Linux, Windows and Mac&lt;/li&gt;
+&lt;li&gt;RF transmission LED indicator&lt;/li&gt;
+&lt;li&gt;Battery capacity LED indicator&lt;/li&gt;
+&lt;li&gt;Battery charging LED indicator&lt;/li&gt;
+&lt;li&gt;Caps lock LED indicator&lt;/li&gt;
+&lt;li&gt;Auto sleep battery-saving feature&lt;/li&gt;
+&lt;li&gt;Keyboard ON/OFF switch&lt;/li&gt;
+&lt;li&gt;Laser pointer ON/OFF switch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dimensions: 151mm (Length) x 59mm (Width) x 12.5mm (Height); 5.94"(L) x 2.32"(W) x 0.49"(H)&lt;/li&gt;
+&lt;li&gt;Weight: 100g; 3.52oz&lt;/li&gt;
+&lt;li&gt;Operational range: up to 15 meters&lt;/li&gt;
+&lt;li&gt;Transmission power: +4dB max.&lt;/li&gt;
+&lt;li&gt;Operational voltage: 3.3V&lt;/li&gt;
+&lt;li&gt;Operational current: &amp;lt; 80mA&lt;/li&gt;
+&lt;li&gt;Charging current: &amp;lt; 300mA&lt;/li&gt;
+&lt;li&gt;Sleep current: &amp;lt; 1mA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/product/kit"&gt;Nwazet Pi XBMC Media Player&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 19 Jan 2013 01:18:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/wireless-usb-mini-keyboard</guid></item><item><title>Black Dome Metal Knob</title><link>http://nwazet.com:80/black-dome-metal-knob</link><description>&lt;p&gt;This beautiful, heavy metal knob feels as good as it looks: it has a very smooth feedback when used with a potentiometer or a rotary encoder but feel free to use it on your Fender Telecaster guitar too ;)&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Black metal dome&lt;/li&gt;
+&lt;li&gt;Knurling&lt;/li&gt;
+&lt;li&gt;Brass insert&lt;/li&gt;
+&lt;li&gt;One straight set screw&lt;/li&gt;
+&lt;li&gt;1/4" shaft&lt;/li&gt;
+&lt;li&gt;Awesome&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Mon, 08 Oct 2012 07:26:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/black-dome-metal-knob</guid></item></channel></rss>

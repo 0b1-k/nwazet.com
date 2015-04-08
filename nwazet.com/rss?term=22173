@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Optical Solutions</title><link>http://nwazet.com:80/product/optical-solutions</link><description>Optical Solutions</description><item><title>Nwazet Pi Model B+ Camera Box Bundle</title><link>http://nwazet.com:80/camera-bundle-bplus</link><description>&lt;p&gt;This bundle includes a specially designed black matte Raspberry Pi model B+ case, a wide-angle lens giving the Raspberry Pi Camera module a ~180 viewing angle and all the parts needed to mount it all to a wall or ceiling.&lt;/p&gt;
+
+&lt;h2&gt;Assembly Instructions&lt;/h2&gt;
+
+&lt;p&gt;Please &lt;a href="/camera-box-bplus/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the camera box.&lt;/p&gt;
+
+&lt;h2&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Get instant value from the Pi Camera Box using our tiny snapshot server &lt;a href="/code/nwazet-tiny-python-snapshot-server"&gt;sample script&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voilà! :)&lt;/p&gt;
+
+&lt;h2&gt;What model of Raspberry Pi does this bundle fit?&lt;/h2&gt;
+
+&lt;p&gt;This bundle works with a Raspberry Pi model B+ (not included). If you are looking for the same bundle for a Raspberry Pi model B, please &lt;a href="/camera-bundle"&gt;follow this link&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Mon, 28 Jul 2014 23:17:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/camera-bundle-bplus</guid></item><item><title>Nwazet Pi Model B Camera Box Bundle</title><link>http://nwazet.com:80/camera-bundle</link><description>&lt;p&gt;This bundle includes a specially designed black matte Raspberry Pi case, a wide-angle lens giving the Raspberry Pi Camera module a ~180 viewing angle and all the parts needed to mount it all to a wall or ceiling.&lt;/p&gt;
+
+&lt;h2&gt;Assembly Instructions&lt;/h2&gt;
+
+&lt;p&gt;Please &lt;a href="/camera-box-bplus/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the camera box.&lt;/p&gt;
+
+&lt;h2&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Get instant value from the Pi Camera Box using our tiny snapshot server &lt;a href="/code/nwazet-tiny-python-snapshot-server"&gt;sample script&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voila! :)&lt;/p&gt;
+
+&lt;h2&gt;What model of Raspberry Pi does this bundle fit?&lt;/h2&gt;
+
+&lt;p&gt;This bundle works with a Raspberry Pi model B (not included). If you are looking for the same bundle for a Raspberry Pi model B+, please &lt;a href="/camera-bundle-bplus"&gt;follow this link&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Thu, 12 Sep 2013 22:52:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/camera-bundle</guid></item><item><title>Raspberry Pi Infrared Camera</title><link>http://nwazet.com:80/pi-camera</link><description>&lt;p&gt;If the Raspberry Pi was a revolution in the way we design microcontroller projects and embedded systems, its camera has similar potential. This is no mere MJPEG, serial, or even USB camera like those that until now were in projects requiring photo or video capabilities. With its specialized CSI connector on the Raspberry Pi, and its uncompromising design, it redefines what it is possible to do on such an inexpensive setup.&lt;/p&gt;
+
+&lt;p&gt;The Raspberry Pi Camera can shoot 1080p30 true high definition video, as well as 5 megapixel static images.&lt;/p&gt;
+
+&lt;p&gt;It is fully supported by all recent distributions of Linux for the Raspberry Pi, making it easy to shoot photos and videos from the command-line, or from your own programs. &lt;a href="https://itunes.apple.com/gb/app/berrycam/id687071023"&gt;Mobile applications&lt;/a&gt; exist that enable control of the camera from a phone. Standard Linux image processing libraries can be used to &lt;a href="http://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/"&gt;enable facial recognition&lt;/a&gt;, and other amazing applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;25mm x 20mm x 9mm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Video resolutions: 1080p30, 720p60, 640x480p60, 640x480p90&lt;/li&gt;
+&lt;li&gt;Photo resolution: 2592 x 1944 (5 megapixels)&lt;/li&gt;
+&lt;li&gt;Pi NoIR: no IR filter, includes blue filter&lt;/li&gt;
+&lt;li&gt;CSI bus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/wp-content/uploads/2013/07/RaspiCam-Documentation.pdf"&gt;Documentation for the camera can be downloaded from the Raspberry Pi Foundation's web site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/archives/tag/pi-noir"&gt;Pi NoIR blog post on the Raspberry Pi Foundation site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/archives/5672"&gt;Python interface for the Raspberry Pi camera&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://infragram.org/"&gt;Infrared image processing &amp;amp; software/&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 10 Sep 2013 00:39:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-camera</guid></item><item><title>Magnetic Wide-Angle, Tele, or Macro Lens</title><link>http://nwazet.com:80/fisheye-lens</link><description>&lt;p&gt;The Raspberry Pi's camera offers great features out-of-the box, which can be enhanced by adding interchangeable lenses.&lt;/p&gt;
+
+&lt;p&gt;The fish-eye lens enables your Raspberry Pi camera to capture a 180 degree field of view, making it perfect for surveillance, security and general monitoring scenarios. The wide-angle lens will capture a wide, but less extreme perspective. The telephoto lens will let your camera module capture more details from further away. Finally, the macro lens will let you focus on extremely small things at very short distances.&lt;/p&gt;
+
+&lt;p&gt;Our &lt;a href="/camera-box"&gt;Pi Camera Box&lt;/a&gt; is designed to receive a small metal ring needed for binding any of these magnetized lenses to the case.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Choice of magnetic fish-eye / wide-angle / telephoto / macro lens&lt;/li&gt;
+&lt;li&gt;Wide-angle lens only: 180 degree angle (see note below)&lt;/li&gt;
+&lt;li&gt;Self-adhesive metal ring mount&lt;/li&gt;
+&lt;li&gt;Plastic lens cap&lt;/li&gt;
+&lt;li&gt;Key-chain attachment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note: the fish-eye and the wide-angle lenses provide extra-wide and wide viewing angles but slight variations are possible based on the relative position of the lens in relationship to the Pi Camera module.&lt;/p&gt;
+</description><pubDate>Tue, 10 Sep 2013 00:39:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/fisheye-lens</guid></item><item><title>Nwazet Pi Infrared Receiver (Model A, B, B+)</title><link>http://nwazet.com:80/nwazet-pi-infrared-receiver</link><description>&lt;p&gt;This little board plugs right into the Raspberry Pi's GPIO connector and decodes infrared signals sent to it from just about any generic IR remote control. This IR receiver is tuned for a 38kHz carrier frequency but it will accept IR frequencies slightly above or below that at the cost of a reduced range. The IR stream is fed to the Raspberry Pi on GPIO #18, which is the default pin used by the &lt;a href="http://aron.ws/projects/lirc_rpi/"&gt;Raspberry Pi's LIRC GPIO driver&lt;/a&gt;. If you're not familiar with LIRC, be sure to check out the &lt;a href="http://www.lirc.org/"&gt;project page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tutorials&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nwazet.com/nwazet-pi-infrared-receiver/harmony"&gt;Using a Logitech Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nwazet.com/mini-ir-remote"&gt;How-to create custom IR-decoding configuration files for LIRC&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Compatible with all Raspberry Pi models (A/B/B+)&lt;/li&gt;
+&lt;li&gt;IR decoder: &lt;a href="http://www.mouser.com/ds/2/427/tsop752w-82224.pdf"&gt;Vishay TSOP75238W&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Carrier Frequency: 38KHz&lt;/li&gt;
+&lt;li&gt;Transmission Distance: 30m (98.4 feet)&lt;/li&gt;
+&lt;li&gt;Output Current: 5 mA&lt;/li&gt;
+&lt;li&gt;Operating Voltage: 2.5V to 5.5V (3.3V on the Raspberry Pi)&lt;/li&gt;
+&lt;li&gt;Supply Current: 0.35 mA&lt;/li&gt;
+&lt;li&gt;Power Dissipation: 10 mW&lt;/li&gt;
+&lt;li&gt;Maximum Operating Temperature: +85 Celsius&lt;/li&gt;
+&lt;li&gt;Minimum Operating Temperature: -25 Celsius&lt;/li&gt;
+&lt;li&gt;Beam Angle: 75 degrees&lt;/li&gt;
+&lt;li&gt;Eagle design file: coming soon on Github&lt;/li&gt;
+&lt;li&gt;0.1" pin header friendly for hacking the Raspberry Pi's GPIO connector&lt;/li&gt;
+&lt;li&gt;Perfect fit in our 'Tuxedo Case'&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/kit"&gt;Nwazet Pi XBMC Media Player Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-tuxedo-case"&gt;Nwazet Pi Tuxedo Case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver/harmony"&gt;How to configure the IR receiver with a Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 23 Jan 2013 01:00:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-infrared-receiver</guid></item><item><title>Adafruit TSL2561 digital luminosity sensor</title><link>http://nwazet.com:80/tsl2561-digital-luminosity-sensor</link><description>&lt;p&gt;The TSL2561 luminosity sensor is an advanced digital light sensor, ideal for use in a wide range of light situations. Compared to low cost CdS cells, this sensor is more precise, allowing for exact lux calculations and can be configured for different gain/timing ranges to detect light ranges from up to 0.1 - 40,000+ Lux on the fly.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;The best part of this sensor is that it contains both infrared and full spectrum diodes. This means you can separately measure infrared, full-spectrum or human-visible light. Most sensors can only detect one or the other, which does not accurately represent what human eyes see (since we cannot perceive the IR light that is detected by most photo diodes) &lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+The sensor features an I2C interface. You can select one of three addresses so you can have up to three sensors on one board, each with a different I2C address. The built in ADC means you can use this with any microcontroller, even if it doesn't have analog inputs. The current draw is extremely low, so its great for low power data-logging systems. about 0.5mA when actively sensing, and less than 15 uA when in powerdown mode.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/datasheets/TSL2561.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.adafruit.com/product/439"&gt;Sensor breakout board&lt;/a&gt; manufactured by Adafruit Industries&lt;/li&gt;
+&lt;li&gt;Approximates Human eye Response&lt;/li&gt;
+&lt;li&gt;Precisely Measures Illuminance in Diverse Lighting Conditions&lt;/li&gt;
+&lt;li&gt;Temperature range: -30 to 80 *C&lt;/li&gt;
+&lt;li&gt;Dynamic range (Lux): 0.1 to 40,000 Lux&lt;/li&gt;
+&lt;li&gt;Voltage range: 2.7-3.6V&lt;/li&gt;
+&lt;li&gt;Interface: I2C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C# driver&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrates seamlessly with the &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt; for Netduino Go!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Nwazet.GO / Samples / DAQmodule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 08 Sep 2012 05:44:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/tsl2561-digital-luminosity-sensor</guid></item></channel></rss>

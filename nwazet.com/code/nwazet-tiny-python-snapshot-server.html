@@ -1,0 +1,184 @@
+
+<!DOCTYPE html> 
+<html lang="en-US" class="static detail-sample contents"> 
+<head> 
+    <meta charset="utf-8" />
+    <title>Nwazet-Nwazet Tiny Python Snapshot Server </title> 
+    <link href="http://nwazet.com/Themes/Nwazet/Styles/Site.min.css" rel="stylesheet" type="text/css" />
+<script src="http://nwazet.com/Modules/Orchard.jQuery/scripts/jquery-1.11.1.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="/Core/Shapes/scripts/html5.js" type="text/javascript"></script>
+<![endif]-->
+<meta content="Orchard" name="generator" />
+<meta content="IE=edge,chrome=1" name="X-UA-Compatible" />
+<meta content="4503599629930432" property="twitter:account_id" />
+<link href="http://nwazet.com/Media/Default/favicon/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+    <script>(function(d){d.className="dyn"+d.className.substring(6,d.className.length);})(document.documentElement);</script> 
+</head> 
+<body>
+
+
+<div id="layout-wrapper">
+    <header id="layout-header" class="group">
+        <div id="header">
+            <div class="zone zone-header">
+<div class="brandlogo"><a href="../index.html"><img alt="Nwazet" src="http://nwazet.com/Themes/Nwazet/Content/NwazetLogo.png"/></a></div>
+<h1 id="branding"><a href="../index.html">Nwazet</a></h1>
+<h2 id="punchline">Build.Something("Epic!")</h2>
+</div>
+            <div class="user-display">
+        <span class="user-actions" title="You do not need an account in order to be able to buy on this site."><a href="http://nwazet.com/Users/Account/LogOn?ReturnUrl=%2Fcode%2Fnwazet-tiny-python-snapshot-server" rel="nofollow">Sign In</a></span>
+</div>
+        </div>
+    </header>
+<div id="layout-main-container">
+<div id="layout-main" class="group">
+    <div id="layout-content" class="group">
+                        <div id="content" class="group">
+            <div class="zone zone-content">
+<article class="sample content-item">
+    <header>
+        
+
+<h1>Nwazet Tiny Python Snapshot Server </h1>
+    </header>
+    <p>The following sample runs a web server on port 8080 and captures images every 5 seconds.</p>
+
+<h2>Usage</h2>
+
+<ol>
+<li>Save the script as 'snapshot.py' at the root of the /home directory.</li>
+<li>Make 'snapshot.py' executable with 'chmod +x snapshot.py'.</li>
+<li>Run the script from the /home directory: './snapshot.py' or on boot using the '@reboot' cron directive.</li>
+<li>Access the latest snapshot using a web browser like this: "http://localhost:8080/latest.jpg". Replace <localhost> with the IP address or the domain name of the tiny web server to access the snapshot server remotely.</li>
+<li>'snapshot.py' attempts to load the image capture settings for a file named 'snapshot.txt' if it is present in the '/home' directory. If it does not exist, the script uses default settings as defined in the 'DefaultPictureSettings' variable in the script. </li>
+<li>Ensure that the security settings on the 'snapshot.txt' and 'snapshot.py' files restrict access to the intended user / user group.</li>
+</ol>
+
+
+<pre class="brush: python">#!/usr/bin/python
+#
+# by Fabien Royer, Bertrand Le Roy
+#
+# Copyright (C) 2013 Nwazet http://nwazet.com
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see [http://www.gnu.org/licenses/].
+#
+# Full license and additional terms are specified in the license.txt file
+# that accompanies this program.
+#
+from subprocess import call
+import SimpleHTTPServer
+import SocketServer
+import threading
+import time
+import os
+
+Port = 8080
+WorkingDirectory = &quot;/home&quot;
+PictureSettingsPath = &quot;/home/snapshot.txt&quot;
+DefaultPictureSettings = &quot;raspistill -w 1920 -h 1080 -q 100 -o /home/latest.jpg -e jpg -awb auto -n&quot;
+
+
+def ReadPictureSettings(settingsPath):
+    try:
+        with open(settingsPath, &#39;r&#39;) as f:
+            cmd = f.readline().strip()
+    except Exception as e:
+        print(&quot;Oops: &quot; + e.__str__())
+        cmd = DefaultPictureSettings
+    return cmd.split(&#39; &#39;)
+
+
+def TakeSnapShot(interval):
+    while True:
+        call(ReadPictureSettings(PictureSettingsPath))
+        print &quot;Snap!&quot;
+        time.sleep(interval)
+
+os.chdir(WorkingDirectory)
+
+Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
+Httpd = SocketServer.TCPServer((&quot;0.0.0.0&quot;, Port), Handler)
+t = threading.Thread(target=TakeSnapShot, args=(5,))
+
+print &quot;SimpleHTTPServer listening on port&quot;, Port
+
+t.start()
+Httpd.serve_forever()</pre>
+</article></div>
+        </div>
+            </div>
+</div>
+</div>
+<div id="layout-footer" class="group">
+    <footer id="footer">
+        <div id="footer-quad" class="group">
+                                            </div>
+            <div id="footer-sig" class="group">
+                <div class="zone zone-footer"><div class="bottomnav">
+    <span id="osh">Open Source Hardware and Software</span><br/>
+    <a href="../shipping.html">Shipping</a> |
+    <a href="../returns.html">Returns, Refunds &amp; Exchanges</a> |
+    <a href="../privacy.html">Privacy</a> |
+    <a href="http://nwazet.com/contact">Contact us</a>
+</div>
+<div class="credits">
+    <a href="../index.html" id="copyright">&#169; Nwazet 2011-2014</a> |
+    <span id="hostedby"><a href="http://orcsweb.com" target="_blank">Web Hosting By OrcsWeb.</a></span> |
+    <span id="poweredby">Powered by <a href="http://www.orchardproject.net" target="_blank">Orchard</a></span>
+</div>
+</div>
+            </div>
+    </footer>
+</div>
+    
+</div>
+
+<script src="http://platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+    twttr.conversion.trackPid('l4mn5');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4mn5&p_id=Twitter" />
+    <img height="1" width="1" style="display:none;" alt="" src="http://t.co/i/adsct?txn_id=l4mn5&amp;p_id=Twitter" />
+</noscript>
+
+<script src="http://nwazet.com/Modules/Nwazet.Commerce/scripts/referral.min.js" type="text/javascript"></script>
+<script src="../Themes/Nwazet/scripts/SyntaxHighlighter/shCore.js" type="text/javascript"></script>
+<script src="../Themes/Nwazet/scripts/SyntaxHighlighter/shBrushPython.js" type="text/javascript"></script>
+<script src="http://nwazet.com/Themes/Nwazet/scripts/nwazet.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function () {
+                SyntaxHighlighter.defaults['toolbar'] = false;
+                SyntaxHighlighter.all();
+            });
+        </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5109912-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

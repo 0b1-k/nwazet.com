@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Discounted Items</title><link>http://nwazet.com:80/discount</link><description>Discounted Items</description><item><title>Wireless USB Mini Keyboard</title><link>http://nwazet.com:80/wireless-usb-mini-keyboard</link><description>&lt;p&gt;This mini wireless USB keyboard is well built, compact and packed with features. This makes it an indispensable companion for your media player, your game console, your tablet or your Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wireless 2.4 GHz QWERTY keyboard / mouse / laser pointer combo&lt;/li&gt;
+&lt;li&gt;Built-in keyboard back light&lt;/li&gt;
+&lt;li&gt;Built-in mouse touch pad&lt;/li&gt;
+&lt;li&gt;Built-in directional pad with right and left mouse buttons&lt;/li&gt;
+&lt;li&gt;Built-in laser pointer (ideal for cats, sharks and presentations)&lt;/li&gt;
+&lt;li&gt;Built-in USB rechargeable battery&lt;/li&gt;
+&lt;li&gt;Multimedia control keys&lt;/li&gt;
+&lt;li&gt;USB HID interface compatible with Linux, Windows and Mac&lt;/li&gt;
+&lt;li&gt;RF transmission LED indicator&lt;/li&gt;
+&lt;li&gt;Battery capacity LED indicator&lt;/li&gt;
+&lt;li&gt;Battery charging LED indicator&lt;/li&gt;
+&lt;li&gt;Caps lock LED indicator&lt;/li&gt;
+&lt;li&gt;Auto sleep battery-saving feature&lt;/li&gt;
+&lt;li&gt;Keyboard ON/OFF switch&lt;/li&gt;
+&lt;li&gt;Laser pointer ON/OFF switch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dimensions: 151mm (Length) x 59mm (Width) x 12.5mm (Height); 5.94"(L) x 2.32"(W) x 0.49"(H)&lt;/li&gt;
+&lt;li&gt;Weight: 100g; 3.52oz&lt;/li&gt;
+&lt;li&gt;Operational range: up to 15 meters&lt;/li&gt;
+&lt;li&gt;Transmission power: +4dB max.&lt;/li&gt;
+&lt;li&gt;Operational voltage: 3.3V&lt;/li&gt;
+&lt;li&gt;Operational current: &amp;lt; 80mA&lt;/li&gt;
+&lt;li&gt;Charging current: &amp;lt; 300mA&lt;/li&gt;
+&lt;li&gt;Sleep current: &amp;lt; 1mA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/product/kit"&gt;Nwazet Pi XBMC Media Player&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 19 Jan 2013 01:18:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/wireless-usb-mini-keyboard</guid></item><item><title>Nwazet Data Acquisition Module</title><link>http://nwazet.com:80/data-acquisition-module</link><description>&lt;p&gt;Our Data Acquisition module (DAQ for short) is designed for Netduino Go! users looking for a &lt;strong&gt;simple, cost-effective&lt;/strong&gt; platform for integrating &lt;strong&gt;analog and digital I/Os, off-the-shelf I2C sensors, time tracking, SDHC storage (up to 16GB) and serial communications&lt;/strong&gt; to their projects. 
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;Nwazet DAQ Module vs. Shield Base | Buyer's Guide&lt;/h2&gt;
+
+&lt;p&gt;Since the release of the DAQ module, we have received multiple requests to &lt;a href="/Media/Default/Datasheets/DAQvsSB-BuyerGuide.pdf"&gt;"compare and contrast"&lt;/a&gt; the DAQ's features with the Shield Base module produced by Secret Labs. You can find the comparison sheet &lt;a href="/Media/Default/Datasheets/DAQvsSB-BuyerGuide.pdf"&gt;here&lt;/a&gt; and we hope that it clarifies any confusion that may have existed between the two products.&lt;/p&gt;
+
+&lt;h2&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;When we set out to design the DAQ module 5 months ago, we put a great deal of thought into the real-world scenarios shared by our customers when Netduino Go! launched and how many wanted to apply the power of the .Net Micro Framework in the context of rapid system prototyping, light industrial control systems, home automation, hydroponic growing systems, security systems, UAVs, robots and of course, Internet-connected devices.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;The first design choice we made was to choose an &lt;strong&gt;extremely robust spring-loaded wire connection system&lt;/strong&gt;, providing power, data and ground on every port where they're needed. On ports that are 5v and 3.3v tolerant, both power types are available. Because each wire is held securely in its place with strong springs that can only be released by applying pressure with a very small screwdriver, communications are more reliable and power to sensors and analog devices is more stable than in conventional systems using female pin headers. In addition, our spring-loaded wiring system enabled us to design a smaller and lighter board than would have been possible with screw connectors.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Our second design choice was to enable our customers to &lt;strong&gt;leverage the large array of existing I2C-compliant sensors on the market today&lt;/strong&gt; without having to wait long development cycles for similar Go! modules to be brought to market. To this end, we have partnered with &lt;a href="http://adafruit.com/"&gt;Adafruit&lt;/a&gt; to provide a variety of useful I2C sensors that work 'out-of-the-box' with our DAQ module in order to help you get started quickly with your designs. We are also committed to developing a comprehensive driver library for popular sensors from Adafruit and other vendors over time.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Our third design choice was to place &lt;strong&gt;user-controllable status LEDs on each I/O port of the DAQ module&lt;/strong&gt;, allowing for a simple and effective method of providing user feedback from an application at no additional cost and without consuming the DAQ's digital I/Os for that purpose alone. We also embedded extensive sub-system diagnostics into the DAQ, available on-demand, in plain English through the serial port to help with troubleshooting issues in the field as well as easing the development of custom application drivers.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Our final design choice was to provide a complete, easy to hack system, with &lt;strong&gt;SDHC storage, a real-time clock, optional external power&lt;/strong&gt;, and above all, &lt;strong&gt;capable of being used as a stand-alone 48Mhz ARM-Cortex M0 micro-controller&lt;/strong&gt; programmable in C/C++ using a standard 0.1" JTAG/SWD pin header. In fact, an &lt;a href="http://www.mouser.com/ProductDetail/STMicroelectronics/STM32F0DISCOVERY/?qs=/ha2pyFaduhFl6gZFYbDaOEf/X3Y112%252bUV9XB6DrTGJSqh1tvQuGDkgA/%252bluaDab"&gt;STM32F051 Discovery board&lt;/a&gt;, costing less than $10, was used for its embedded STLink/V2 interface throughout the entire development of the DAQ module firmware.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;We believe that you'll find this module extremely useful in unlocking the full potential of Netduino Go! and building amazing applications right now. We also have a feature road map for the DAQ module and you can expect to see more smart functions, performance improvements and your very own feedback embedded in upcoming versions of the firmware. Last but not least, the DAQ module will be &lt;strong&gt;ready to leverage Go!Bus protocol advancements&lt;/strong&gt; when the time comes.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;C# Software Library&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GPIOs (inputs, outputs, pull-ups, pull-downs, open-drain, push-pull, PWM)&lt;/li&gt;
+&lt;li&gt;PWM timer frequency configuration&lt;/li&gt;
+&lt;li&gt;Analog input sampling with automatic time stamp function&lt;/li&gt;
+&lt;li&gt;Interrupt (rising, falling, both), interrupt count-tracking and roll-over count tracking&lt;/li&gt;
+&lt;li&gt;FAT File system operations&lt;/li&gt;
+&lt;li&gt;I2C communications&lt;/li&gt;
+&lt;li&gt;USART communications (TTL)&lt;/li&gt;
+&lt;li&gt;Real Time clock (date, time, milliseconds, battery-backed)&lt;/li&gt;
+&lt;li&gt;Ability to read / write multiple or a single GPIO with one call&lt;/li&gt;
+&lt;li&gt;Status LED controller&lt;/li&gt;
+&lt;li&gt;System and user configuration registers (battery-backed)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Driver library supporting Adafruit and other I2C sensors&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/tsl2561-digital-luminosity-sensor"&gt;TSL2561 digital luminosity / lux / light&lt;/a&gt; sensor&lt;/li&gt;
+&lt;li&gt;&lt;a href="/bmp085-barometric-pressure-temperature-altitude-sensor"&gt;BMP085 Barometric Pressure/Temperature/Altitude&lt;/a&gt; sensor&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ina219-high-side-dc-current-sensor"&gt;INA219 High Side DC Current Sensor&lt;/a&gt; Breakout&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mouser.com/ProductDetail/Honeywell/HIH-6130-021-001/?qs=sGuegjY%252bjCAASjSn/5yJuAGmUinG3M9p"&gt;Honeywell HIH-6130&lt;/a&gt; temperature and humidity sensor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Documentation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Product/godaq/DAQ-Connectors.png"&gt;Wire connection map&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;A tiny flat-head screwdriver or similar tool is required to release wires from their spring-loaded cage.&lt;/li&gt;
+&lt;li&gt;See &lt;a href="https://bitbucket.org/fabienroyer/nwazet.go"&gt;BOM&lt;/a&gt; for complete specifications.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release notes&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;A battery is required in the battery-holder for the DAQ module to operate properly&lt;/li&gt;
+&lt;li&gt;If the DAQ module is in storage and is not going to be used for an extended period of time, remove the Lithium battery (unless you need to keep track of time) and remove the SD card for the reader.&lt;/li&gt;
+&lt;li&gt;The USART port is configured by default at 115,200 bps.&lt;/li&gt;
+&lt;li&gt;The USART must be explicitly configured by the application before serial data can be read.&lt;/li&gt;
+&lt;li&gt;Digital GPIO D4 is 3v tolerant only: it is internally connected to the ADC / DAC.&lt;/li&gt;
+&lt;li&gt;Digital GPIO D4 cannot be used in "Input Interrupt" mode.&lt;/li&gt;
+&lt;li&gt;Sensirion sensors are not fully I2C compliant and aren't supported in the initial release of the DAQ module firmware.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;First-time boot procedure&lt;/strong&gt; (and required when replacing the real-time clock battery):
+&lt;ol&gt;
+&lt;li&gt;Insert the 3v Lithium battery into the battery holder, positive side up&lt;/li&gt;
+&lt;li&gt;Connect the DAQ to a Netduino Go! socket that is powered&lt;/li&gt;
+&lt;li&gt;Wait for the white LED on the DAQ to turn ON and wait a second&lt;/li&gt;
+&lt;li&gt;Power the Netduino Go! board OFF, then back ON&lt;/li&gt;
+&lt;li&gt;Your DAQ module is now ready to use&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Tutorials and Code snippets&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/00-Boot"&gt;Boot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/01-Time"&gt;Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/02-AnalogInputs"&gt;Analog Inputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/03-DigitalOutputs"&gt;Digital Outputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/04-DigitalInputs"&gt;Digital Inputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/05-DigitalOutputsPWM"&gt;PWM Digital Outputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/06-StorageRegisters"&gt;System and User Storage Registers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/07-DigitalInputInterrupts"&gt;Interrupt Lines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/08-SerialCommunications"&gt;Serial Communications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/09-I2CCommunications"&gt;I2C Communications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/10-FileSystem"&gt;File System&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Cables&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/product/connectors"&gt;We offer cables of various lengths&lt;/a&gt;: be sure to select the one that best fits your project and mounting requirements.&lt;/p&gt;
+
+&lt;h2&gt;Mounting hardware&lt;/h2&gt;
+
+&lt;p&gt;Our &lt;a href="/platem"&gt;medium-size plate&lt;/a&gt; is ready to accommodate the DAQ module&lt;/p&gt;
+
+&lt;h2&gt;SD Card Storage&lt;/h2&gt;
+
+&lt;p&gt;We &lt;a href="/sd4gb"&gt;carry a 4GB SDHC card&lt;/a&gt; which works nicely with the DAQ module.&lt;/p&gt;
+
+&lt;h2&gt;Data Acquisition Module Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1.0 firmware release (September 7, 2012)&lt;/li&gt;
+&lt;li&gt;Go!Bus 1.0 compliant interface&lt;/li&gt;
+&lt;li&gt;Dimensions: 100mm x 80mm x 10.5mm, and 90mm x 70mm hole to hole&lt;/li&gt;
+&lt;li&gt;16 Mhz Go!Bus SPI communication&lt;/li&gt;
+&lt;li&gt;18 spring-loaded wire connectors
+&lt;ul&gt;
+&lt;li&gt;Prevent unintentional disconnections and faulty contacts&lt;/li&gt;
+&lt;li&gt;Wire release requires using a tiny screw driver&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;8 Analog Input connectors
+&lt;ul&gt;
+&lt;li&gt;12-bit precision&lt;/li&gt;
+&lt;li&gt;3.3v-tolerant only&lt;/li&gt;
+&lt;li&gt;Each connector provides a 3.3v power rail, data, and ground connections&lt;/li&gt;
+&lt;li&gt;Internal voltage reference monitor&lt;/li&gt;
+&lt;li&gt;Internal battery voltage monitor&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;8 Digital I/O connectors, configurable as any combination of:
+&lt;ul&gt;
+&lt;li&gt;8 digital inputs&lt;/li&gt;
+&lt;li&gt;8 digital outputs&lt;/li&gt;
+&lt;li&gt;8 PWM outputs&lt;/li&gt;
+&lt;li&gt;7 Interrupt-driven inputs (D0, D1, D2, D3, D5, D6, D7)&lt;/li&gt;
+&lt;li&gt;7 5v tolerant connectors (D0, D1, D2, D3, D5, D6, D7)&lt;/li&gt;
+&lt;li&gt;1 3.3v tolerant-only connector (D4)&lt;/li&gt;
+&lt;li&gt;Each connector provides a 5v power rail, a 3.3v power rail, data and ground connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;I2C port
+&lt;ul&gt;
+&lt;li&gt;Connect multiple I2C sensors on the same bus&lt;/li&gt;
+&lt;li&gt;10, 100 and 400 kHz support&lt;/li&gt;
+&lt;li&gt;Provide SCL, SDA, GND connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;USART port
+&lt;ul&gt;
+&lt;li&gt;RTS / CTS Hardware flow control support&lt;/li&gt;
+&lt;li&gt;Baud rate from 110 baud up to 921600 baud&lt;/li&gt;
+&lt;li&gt;Configured for 115200 baud by default&lt;/li&gt;
+&lt;li&gt;Provide RX, TX, RTS, CTS, GND connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SD card reader
+&lt;ul&gt;
+&lt;li&gt;SDHC cards supported up to 16 GB&lt;/li&gt;
+&lt;li&gt;Embedded FAT12/16/32 file system&lt;/li&gt;
+&lt;li&gt;Short file name (8.3) support only&lt;/li&gt;
+&lt;li&gt;SD card sold separately&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Real Time clock
+&lt;ul&gt;
+&lt;li&gt;32,768 kHz external time-keeping crystal&lt;/li&gt;
+&lt;li&gt;Year, month, day, hour, minute second, millisecond&lt;/li&gt;
+&lt;li&gt;4 user-defined 32-bit configuration registers&lt;/li&gt;
+&lt;li&gt;Battery backed &lt;strong&gt;(CR2016, no longer included as of 07/2014)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;19 red, user-controllable status LEDs
+&lt;ul&gt;
+&lt;li&gt;8 analog input status LEDs&lt;/li&gt;
+&lt;li&gt;8 GPIO status LEDs&lt;/li&gt;
+&lt;li&gt;1 SD card reader status LED&lt;/li&gt;
+&lt;li&gt;1 USART status LED &lt;/li&gt;
+&lt;li&gt;1 I2C status LED&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Built-in system diagnostics
+&lt;ul&gt;
+&lt;li&gt;User-configurable output to serial port&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Optional 0.1" power pin headers (5v, 3.3v, GND)&lt;/li&gt;
+&lt;li&gt;Optional 0.1" JTAG/SWD pin headers&lt;/li&gt;
+&lt;li&gt;MCU
+&lt;ul&gt;
+&lt;li&gt;ARM Cortex-M0 (&lt;a href="http://www.st.com/internet/mcu/product/251901.jsp"&gt;STM32F051R8T6&lt;/a&gt;) clocked @ 48 Mhz&lt;/li&gt;
+&lt;li&gt;16 Mhz external crystal for precise PWM, USART, I2C timing&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;OSHW design&lt;/li&gt;
+&lt;li&gt;OSS C# drivers &lt;/li&gt;
+&lt;li&gt;OSS C firmware (built with &lt;a href="http://www.iar.com/en/Products/IAR-Embedded-Workbench/"&gt;IAR Systems Workbench&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Downloads and Code Samples&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Sample code, drivers and schematics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 03 Jan 2013 08:45:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/data-acquisition-module</guid></item><item><title>Black Dome Metal Knob</title><link>http://nwazet.com:80/black-dome-metal-knob</link><description>&lt;p&gt;This beautiful, heavy metal knob feels as good as it looks: it has a very smooth feedback when used with a potentiometer or a rotary encoder but feel free to use it on your Fender Telecaster guitar too ;)&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Black metal dome&lt;/li&gt;
+&lt;li&gt;Knurling&lt;/li&gt;
+&lt;li&gt;Brass insert&lt;/li&gt;
+&lt;li&gt;One straight set screw&lt;/li&gt;
+&lt;li&gt;1/4" shaft&lt;/li&gt;
+&lt;li&gt;Awesome&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Mon, 08 Oct 2012 07:26:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/black-dome-metal-knob</guid></item><item><title>Small Clear Breadboard</title><link>http://nwazet.com:80/small-clear-breadboard</link><description>&lt;p&gt;This transparent prototyping board provides four hundred 0.1" pitch connection points, four power rails, a 0.3" center divider for working with DIP chips and features interlocking connectors for fitting multiple boards together.&lt;/p&gt;
+
+&lt;h3&gt;Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Contacts: 400&lt;/li&gt;
+&lt;li&gt;Pitch: 0.1"&lt;/li&gt;
+&lt;li&gt;Center divider: 0.3"&lt;/li&gt;
+&lt;li&gt;Interlocking 'tongue and groove' mechanism&lt;/li&gt;
+&lt;li&gt;Contact life: 50K insertions&lt;/li&gt;
+&lt;li&gt;Electrical rating: 36 volts, 2 Amps&lt;/li&gt;
+&lt;li&gt;Wire size: 21 to 26 AWG&lt;/li&gt;
+&lt;li&gt;Adhesive back: permanent bond&lt;/li&gt;
+&lt;li&gt;Lead-free and RoHS compliant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Dimensions&lt;/h3&gt;
+
+&lt;p&gt;3.3" x 2.1" x 0.3" (84mm x 54mm x 9mm)&lt;/p&gt;
+</description><pubDate>Mon, 08 Oct 2012 06:41:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/small-clear-breadboard</guid></item><item><title>Four Digit Seven Segment Display</title><link>http://nwazet.com:80/fourdigitsevensegment</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;This nice blue seven segment display provides excellent segment uniformity and is highly visible up to seven meters away. It provides great readability even in bright ambient light. It looks slick with its white segments on a black surface.&lt;/p&gt;
+
+&lt;h2&gt;Related Components&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/leddriver"&gt;AS1100PL LED Driver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Datasheets/fourdigitsevensegment.pdf"&gt;Manufacturer Datasheet&lt;/a&gt; (See KW4-561CBB)&lt;/li&gt;
+&lt;li&gt;14.2mm (0.56") digit height&lt;/li&gt;
+&lt;li&gt;Color: blue (470nm +/- 25nm at 20mA)&lt;/li&gt;
+&lt;li&gt;Common cathode display&lt;/li&gt;
+&lt;li&gt;Maximum power dissipation per segment: 100mW&lt;/li&gt;
+&lt;li&gt;Maximum pulse peak forward current per segment (1/10th duty cycle, 0.1ms pulse width): 100mA&lt;/li&gt;
+&lt;li&gt;Maximum forward current per segment: 25mA&lt;/li&gt;
+&lt;li&gt;Maximum Additional power consumption above 50&amp;deg;C: 0.4mA/&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Maximum reverse voltage: 5V&lt;/li&gt;
+&lt;li&gt;Maximum reverse current: 50&amp;micro;A&lt;/li&gt;
+&lt;li&gt;Typical forward voltage: 3.2V at 20mA&lt;/li&gt;
+&lt;li&gt;Maximum forward voltage: 4V at 20mA&lt;/li&gt;
+&lt;li&gt;Operating temperature range: -40&amp;deg;C - +80&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Minimum luminous intensity: 6mcd&lt;/li&gt;
+&lt;li&gt;Typical luminous intensity: 12mcd&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/sevensegment.png" alt="Dimensions" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/sevensegmentwiring.PNG" alt="Wiring" /&gt;&lt;/p&gt;
+</description><pubDate>Thu, 30 Aug 2012 07:06:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/fourdigitsevensegment</guid></item><item><title>AS1100PL LED Driver</title><link>http://nwazet.com:80/leddriver</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;This LED driver is a drop-in replacement for the more expensive MAX7219CNG. This little chip is extremely useful when you need to control lots of LEDs, such as a LED matrix or a seven-segment display. Each driver can control up to 64 pixels or segments, and you can chain them to control more. They take SPI input to reliably produce a stable display. In addition, this driver natively understands LED matrices and segment displays so you don't have to make your life any harder than it already is by forcing you to map bits to pins.&lt;/p&gt;
+
+&lt;p&gt;The device includes a BCD code-B decoder, a multiplex scan circuitry, segment and display drivers, and a 64 Bit memory. The memory is used to store the LED settings, so that continuous reprogramming is not necessary. &lt;/p&gt;
+
+&lt;p&gt;Every individual segment can be addressed and updated separately. Only one external resistor is required to set the current through the LED display.&lt;/p&gt;
+
+&lt;p&gt;Brightness can be controlled either in an analog or digital way. The user can choose the internal code-B decoder to display numeric digits or to address each segment directly.&lt;/p&gt;
+
+&lt;p&gt;The AS1100 features an extremely low shutdown current of only 20µA and an operational current of less than 500µA. The number of visible digits can be programmed as well. The AS1100 can be reset by software and an external clock can be used. Several test modes support easy debugging.&lt;/p&gt;
+
+&lt;h2&gt;Related Components&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/ledmatrix"&gt;8x8 LED Matrix (Red Square Pixels)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/foudigitsevensegment"&gt;4 Digit Seven Segment LED Display&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Related Tutorials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://weblogs.asp.net/bleroy/archive/2011/03/24/driving-a-led-matrix-from-a-netduino-one-more-time-the-right-way.aspx"&gt;Driving a LED matrix from a Netduino one more time: The Right Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabienroyer.wordpress.com/2011/03/13/using-a-max7219max7221-led-display-driver-with-a-netduino/"&gt;Using a MAX7219/MAX7221 LED display driver with a netduino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Datasheets/AS1100_Datasheet_v1_36.pdf"&gt;AS1100PL Manufacturer Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Compare to &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX7219-MAX7221.pdf"&gt;MAX7219CNG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;10MHz Serial Interface&lt;/li&gt;
+&lt;li&gt;Individual LED Segment Control&lt;/li&gt;
+&lt;li&gt;Decode/No-Decode Digit Selection&lt;/li&gt;
+&lt;li&gt;20µA Low-Power Shutdown (Data Retained)&lt;/li&gt;
+&lt;li&gt;Extremely low Operating Current 0.5mA in open loop&lt;/li&gt;
+&lt;li&gt;Digital and Analog Brightness Control&lt;/li&gt;
+&lt;li&gt;Display Blanked on Power-Up&lt;/li&gt;
+&lt;li&gt;Drive Common-Cathode LED Display&lt;/li&gt;
+&lt;li&gt;Software Reset &lt;/li&gt;
+&lt;li&gt;Optional External clock&lt;/li&gt;
+&lt;li&gt;24-pin DIP package&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 30 Aug 2012 06:12:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/leddriver</guid></item><item><title>8x8 LED Matrix (Red Square Pixels)</title><link>http://nwazet.com:80/ledmatrix</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;A LED matrix is a great way to start playing with displays: as a simple array of LEDs with simple wiring, it's a system that is easy to understand and use. These LED matrices are controlled by 8 wires for rows, and eight for columns, making it easy to turn any pixel on or off. Pair it with our &lt;a href="/leddriver"&gt;LED Driver&lt;/a&gt; and all you have to do is send 8 bytes through SPI to enjoy a nice and stable 8x8 image.&lt;/p&gt;
+
+&lt;p&gt;This LED matrix is the same display that our &lt;a href="/pix6t4"&gt;PIX-6T4 handheld game console kit&lt;/a&gt; uses.&lt;/p&gt;
+
+&lt;h2&gt;Related Components&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/leddriver"&gt;AS1100PL LED Driver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Related Tutorials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://weblogs.asp.net/bleroy/archive/2010/12/06/displaying-an-image-on-a-led-matrix-with-a-netduino.aspx"&gt;Displaying an image on a LED matrix with a Netduino using persistence of vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabienroyer.wordpress.com/2010/12/03/driving-an-8x8-led-matrix-with-a-netduino-using-persistence-of-vision/"&gt;Driving an 8×8 LED matrix with a netduino using persistence of vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://weblogs.asp.net/bleroy/archive/2011/03/24/driving-a-led-matrix-from-a-netduino-one-more-time-the-right-way.aspx"&gt;Driving a LED matrix from a Netduino one more time: The Right Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabienroyer.wordpress.com/2011/03/13/using-a-max7219max7221-led-display-driver-with-a-netduino/"&gt;Using a MAX7219/MAX7221 LED display driver with a netduino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://netduinohelpers.codeplex.com"&gt;C# Driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;8x8 LED Matrix&lt;/li&gt;
+&lt;li&gt;Emitted Color: SH Hi-Red (Peak Wavelength: 660 nm)&lt;/li&gt;
+&lt;li&gt;Square 3mm pixels&lt;/li&gt;
+&lt;li&gt;Material: GaAlAs/GaAs&lt;/li&gt;
+&lt;li&gt;Forward Voltage: 1.80 - 2.20V&lt;/li&gt;
+&lt;li&gt;Absolute Maximum Ratings
+&lt;ul&gt;
+&lt;li&gt;Reverse Voltage(Vr): 5 V&lt;/li&gt;
+&lt;li&gt;Forward Current (If): 25 mA&lt;/li&gt;
+&lt;li&gt;Pulse Forward Current (Ifp): 100 mA&lt;/li&gt;
+&lt;li&gt;Power Dissipation (Pd): 60*64 mW&lt;/li&gt;
+&lt;li&gt;Operating Temperature(Topr): -40&amp;deg;C to +80&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Storage Temperature (Ttsg): -40&amp;deg;C to +85&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Lead Soldering Temperature: 260&amp;deg;C&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/media/default/datasheets/ledmatrix.pdf"&gt;Specification document&lt;/a&gt; (see NFM-12883A)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/LEDMatrix.PNG" alt="Dimensions" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/LEDMatrixWiring.PNG" alt="Wiring" /&gt;&lt;/p&gt;
+</description><pubDate>Thu, 30 Aug 2012 05:24:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/ledmatrix</guid></item><item><title>Nwazet USB Power Supply Kit</title><link>http://nwazet.com:80/power</link><description>&lt;p&gt;The Nwazet Power Supply module is the easiest way to power your project away from a computer once you're done building it.&lt;/p&gt;
+
+&lt;p&gt;This power module is equipped with a standard center-positive 2.0mm barrel jack and will take any power supply, such as a wall-wart, a 9 volt battery or a cigarette-lighter adapter, between 7 and 20 volts and will output a nicely regulated 5 volts at up to 800 mA. &lt;/p&gt;
+
+&lt;p&gt;Just connect the USB cable that you're using today to the power supply module and you're good to go. &lt;/p&gt;
+
+&lt;p&gt;The module also features a large switch to let you turn your project ON / OFF smoothly and easily.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Power Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Voltage Input: 7v (min) to 20v (max)&lt;/li&gt;
+&lt;li&gt;Voltage Output: 5v regulated&lt;/li&gt;
+&lt;li&gt;Current Output: 800 mA (max)&lt;/li&gt;
+&lt;li&gt;1.0v Dropout&lt;/li&gt;
+&lt;li&gt;Barrel Jack: 2.0mm diameter with the positive voltage at the center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The hole-to-hole dimensions of the module are 30mm x 25mm. &lt;/li&gt;
+&lt;li&gt;The total size of the board is 40mm x 35mm.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Schematics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Eagle schematics, BOM and datasheets.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note: No USB cable or wall-wart is provided with the power supply module. This module is sold as a kit and requires soldering.&lt;/p&gt;
+</description><pubDate>Wed, 09 May 2012 01:43:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/power</guid></item><item><title>Nwazet Relay Module Kit</title><link>http://nwazet.com:80/relay</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;A beefy relay designed to switch up to 16 amps without breaking a sweat. Whenever you need to safely switch big loads ON / OFF, such as large fans, heaters, pumps, actuators, our relay module will be up to the task for at least 10 million cycles. This module is sold as a kit and requires soldering.&lt;/p&gt;
+
+&lt;h2&gt;C# Software Library&lt;/h2&gt;
+
+&lt;p&gt;As always, we provide an easy to use C# library to let you discover, activate and deactivate the relay.&lt;/p&gt;
+
+&lt;h2&gt;Cables&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/product/connectors"&gt;We offer cables of various lengths&lt;/a&gt;: be sure to select the one that best fits your project and mounting requirements.&lt;/p&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;C# library and Eagle schematics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1 pole, 16 Amps, Normally Open contact&lt;/li&gt;
+&lt;li&gt;DC coil 420 mW&lt;/li&gt;
+&lt;li&gt;5kV/10mm coil-contact, reinforced insulation&lt;/li&gt;
+&lt;li&gt;Ambient temperature 85°C&lt;/li&gt;
+&lt;li&gt;Product in accordance to IEC 60335-1&lt;/li&gt;
+&lt;li&gt;Datasheet: &lt;a href="http://www.digikey.com/product-detail/en/RZ03-1A4-D005/PB1267-ND/2267918"&gt;http://www.digikey.com/product-detail/en/RZ03-1A4-D005/PB1267-ND/2267918&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 04 Apr 2012 07:39:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/relay</guid></item><item><title>Netduino Mini</title><link>http://nwazet.com:80/netduinomini</link><description>&lt;p&gt;The Netduino Mini is an authentic Netduino microcontroller in a conveniently miniature package,
+making it ideal for embedding in the final version of your projects.&lt;/p&gt;
+
+&lt;h2&gt;Software, meet hardware.&lt;/h2&gt;
+
+&lt;p&gt;Netduino is an open source electronics platform using the .NET Micro Framework.
+Featuring a 32-bit microcontroller and a rich development environment.
+Suitable for engineers and hobbyists alike.&lt;/p&gt;
+
+&lt;h2&gt;Input. Output.&lt;/h2&gt;
+
+&lt;p&gt;Interface with switches, sensors, LEDs, serial devices, and more.
+Netduino Mini combines 16 GPIO (4 of which can be used as analog),
+RS232, I2C, UART, SPI, 4 PWM&lt;/p&gt;
+
+&lt;h2&gt;Code. Debug. Repeat.&lt;/h2&gt;
+
+&lt;p&gt;.NET Micro Framework combines the ease of high-level coding and the features of microcontrollers. 
+Enjoy event-based programming, multi-threading, line-by-line debugging, breakpoints and more.&lt;/p&gt;
+
+&lt;h2&gt;Very expandable.&lt;/h2&gt;
+
+&lt;p&gt;3rd-party accessories offer pre-built functionality like GPS location, servo control and battery power.
+Netduino is also pin compatible with Arduino shields. Drivers are required for some Arduino shields.&lt;/p&gt;
+
+&lt;h2&gt;Design files included.&lt;/h2&gt;
+
+&lt;p&gt;Netduino is an open source electronics platform. Design files and source code are included. 
+Learn from the designs. Remix. Enjoy the freedom of open source.&lt;/p&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://netduino.com/netduinomini/specs.htm"&gt;http://netduino.com/netduinomini/specs.htm&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 09 Mar 2012 22:44:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/netduinomini</guid></item></channel></rss>

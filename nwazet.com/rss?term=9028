@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Raspberry Pi</title><link>http://nwazet.com:80/pi</link><description>Raspberry Pi</description><item><title>Raspberry Pi B+ Heat Sink Set</title><link>http://nwazet.com:80/raspberry-pi-bplus-heat-sink-set</link><description>&lt;p&gt;We love squeezing as much performance as we can out of our Raspberry Pi computers and since it's so easy to overclock the little guy, we all do it. We also like to protect our beloved little machine in an enclosure, which may reduce air flow around the board.&lt;/p&gt;
+
+&lt;p&gt;One thing to keep in mind is that it is easy to exceed the thermal specifications of the SoC and Ethernet chips in these conditions. In fact, the good folks at &lt;a href="http://www.geektopia.es/es/technology/2012/06/22/articulos/se-calienta-el-ordenador-raspberry-pi-estudio-de-sus-temperaturas-en-funcionamiento.html"&gt;Geektopia&lt;/a&gt; spent some time with a &lt;a href="http://www.fluke.com/fluke/inen/Thermal-Cameras/Fluke-Ti35.htm?PID=56186"&gt;Fluke Ti35 thermal imaging camera&lt;/a&gt; studying the heat signatures of the Pi model B's chips during common use scenarios, such as playing HD video from a USB flash disk, streaming video over Ethernet, transferring large files over Ethernet and stress-testing the CPU as if running a compute-intensive process.&lt;/p&gt;
+
+&lt;p&gt;For instance, here's the heat signature of the Raspberry Pi model B while streaming video over the network, revealing that the Ethernet chip gets toasty at 65.1 degrees Celsius (149.18 degrees Fahrenheit):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Product/pi-heatsinks/thermal_raspberrypi_video_playback.png" alt="heat signature of a Raspberry Pi model B" /&gt;
+&lt;a href="http://www.geektopia.es/es/technology/2012/06/22/articulos/se-calienta-el-ordenador-raspberry-pi-estudio-de-sus-temperaturas-en-funcionamiento.html"&gt;Image courtesy of Remy @ Geektopia&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;While Geektopia concluded that the Raspberry Pi model B does a good job at dissipating heat under normal conditions at a relatively warm room temperature (26.9 degrees Celsius; 80.42 degrees Fahrenheit), in a draft-free environment and outside of a case, they also concluded that it's also very easy to reach or exceed the thermal specifications of the Pi's chips, which can lead to premature board and component failures. To help alleviate such thermal stress, it's wise to equip the Raspberry Pi with passive heat sinks such as these copper beauties designed to fit the Pi model B+'s CPU / GPU and Ethernet chips. They are easy to install thanks to the included double-sided thermal tape.&lt;/p&gt;
+
+&lt;p&gt;These passive copper heat sinks will reduce the chips' temperatures by 4 or 5 degrees, based on empirical testing in a room where the ambient temperature was about 18 degrees Celsius (64.4 degrees Fahrenheit) with a Relative Humidity of ~44%. Of course, results will vary based on the ambient conditions of the room.&lt;/p&gt;
+</description><pubDate>Tue, 29 Jul 2014 01:53:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/raspberry-pi-bplus-heat-sink-set</guid></item><item><title>Nwazet Pi Model B+ Camera Box Bundle</title><link>http://nwazet.com:80/camera-bundle-bplus</link><description>&lt;p&gt;This bundle includes a specially designed black matte Raspberry Pi model B+ case, a wide-angle lens giving the Raspberry Pi Camera module a ~180 viewing angle and all the parts needed to mount it all to a wall or ceiling.&lt;/p&gt;
+
+&lt;h2&gt;Assembly Instructions&lt;/h2&gt;
+
+&lt;p&gt;Please &lt;a href="/camera-box-bplus/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the camera box.&lt;/p&gt;
+
+&lt;h2&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Get instant value from the Pi Camera Box using our tiny snapshot server &lt;a href="/code/nwazet-tiny-python-snapshot-server"&gt;sample script&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voilà! :)&lt;/p&gt;
+
+&lt;h2&gt;What model of Raspberry Pi does this bundle fit?&lt;/h2&gt;
+
+&lt;p&gt;This bundle works with a Raspberry Pi model B+ (not included). If you are looking for the same bundle for a Raspberry Pi model B, please &lt;a href="/camera-bundle"&gt;follow this link&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Mon, 28 Jul 2014 23:17:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/camera-bundle-bplus</guid></item><item><title>Nwazet Pi Model B+ Camera Box</title><link>http://nwazet.com:80/camera-box-bplus</link><description>&lt;p&gt;The 'Nwazet Pi B+ Camera Box' is designed for hosting a Raspberry Pi model B+ computer and a Pi Camera module together in a compact and versatile enclosure.&lt;/p&gt;
+
+&lt;p&gt;This all-integrated design ensures that the camera's fragile ribbon cable doesn't get damaged while exposed during operation.&lt;/p&gt;
+
+&lt;p&gt;This case can accommodate an &lt;a href="/fisheye-lens"&gt;optional magnetic camera lens&lt;/a&gt; (shown on most of the photos), which opens up new possibilities above and beyond the outstanding optical quality of the Pi Camera module. The lens guide on top of the case ensures easy centering of the optional lenses (the lens guide is optional, and can be omitted if you're not using optional lenses).&lt;/p&gt;
+
+&lt;p&gt;The black matte case is opaque, ensuring that the red led mounted on the Pi Camera module will not affect the ambient light captured by the camera.&lt;/p&gt;
+
+&lt;p&gt;The back of the 'Pi Camera Box' can accept an optional  &lt;a href="/camera-box-wall-mount"&gt;wall-mounting bracket&lt;/a&gt; for permanent installations.&lt;/p&gt;
+
+&lt;p&gt;The flexibility of this design is ideal for using a Raspberry Pi and its camera module in a variety of applications such as security with a wide angle fish-eye lens, process monitoring, computer vision, high-definition time lapses, motion sensing and many other fun projects. The case is tall enough to welcome &lt;a href="/raspberry-pi-bplus-heat-sink-set"&gt;heat sinks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/fisheye-lens"&gt;Lens&lt;/a&gt; and &lt;a href="/camera-box-wall-mount"&gt;wall mount&lt;/a&gt; sold separately.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;This case is not compatible with Raspberry Pi Models A and B, but only with Model B+&lt;/strong&gt;. Please check out our &lt;a href="/camera-box"&gt;Nwazet Pi Camera Box if you are looking for a camera box for your model B&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Black matte acrylic&lt;/li&gt;
+&lt;li&gt;Assembly time: about 10 minutes&lt;/li&gt;
+&lt;li&gt;Access to all of Pi's connectors&lt;/li&gt;
+&lt;li&gt;Features vents on the bottom, top, and right walls&lt;/li&gt;
+&lt;li&gt;Features a slot for GPIO access&lt;/li&gt;
+&lt;li&gt;Works with Raspberry Pi Model B+&lt;/li&gt;
+&lt;li&gt;Compatible with &lt;a href="/raspberry-pi-bplus-heat-sink-set"&gt;heat sinks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Outer dimensions: 101mm x 70mm x 39.4mm&lt;/li&gt;
+&lt;li&gt;Inner dimensions: 86mm x 56mm x 33.4mm (may vary due to thickness variations on acrylic plates)&lt;/li&gt;
+&lt;li&gt;3mm thick black acrylic case (6 pieces)&lt;/li&gt;
+&lt;li&gt;2x Pi Camera mounting plates (clear acrylic)&lt;/li&gt;
+&lt;li&gt;1x Lens guide (clear acrylic)&lt;/li&gt;
+&lt;li&gt;7x 1/4" black screws&lt;/li&gt;
+&lt;li&gt;4x 7/16" black screws&lt;/li&gt;
+&lt;li&gt;1x 3/16" steel screw&lt;/li&gt;
+&lt;li&gt;4x zinc nuts&lt;/li&gt;
+&lt;li&gt;4x 1/4" F/F hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;3x 1" M/F hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;4x rubber feet&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Assembly Instructions&lt;/h2&gt;
+
+&lt;p&gt;Please follow &lt;a href="/camera-box-bplus/assembly"&gt;this link&lt;/a&gt; for step by step assembly instructions.&lt;/p&gt;
+
+&lt;h2&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Get instant value from the Pi Camera Box using our tiny snapshot server &lt;a href="/code/nwazet-tiny-python-snapshot-server"&gt;sample script&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voilà! :)&lt;/p&gt;
+</description><pubDate>Mon, 28 Jul 2014 22:45:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/camera-box-bplus</guid></item><item><title>Nwazet Pre-Installed Pi Distro - SanDisk Ultra 8 GB Class 10 Micro-SDHC</title><link>http://nwazet.com:80/nwazet-pre-installed-pi-distro-micro-sd-class-10</link><description>&lt;p&gt;Freedom of choice is a beautiful thing! With the Raspberry Pi, there are several different Operating Systems that you can choose from, each one with its own strengths and specialized features. It's like being able to pick the 'best tool for the job' when putting an application together or being able to learn new skills with something entirely new and exotic. Regardless of your goals, we'll make it fast and easy for you to get started with your Raspberry Pi by pre-installing and testing the latest version of your distribution of choice before shipping it to you.&lt;/p&gt;
+
+&lt;p&gt;For best performance and reliability, we have standardized on SanDisk Class 10 SDHC cards with a capacity of 8GB and ultra fast read/write speeds.&lt;/p&gt;
+
+&lt;p&gt;You can read more details about each Operating System on the &lt;a href="http://www.raspberrypi.org/downloads"&gt;Raspberry Pi download page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To find out more about Coder, check out the &lt;a href="http://googlecreativelab.github.io/coder/"&gt;Google Creative Lab page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Manufacturer: SanDisk&lt;/li&gt;
+&lt;li&gt;Class: 10&lt;/li&gt;
+&lt;li&gt;Capacity: 8GB&lt;/li&gt;
+&lt;li&gt;Form factor: micro-SDHC&lt;/li&gt;
+&lt;li&gt;Write speed: up to 10MB/second&lt;/li&gt;
+&lt;li&gt;Read speed: up to 30MB/second&lt;/li&gt;
+&lt;li&gt;SD card adapter: included&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Oct 2013 02:11:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pre-installed-pi-distro-micro-sd-class-10</guid></item><item><title>Adafruit MicroSD Card Adapter For Raspberry Pi</title><link>http://nwazet.com:80/pi-microsd-adapter</link><description>&lt;p&gt;With this microSD card adapter, you can help protect your Raspberry Pi from accidental damage to the SD card port and from file system corruptions caused by knocking the protruding SD card. &lt;/p&gt;
+
+&lt;p&gt;The adapter snaps into the Raspberry Pi's SD card slot, but only takes the space of half a card. Insert a micro-SD into it, and get a more compact and safer system.  The micro-SD is easily extracted by pushing on it a second time. &lt;/p&gt;
+
+&lt;p&gt;Please be aware that this adapter will not fit into most Raspberry Pi cases.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Compatible with any micro-SD card&lt;/li&gt;
+&lt;li&gt;Protrudes 3mm from the edge of the Raspberry Pi&lt;/li&gt;
+&lt;li&gt;5mm thick (clearance from the bottom of the Pi's PCB)&lt;/li&gt;
+&lt;li&gt;A micro-SD card is &lt;em&gt;not included&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Oct 2013 02:10:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-microsd-adapter</guid></item><item><title>Mini USB WiFi (802.11b/g/n)</title><link>http://nwazet.com:80/mini-usb-wifi</link><description>&lt;p&gt;When there is no nearby Ethernet connection, you'll need a USB wifi adapter to connect your Raspberry Pi to the Internet or to your local network. This very small adapter will barely stick out, and will be recognized by all our Linux distributions without the need to install any new drivers. We picked this adapter for those cases where a compact project is more important than range. For better range, we recommend &lt;a href="/usb-wifi"&gt;our larger USB WiFi adapter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Raspbian Configuration&lt;/h2&gt;
+
+&lt;p&gt;To use this WiFi module with the Raspbian distribution on the Raspberry Pi, please follow these steps:&lt;/p&gt;
+
+&lt;p&gt;From the console, as root (or using sudo), edit the network interfaces configuration file.&lt;/p&gt;
+
+&lt;pre&gt;
+nano /etc/network/interfaces
+&lt;/pre&gt;
+
+&lt;p&gt;Edit the file to include a wlan0 interface with the SSID and pre-shared key of the network you want to join.&lt;/p&gt;
+
+&lt;pre&gt;
+auto lo
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+auto wlan0
+iface wlan0 inet dhcp
+wpa-ssid "YourSSID"
+wpa-psk "YourKey"
+&lt;/pre&gt;
+
+&lt;p&gt;Reboot the Raspberry Pi after saving the updated configuration file.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;USB 2.0/1.1&lt;/li&gt;
+&lt;li&gt;WiFi IEEE 802.11b/g/n (2.4GHz)&lt;/li&gt;
+&lt;li&gt;Sticks out only 8mm from the USB port&lt;/li&gt;
+&lt;li&gt;Data Rate: 1Mbps to 150Mbps down and up&lt;/li&gt;
+&lt;li&gt;Realtek RTl8192cu Chipset&lt;/li&gt;
+&lt;li&gt;Dimensions: 19 x 14.3 x 6.2mm&lt;/li&gt;
+&lt;li&gt;Weight: 2.2g&lt;/li&gt;
+&lt;li&gt;Range up to 3 times farther than 802.11g&lt;/li&gt;
+&lt;li&gt;Integrated Antenna&lt;/li&gt;
+&lt;li&gt;RF Output Power: typically 13 ~17 dBm&lt;/li&gt;
+&lt;li&gt;Data Security: 64/128-bit WEP Encryption, WPA, WPA-PSK, WPA2, WPA2-PSK, TKIP/AES&lt;/li&gt;
+&lt;li&gt;Ad-Hoc, Infrastructure WLAN network, Wireless roaming, Data rate auto fall-back&lt;/li&gt;
+&lt;li&gt;Plug-and-Play setup and installation&lt;/li&gt;
+&lt;li&gt;Green LED activity indicator&lt;/li&gt;
+&lt;li&gt;Operating Temperature 0°C to 40°C&lt;/li&gt;
+&lt;li&gt;Storage Temperature -20°C to 75°C&lt;/li&gt;
+&lt;li&gt;Operating Humidity 10% ~ 90% (Non Condensing)&lt;/li&gt;
+&lt;li&gt;Storage Humidity 5% ~ 95% (Non Condensing)&lt;/li&gt;
+&lt;li&gt;Regulatory Compliance FCC (USA), CE Mark (Europe), RoHS Compliant, Wi-Fi Compliant&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Oct 2013 02:10:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/mini-usb-wifi</guid></item><item><title>Raspberry Pi Model A</title><link>http://nwazet.com:80/raspberry-pi-a</link><description>&lt;p&gt;Quoting the &lt;a href="http://www.raspberrypi.org/faqs"&gt;Raspberry Pi Foundation's FAQ page&lt;/a&gt;: "What’s a Raspberry Pi? The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video. We want to see it being used by kids all over the world to learn programming.". We also think that the Raspberry Pi is a fantastic platform for hacking Internet-connected hardware projects :)&lt;/p&gt;
+
+&lt;p&gt;The Model A is perfect for those projects where the Pi is permanently embedded and communicates through WiFi rather than Ethernet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi 'Model A'&lt;/li&gt;
+&lt;li&gt;256MB RAM&lt;/li&gt;
+&lt;li&gt;1x USB 2.0 ports&lt;/li&gt;
+&lt;li&gt;1x SD card reader (required for booting)&lt;/li&gt;
+&lt;li&gt;1x GPIO connector (2x13 0.1" pin header)&lt;/li&gt;
+&lt;li&gt;Broadcom BCM2835 SoC (system on a chip), composed of:
+&lt;ul&gt;
+&lt;li&gt;ARM 11 CPU&lt;/li&gt;
+&lt;li&gt;Hardware Floating Point support&lt;/li&gt;
+&lt;li&gt;700Mhz clock; easy to overclock&lt;/li&gt;
+&lt;li&gt;Videocore 4 GPU capable of BluRay-quality playback, using H.264 at 40MBits/s, featuring a fast 3D core accessed using supplied OpenGL ES2.0 and OpenVG libraries&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Oct 2013 00:17:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/raspberry-pi-a</guid></item><item><title>Google CODER Jetpack for Raspberry Pi</title><link>http://nwazet.com:80/google-coder</link><description>&lt;p&gt;&lt;a href="http://googlecreativelab.github.io/coder/"&gt;Google Coder&lt;/a&gt; is a Free Open Source package designed to turn a &lt;a href="http://www.raspberrypi.org/faqs"&gt;Raspberry Pi&lt;/a&gt; computer into a simple, tiny, personal web server and web-based development environment. It's just what you need for crafting &lt;a href="http://www.w3schools.com/html/"&gt;HTML&lt;/a&gt;, &lt;a href="http://www.w3schools.com/css/default.asp"&gt;CSS&lt;/a&gt;, and &lt;a href="http://www.w3schools.com/js/default.asp"&gt;Javascript&lt;/a&gt; while you’re learning to code.&lt;/p&gt;
+
+&lt;p&gt;There are a ton of resources for learning &lt;a href="http://www.w3schools.com/html/"&gt;HTML&lt;/a&gt;, &lt;a href="http://www.w3schools.com/css/default.asp"&gt;CSS&lt;/a&gt;, and &lt;a href="http://www.w3schools.com/js/default.asp"&gt;Javascript&lt;/a&gt;: &lt;a href="http://www.codecademy.com/"&gt;Codecademy&lt;/a&gt; and &lt;a href="https://www.khanacademy.org/cs/programming"&gt;Khan Academy&lt;/a&gt;, to name two—and you can use Coder to accompany this instruction as you experiment with making your own programs. When you're ready to get started, read through the included Hello Coder application to acquaint yourself with how a Coder program works.&lt;/p&gt;
+
+&lt;p&gt;For those new to coding for the web, it’s a private platform for building web programs. If you’re already a web programmer, Coder can also be a fun sandbox for experimenting with new ideas, or making demos for other people to learn from.&lt;/p&gt;
+
+&lt;iframe width="590" height="332" src="//www.youtube.com/embed/wH24YwdayFg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3&gt;What's in the Nwazet Google CODER Jetpack?&lt;/h3&gt;
+
+&lt;p&gt;The Nwazet Google CODER Jetpack is &lt;strong&gt;pre-assembled and ready to go out-of-the-box with zero configuration required&lt;/strong&gt;. Just plug it into your network, add power and get coding!&lt;/p&gt;
+
+&lt;p&gt;The Jetpack includes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1x Raspberry Pi Model B&lt;/li&gt;
+&lt;li&gt;1x Nwazet MiniTux Case, stylish Green or
+Black design&lt;/li&gt;
+&lt;li&gt;1x SanDisk 8 GB Class 10  SD Card with Google CODER v4
+pre-installed, for super-responsive web sites&lt;/li&gt;
+&lt;li&gt;1x Ethernet cable, for
+maximum speed and zero configuration out of the box!&lt;/li&gt;
+&lt;li&gt;1x 5.5V 1A USB power adapter, perfect
+for powering the Raspberry Pi&lt;/li&gt;
+&lt;li&gt;1x 3' foot MicroUSB cable, to connect the Pi to the USB power adapter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more details on Google CODER, check out:
+&lt;a href="http://googlecreativelab.github.io/coder/"&gt;http://googlecreativelab.github.io/coder/&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 08 Oct 2013 04:14:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/google-coder</guid></item><item><title>Nwazet Pi Model B Camera Box Bundle</title><link>http://nwazet.com:80/camera-bundle</link><description>&lt;p&gt;This bundle includes a specially designed black matte Raspberry Pi case, a wide-angle lens giving the Raspberry Pi Camera module a ~180 viewing angle and all the parts needed to mount it all to a wall or ceiling.&lt;/p&gt;
+
+&lt;h2&gt;Assembly Instructions&lt;/h2&gt;
+
+&lt;p&gt;Please &lt;a href="/camera-box-bplus/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the camera box.&lt;/p&gt;
+
+&lt;h2&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Get instant value from the Pi Camera Box using our tiny snapshot server &lt;a href="/code/nwazet-tiny-python-snapshot-server"&gt;sample script&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voila! :)&lt;/p&gt;
+
+&lt;h2&gt;What model of Raspberry Pi does this bundle fit?&lt;/h2&gt;
+
+&lt;p&gt;This bundle works with a Raspberry Pi model B (not included). If you are looking for the same bundle for a Raspberry Pi model B+, please &lt;a href="/camera-bundle-bplus"&gt;follow this link&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Thu, 12 Sep 2013 22:52:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/camera-bundle</guid></item><item><title>Nwazet Pi Minitux Case Hempfest Limited Edition</title><link>http://nwazet.com:80/minitux-hempfest</link><description>&lt;p&gt;The Hempfest Minitux is a beautiful, limited edition, acrylic case. 
+We designed it exclusively for &lt;a href="https://www.hempfest.org/"&gt;Hempfest 2013&lt;/a&gt; to commemorate the legalization of Marijuana for recreational use in the state of Washington.&lt;/p&gt;
+
+&lt;p&gt;Themed after cannabis strains, this laser-cut case comes in 'Sativa' green or 'Indica' black with the 'Hempfest' logo proudly etched in the center. It makes for a great conversation starter :)&lt;/p&gt;
+
+&lt;p&gt;We built the Minitux for our customers who want the elegance of our larger &lt;a href="/nwazet-pi-tuxedo-case"&gt;Tuxedo case&lt;/a&gt; but need a smaller format that remains as close as possible to the Pi board.&lt;/p&gt;
+
+&lt;p&gt;This beautiful laser-cut acrylic case is designed to give a close fit to a Raspberry Pi model A or B while giving easy access to all of the Pi's connectors.&lt;/p&gt;
+
+&lt;p&gt;Generously sized vents will make sure your Pi gets the air it needs to stay cool. A slot on the front wall makes it possible to let a &lt;a href="/pi-gpio-ribbon"&gt;GPIO cable&lt;/a&gt; through and thus extend and hack the system. &lt;/p&gt;
+
+&lt;p&gt;The Minitux case fits perfectly around our &lt;a href="/pi-mcmonster"&gt;Crafty Pi Monster prototyping board&lt;/a&gt;, making it an ideal choice as a generic enclosure for building clean-looking custom projects.&lt;/p&gt;
+
+&lt;p&gt;The back of the case has two holes designed to fit the VESA 75 specification, making it easy to mount your Pi on the back of a monitor or small TV. &lt;/p&gt;
+
+&lt;p&gt;Like the original &lt;a href="/nwazet-pi-tuxedo-case"&gt;Tuxedo case&lt;/a&gt;, it has been quasi-scientifically proven to pass the 'Living Room Aesthetics Test' 99.99% of the time (a.k.a 'The Spouse Test') ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;'Sativa' green or 'Indica' black with the 'Hempfest' logo&lt;/li&gt;
+&lt;li&gt;Assembly time: about five minutes&lt;/li&gt;
+&lt;li&gt;Access to all of Pi's connectors&lt;/li&gt;
+&lt;li&gt;Features vents on the bottom, top, left and right walls&lt;/li&gt;
+&lt;li&gt;Works with any Raspberry Pi with mounting holes, models A and B (won't work with a rev.1, please consider our &lt;a href="/nwazet-pi-tuxedo-case"&gt;Tuxedo case&lt;/a&gt; for rev.1 Pis)&lt;/li&gt;
+&lt;li&gt;Outer dimensions: 101mm x 70mm x 33.3mm&lt;/li&gt;
+&lt;li&gt;Inner dimensions: 86mm x 55mm x 27.6mm (may vary due to thickness variations on acrylic plates)&lt;/li&gt;
+&lt;li&gt;3mm thick black acrylic case (7 pieces, including left walls for both models A and B)&lt;/li&gt;
+&lt;li&gt;3mm thick clear acrylic light pipe (1 piece)&lt;/li&gt;
+&lt;li&gt;4 screws&lt;/li&gt;
+&lt;li&gt;4 hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;4 rubber feet&lt;/li&gt;
+&lt;li&gt;2 VESA 75 mounting holes&lt;/li&gt;
+&lt;li&gt;GPIO ribbon cable slot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Assembly Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Please &lt;a href="/minitux/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the black matte case, and &lt;a href="/minitux-clear/assembly"&gt;this guide&lt;/a&gt; to assemble the green case.&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Tue, 10 Sep 2013 18:00:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/minitux-hempfest</guid></item><item><title>Nwazet Pi Model B Camera Box</title><link>http://nwazet.com:80/camera-box</link><description>&lt;p&gt;The 'Nwazet Pi Model B Camera Box' is designed for hosting a Raspberry Pi Model B computer and a Pi Camera module together in a compact and versatile enclosure.&lt;/p&gt;
+
+&lt;p&gt;This all-integrated design ensures that the camera's fragile ribbon cable doesn't get damaged while exposed during operation.&lt;/p&gt;
+
+&lt;p&gt;This case can accommodate an &lt;a href="/fisheye-lens"&gt;optional magnetic camera lens&lt;/a&gt;, which opens up new possibilities above and beyond the outstanding optical quality of the Pi Camera module.&lt;/p&gt;
+
+&lt;p&gt;The black matte case is opaque, ensuring that the red led mounted on the Pi Camera module will not affect the ambient light captured by the camera.&lt;/p&gt;
+
+&lt;p&gt;The back of the 'Pi Camera Box' can accept an optional  wall-mounting bracket for permanent installations.&lt;/p&gt;
+
+&lt;p&gt;The flexibility of this design is ideal for using a Raspberry Pi and its camera module in a variety of applications such as security with a wide angle fish-eye lens, process monitoring, computer vision, high-definition time lapses, motion sensing and many other fun projects.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;This case is not compatible with the Model B rev. 1 card&lt;/strong&gt; which has no mounting holes. It is also not compatible with &lt;a href="/camera-box-bplus"&gt;model B+, for which we are selling a different case&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Black matte acrylic&lt;/li&gt;
+&lt;li&gt;Assembly time: about 10 minutes&lt;/li&gt;
+&lt;li&gt;Access to all of Pi's connectors&lt;/li&gt;
+&lt;li&gt;Features vents on the bottom, top, left and right walls&lt;/li&gt;
+&lt;li&gt;Features a slot for a GPIO ribbon cable&lt;/li&gt;
+&lt;li&gt;Designed for the Raspberry Pi model B, with mounting holes (won't work with a rev.1, or with a B+)&lt;/li&gt;
+&lt;li&gt;Outer dimensions: 101mm x 70mm x 33.3mm&lt;/li&gt;
+&lt;li&gt;Inner dimensions: 86mm x 55mm x 27.6mm (may vary due to thickness variations on acrylic plates)&lt;/li&gt;
+&lt;li&gt;3mm thick black acrylic case (6 pieces)&lt;/li&gt;
+&lt;li&gt;2x Pi Camera mounting plates (clear acrylic)&lt;/li&gt;
+&lt;li&gt;4x 1/4" black screws&lt;/li&gt;
+&lt;li&gt;4x 3/8" black screws&lt;/li&gt;
+&lt;li&gt;4x zinc nuts&lt;/li&gt;
+&lt;li&gt;2x 1/4" F/F hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;2x 3/4" M/F hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;4x rubber feet&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Assembly Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Please &lt;a href="/camera-box/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the camera box.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Get instant value from the Pi Camera Box using our tiny snapshot server &lt;a href="/code/nwazet-tiny-python-snapshot-server"&gt;sample script&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voila! :)&lt;/p&gt;
+</description><pubDate>Tue, 10 Sep 2013 00:39:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/camera-box</guid></item><item><title>Raspberry Pi Infrared Camera</title><link>http://nwazet.com:80/pi-camera</link><description>&lt;p&gt;If the Raspberry Pi was a revolution in the way we design microcontroller projects and embedded systems, its camera has similar potential. This is no mere MJPEG, serial, or even USB camera like those that until now were in projects requiring photo or video capabilities. With its specialized CSI connector on the Raspberry Pi, and its uncompromising design, it redefines what it is possible to do on such an inexpensive setup.&lt;/p&gt;
+
+&lt;p&gt;The Raspberry Pi Camera can shoot 1080p30 true high definition video, as well as 5 megapixel static images.&lt;/p&gt;
+
+&lt;p&gt;It is fully supported by all recent distributions of Linux for the Raspberry Pi, making it easy to shoot photos and videos from the command-line, or from your own programs. &lt;a href="https://itunes.apple.com/gb/app/berrycam/id687071023"&gt;Mobile applications&lt;/a&gt; exist that enable control of the camera from a phone. Standard Linux image processing libraries can be used to &lt;a href="http://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/"&gt;enable facial recognition&lt;/a&gt;, and other amazing applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;25mm x 20mm x 9mm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Video resolutions: 1080p30, 720p60, 640x480p60, 640x480p90&lt;/li&gt;
+&lt;li&gt;Photo resolution: 2592 x 1944 (5 megapixels)&lt;/li&gt;
+&lt;li&gt;Pi NoIR: no IR filter, includes blue filter&lt;/li&gt;
+&lt;li&gt;CSI bus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/wp-content/uploads/2013/07/RaspiCam-Documentation.pdf"&gt;Documentation for the camera can be downloaded from the Raspberry Pi Foundation's web site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/archives/tag/pi-noir"&gt;Pi NoIR blog post on the Raspberry Pi Foundation site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/archives/5672"&gt;Python interface for the Raspberry Pi camera&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://infragram.org/"&gt;Infrared image processing &amp;amp; software/&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 10 Sep 2013 00:39:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-camera</guid></item><item><title>Magnetic Wide-Angle, Tele, or Macro Lens</title><link>http://nwazet.com:80/fisheye-lens</link><description>&lt;p&gt;The Raspberry Pi's camera offers great features out-of-the box, which can be enhanced by adding interchangeable lenses.&lt;/p&gt;
+
+&lt;p&gt;The fish-eye lens enables your Raspberry Pi camera to capture a 180 degree field of view, making it perfect for surveillance, security and general monitoring scenarios. The wide-angle lens will capture a wide, but less extreme perspective. The telephoto lens will let your camera module capture more details from further away. Finally, the macro lens will let you focus on extremely small things at very short distances.&lt;/p&gt;
+
+&lt;p&gt;Our &lt;a href="/camera-box"&gt;Pi Camera Box&lt;/a&gt; is designed to receive a small metal ring needed for binding any of these magnetized lenses to the case.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Choice of magnetic fish-eye / wide-angle / telephoto / macro lens&lt;/li&gt;
+&lt;li&gt;Wide-angle lens only: 180 degree angle (see note below)&lt;/li&gt;
+&lt;li&gt;Self-adhesive metal ring mount&lt;/li&gt;
+&lt;li&gt;Plastic lens cap&lt;/li&gt;
+&lt;li&gt;Key-chain attachment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note: the fish-eye and the wide-angle lenses provide extra-wide and wide viewing angles but slight variations are possible based on the relative position of the lens in relationship to the Pi Camera module.&lt;/p&gt;
+</description><pubDate>Tue, 10 Sep 2013 00:39:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/fisheye-lens</guid></item><item><title>Camera Box Wall Mount</title><link>http://nwazet.com:80/camera-box-wall-mount</link><description>&lt;p&gt;The Raspberry Pi Camera, enclosed with the Pi in our Camera Box, and equipped with a fish eye lens, is a very capable surveillance and monitoring system that is easy to connect and program.&lt;/p&gt;
+
+&lt;p&gt;To make the most of it, the Pi Camera box should be steadily mounted to a wall or a ceiling and should be properly angled.&lt;/p&gt;
+
+&lt;p&gt;To this end, we provide this bracket which allows tilting and swiveling of the device. Just tighten the thumb screws when you have found the right position and you're done.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bracket max. weight: up to 3.5kg (7.7 lbs)&lt;/li&gt;
+&lt;li&gt;2x M5x12 screws&lt;/li&gt;
+&lt;li&gt;2x M5 nuts&lt;/li&gt;
+&lt;li&gt;2x wall / ceiling M4x25 mounting screws&lt;/li&gt;
+&lt;li&gt;2x plastic anchors&lt;/li&gt;
+&lt;li&gt;Tilt angle: -24&amp;deg; to +15&amp;deg;&lt;/li&gt;
+&lt;li&gt;Swivel angle: ~75&amp;deg; left and right&lt;/li&gt;
+&lt;li&gt;Thumb screws for easy angle adjustments&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Tue, 10 Sep 2013 00:39:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/camera-box-wall-mount</guid></item><item><title>5.5V DC 1A USB Power Adapter With Cable - UL listed</title><link>http://nwazet.com:80/usb-1a-power-adapter</link><description>&lt;p&gt;This nice, small, lightweight, and efficient USB switching DC power supply is perfect to reliably power a Raspberry Pi, or any device that feeds on USB.&lt;/p&gt;
+
+&lt;p&gt;It is thin and fits in power strips without blocking other outlets. The output is regulated so you'll get a steady 5.5V DC up to 1A of current draw. The provided voltage is a little higher than 5V, to account for the voltage drop that usually happens in USB cords with greedy devices such as the Pi.&lt;/p&gt;
+
+&lt;p&gt;The provided 0.9m cord features a standard micro-USB. This supply is designed to work anywhere in the world on 100V-240V AC 50 or 60Hz wall power; you'll just need a low-cost plug adapter.&lt;/p&gt;
+
+&lt;p&gt;The red LED on top will let you know the adapter is powered. It works great for a variety of applications, micro-controllers and of course, the Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wall wart dimension above the power plug: 59mm x 24.3mm x 46.3mm (2.3" x 0.95" x 1.8")&lt;/li&gt;
+&lt;li&gt;Micro-USB Cable length: 90cm (35")&lt;/li&gt;
+&lt;li&gt;Cable diameter: 3.5mm (0.13")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Input voltage: 100V-240V AC (standard US plug, no ground)&lt;/li&gt;
+&lt;li&gt;Output voltage: 5.5 VDC @ 1A&lt;/li&gt;
+&lt;li&gt;Regulated, switched output&lt;/li&gt;
+&lt;li&gt;CE / UL listed&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Mon, 02 Sep 2013 23:12:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/usb-1a-power-adapter</guid></item><item><title>Nwazet Pi Minitux Case (Black Matte or Green)</title><link>http://nwazet.com:80/minitux</link><description>&lt;p&gt;We built the Minitux for our customers who want the elegance of our larger &lt;a href="/nwazet-pi-tuxedo-case"&gt;Tuxedo case&lt;/a&gt; but need a smaller format that remains as close as possible to the Pi board.&lt;/p&gt;
+
+&lt;p&gt;This beautiful laser-cut acrylic case is designed to give a close fit to a Raspberry Pi model A or B while giving easy access to all of the Pi's connectors. It comes in black matte or translucent green. A &lt;a href="/minitux-clear"&gt;clear version&lt;/a&gt; is also available.&lt;/p&gt;
+
+&lt;p&gt;Generously sized vents will make sure your Pi gets the air it needs to stay cool. A slot on the front wall makes it possible to let a &lt;a href="/pi-gpio-ribbon"&gt;GPIO cable&lt;/a&gt; through and thus extend and hack the system. &lt;/p&gt;
+
+&lt;p&gt;The Minitux case fits perfectly around our &lt;a href="/pi-mcmonster"&gt;Crafty Pi Monster prototyping board&lt;/a&gt;, making it an ideal choice as a generic enclosure for building clean-looking custom projects.&lt;/p&gt;
+
+&lt;p&gt;The back of the case has two holes designed to fit the VESA 75 specification, making it easy to mount your Pi on the back of a monitor or small TV. &lt;/p&gt;
+
+&lt;p&gt;Like the original &lt;a href="/nwazet-pi-tuxedo-case"&gt;Tuxedo case&lt;/a&gt;, it has been quasi-scientifically proven to pass the 'Living Room Aesthetics Test' 99.99% of the time (a.k.a 'The Spouse Test') ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Black matte or fluoro green acrylic&lt;/li&gt;
+&lt;li&gt;Assembly time: about five minutes&lt;/li&gt;
+&lt;li&gt;Access to all of Pi's connectors&lt;/li&gt;
+&lt;li&gt;Features vents on the bottom, top, left and right walls&lt;/li&gt;
+&lt;li&gt;Works with any Raspberry Pi with mounting holes, models A and B (won't work with a rev.1, please consider our &lt;a href="/nwazet-pi-tuxedo-case"&gt;Tuxedo case&lt;/a&gt; for rev.1 Pis)&lt;/li&gt;
+&lt;li&gt;Outer dimensions: 101mm x 70mm x 33.3mm&lt;/li&gt;
+&lt;li&gt;Inner dimensions: 86mm x 55mm x 27.6mm (may vary due to thickness variations on acrylic plates)&lt;/li&gt;
+&lt;li&gt;3mm thick black acrylic case (7 pieces, including left walls for both models A and B)&lt;/li&gt;
+&lt;li&gt;3mm thick clear acrylic light pipe (1 piece)&lt;/li&gt;
+&lt;li&gt;4 screws&lt;/li&gt;
+&lt;li&gt;4 hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;4 rubber feet&lt;/li&gt;
+&lt;li&gt;2 VESA 75 mounting holes&lt;/li&gt;
+&lt;li&gt;GPIO ribbon cable slot&lt;/li&gt;
+&lt;li&gt;Can accommodate heat sinks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Assembly Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Please &lt;a href="/minitux/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the black matte case, and &lt;a href="/minitux-clear/assembly"&gt;this guide&lt;/a&gt; to assemble the green case.&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 31 Aug 2013 23:58:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/minitux</guid></item><item><title>Nwazet Pi Minitux Case (Clear)</title><link>http://nwazet.com:80/minitux-clear</link><description>&lt;p&gt;We built the Minitux for our customers who want the elegance of our larger &lt;a href="/nwazet-pi-tuxedo-case"&gt;Tuxedo case&lt;/a&gt; but need a smaller format that remains as close as possible to the Pi board.&lt;/p&gt;
+
+&lt;p&gt;This beautiful laser-cut clear acrylic case is designed to give a close fit to a Raspberry Pi model A or B while giving easy access to all of the Pi's connectors. &lt;/p&gt;
+
+&lt;p&gt;The clear acrylic it's made of lets you see your Pi in all its glory at all times. Generously sized vents will make sure your Pi gets the air it needs to stay cool. A slot on the front wall makes it possible to let a &lt;a href="/pi-gpio-ribbon"&gt;GPIO cable&lt;/a&gt; through and thus extend and hack the system. &lt;/p&gt;
+
+&lt;p&gt;The Minitux case fits perfectly around our &lt;a href="/pi-mcmonster"&gt;Crafty Pi Monster prototyping board&lt;/a&gt;, making it an ideal choice as a generic enclosure for building clean-looking custom projects.&lt;/p&gt;
+
+&lt;p&gt;The back of the case has two holes designed to fit the VESA 75 specification, making it easy to mount your Pi on the back of a monitor or small TV.&lt;/p&gt;
+
+&lt;p&gt;Like the original &lt;a href="/nwazet-pi-tuxedo-case"&gt;Tuxedo case&lt;/a&gt;, it has been quasi-scientifically proven to pass the 'Living Room Aesthetics Test' 99.99% of the time (a.k.a 'The Spouse Test') ;-)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Clear acrylic&lt;/li&gt;
+&lt;li&gt;Assembly time: about five minutes&lt;/li&gt;
+&lt;li&gt;Access to all of Pi's connectors&lt;/li&gt;
+&lt;li&gt;Features vents on the bottom, top, left and right walls&lt;/li&gt;
+&lt;li&gt;Works with any Raspberry Pi with mounting holes, models A and B (won't work with a rev.1, please consider our &lt;a href="/nwazet-pi-tuxedo-case"&gt;Tuxedo case&lt;/a&gt; for rev.1 Pis)&lt;/li&gt;
+&lt;li&gt;Outer dimensions: 101mm x 70mm x 33.3mm&lt;/li&gt;
+&lt;li&gt;Inner dimensions: 86mm x 55mm x 27.6mm (may vary due to thickness variations on acrylic plates)&lt;/li&gt;
+&lt;li&gt;3mm thick black acrylic case (7 pieces, including left walls for both models A and B)&lt;/li&gt;
+&lt;li&gt;4 black screws&lt;/li&gt;
+&lt;li&gt;4 hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;4 rubber feet&lt;/li&gt;
+&lt;li&gt;2 VESA 75 mounting holes&lt;/li&gt;
+&lt;li&gt;GPIO ribbon cable slot&lt;/li&gt;
+&lt;li&gt;Can accommodate heat sinks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Assembly Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Please &lt;a href="/minitux-clear/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the case&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 31 Aug 2013 23:58:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/minitux-clear</guid></item><item><title>Nwazet Pi Slate</title><link>http://nwazet.com:80/pi-slate</link><description>&lt;p&gt;The 'Pi Slate' is ideal for hacking hardware projects using the Raspberry Pi's GPIO connector: it accommodates a &lt;a href="http://nwazet.com/raspberry-pi"&gt;Raspberry Pi&lt;/a&gt; (models A and B), our &lt;a href="http://nwazet.com/nwazet-pi-power-supply"&gt;Pi Power Supply&lt;/a&gt; for projects requiring more power than the Pi can deliver, two 400 tie-points breadboards and fasteners. The 'Pi Slate' is also designed to integrate with &lt;a href="https://www.google.com/search?q=Tamiya%20Universal%20Plates"&gt;Tamiya Universal Plates&lt;/a&gt;, a popular platform for building vehicle chassis and robots.&lt;/p&gt;
+
+&lt;p&gt;The 'Pi Slate' can easily be stacked to form minimalist enclosures and to organize a design. For instance, it makes it simple to layer a control deck with a Raspberry Pi and a custom circuit, a power deck holding a Li-Po battery with a step-up DC-DC converter and a lower deck supporting a chassis. Clean, simple and effective.&lt;/p&gt;
+
+&lt;p&gt;You'll appreciate the convenience of routing wires between layers thanks to the notches cut around the board as well as the easy access to the SD card.&lt;/p&gt;
+
+&lt;p&gt;We love using the 'Pi Slate' for prototyping and demos and we believe that you will too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Parts included in the kit&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Clear acrylic plate: 1&lt;/li&gt;
+&lt;li&gt;Plastic side standoffs (Pi): 4&lt;/li&gt;
+&lt;li&gt;Short thick black screws (1/4", side standoffs, Pi): 4&lt;/li&gt;
+&lt;li&gt;Short spacers (1/4" Hex F-F Standoff - Alu - Pi): 2&lt;/li&gt;
+&lt;li&gt;Extra short hex spacers (3/16" Hex F-F Spacers - Alu - Power Supply): 2&lt;/li&gt;
+&lt;li&gt;Screws (3/16" extra short, steel - Power Supply): 4&lt;/li&gt;
+&lt;li&gt;Screws (5/8" Black Steel - Pi standoffs): 4&lt;/li&gt;
+&lt;li&gt;400 tie-point solderless breadboard: 2&lt;/li&gt;
+&lt;li&gt;Rubber feet: 4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Related items&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://nwazet.com/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://nwazet.com/pi-keylime"&gt;Nwazet Key Lime Pi: GPIO - Analog - FTDI - Power&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://nwazet.com/pi-gpio-ribbon"&gt;GPIO Ribbon Cable for Raspberry Pi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://nwazet.com/product/sensors"&gt;Sensors&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://nwazet.com/product/component"&gt;Components&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://nwazet.com/jumper-wires-mm-6inch"&gt;Premium Jumper Wires&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Sun, 16 Jun 2013 03:35:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-slate</guid></item><item><title>Nwazet Key Lime Pi Wire Scorpion Kit</title><link>http://nwazet.com:80/pi-wirescorpion</link><description>&lt;p&gt;The 'Pi Wire Scorpion' kit is designed to provide a practical enclosure for &lt;a href="/pi-keylime"&gt;our 'Nwazet Key Lime Pi' breakout board&lt;/a&gt; (included). Use it as you build your project or as part of a final installation: it will do a great job at securing wires in place thanks to nine built-in zip-tie cutouts. The 'Pi Wire Scorpion' kit accommodates all the features of the &lt;a href="/pi-keylime"&gt;'Nwazet Key Lime Pi'&lt;/a&gt;, works well with right-angle and straight pin headers and includes all the essential cables and connectors needed to complete your project quickly and neatly and &lt;a href="http://nwazet.com/jumper-wires-mm-6inch"&gt;your choice of premium jumper wires&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1x 'Key Lime Pi' kit&lt;/li&gt;
+&lt;li&gt;2x 'Pi Wire Scorpion' plates (Fluorescent green)&lt;/li&gt;
+&lt;li&gt;1x Raspberry Pi GPIO cable&lt;/li&gt;
+&lt;li&gt;1x JST-PH power cable&lt;/li&gt;
+&lt;li&gt;1x JST-PH power connector&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nwazet.com/jumper-wires-mm-6inch"&gt;40x Premium jumper wires&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;8x 4" x 0.10" zip ties&lt;/li&gt;
+&lt;li&gt;4x rubber feet&lt;/li&gt;
+&lt;li&gt;3x short black screws (bottom plate)&lt;/li&gt;
+&lt;li&gt;3x long black screws (top plate)&lt;/li&gt;
+&lt;li&gt;3x hex F/F standoffs (Key Lime Pi breakout support, bottom plate)&lt;/li&gt;
+&lt;li&gt;3x round spacers (top plate support)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Board dimensions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Width: 6cm (2.36")&lt;/li&gt;
+&lt;li&gt;Length: 8.8cm (3.46")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Mouting holes&lt;/h2&gt;
+
+&lt;p&gt;The following distances are expressed from center to center of the mounting holes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Width: 4.75cm (1.87")&lt;/li&gt;
+&lt;li&gt;Length: 7.50cm (2.95")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Assembly time&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~5 minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/connectors"&gt;Connectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/fasteners"&gt;Fasteners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/module"&gt;Modules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 21 Mar 2013 02:26:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-wirescorpion</guid></item><item><title>Nwazet Mean Crafty Pi Monster - Lighting Board</title><link>http://nwazet.com:80/pi-mcmonster</link><description>&lt;p&gt;This simple backlighting kit looks fantastic inside of our &lt;a href="/pi-headcase"&gt;'Pi Head Cases'&lt;/a&gt; and comes with two big 10mm diffused LEDs. The difficult part will be choosing the color ;)&lt;/p&gt;
+
+&lt;p&gt;This kit is also an open invitation to hacking the Raspberry Pi's GPIO connector and learning basic electronics, perhaps starting with the lighting circuit itself: the printed circuit board is designed so that it's easy to go from a circuit built on a &lt;a href="/small-clear-breadboard"&gt;half-size breadboard&lt;/a&gt; to a permanent circuit, ready to be stacked above a Raspberry Pi (Model A or B with mounting holes).&lt;/p&gt;
+
+&lt;h2&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PCB: 'Mean Crafty Pi Monster' permanent prototyping board&lt;/li&gt;
+&lt;li&gt;LED1-2: 10mm diffused LED&lt;/li&gt;
+&lt;li&gt;PD1: 10K ohm resistor (part # CF14JT10K0)&lt;/li&gt;
+&lt;li&gt;BR1: 100 ohm resistor (part # CF14JT100RTR)&lt;/li&gt;
+&lt;li&gt;LR1: 100 ohm resistor (part # CF14JT100RTR)&lt;/li&gt;
+&lt;li&gt;SGD: MOSFET N-CHANNEL 60V 200mA (part # 2N7000)&lt;/li&gt;
+&lt;li&gt;LED_CTRL: 0.1" pin header (3 positions)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This kit also includes the following connectors and fasteners:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3x female / female jumper wires to connect the backlight circuit to the &lt;a href="http://elinux.org/RPi_Low-level_peripherals"&gt;Raspberry Pi's GPIO connector&lt;/a&gt;. The jumper wires will be of three different colors, typically red (3v3), black (GND) and yellow/blue/green (PWM).&lt;/li&gt;
+&lt;li&gt;2x 1" hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;2x 1/4" hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;2x 1/4" screws&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Assembly Directions and Time&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LED 1 &amp;amp; 2: align the LED lens against the edge of the PCB. Ensure that the shortest leg of the LED is on the side of the hole with a square shape (LED cathode indicator). Using a permanent marker, make a line on the LED's leads where the leads align with the soldering holes in the PCB. Gently bend the LED's leads downward at a 90 degree angle. The LED should now be ready to be inserted into the PCB with its shortest lead going into the square-shaped hole.&lt;/li&gt;
+&lt;li&gt;LED_CTRL: the 0.1" pin header should be inserted on the bottom of the board, with the long portion of the pins pointing downward.&lt;/li&gt;
+&lt;li&gt;Connect the female / female jumper wires as follows:
+&lt;ul&gt;
+&lt;li&gt;red (3v3) -&gt; GPIO pin #1 (first from the left on the bottom row)&lt;/li&gt;
+&lt;li&gt;black (GND) -&gt; GPIO pin #6 (third from the left on the top row)&lt;/li&gt;
+&lt;li&gt;yellow/blue/green (PWM) -&gt; GPIO 18 (GPIO 18 is pin 12 on the GPIO connector, 6th pin from the left on the top row of the connector)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Standoffs: add or remove the 1/4" standoffs as needed to align the LEDs with the eyes of the face plate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For best results:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use a 30 Watt soldering iron&lt;/li&gt;
+&lt;li&gt;Use a fine soldering iron tip&lt;/li&gt;
+&lt;li&gt;Use fine rosin-core solder (0.022")&lt;/li&gt;
+&lt;li&gt;Use masking tape to hold parts in place as needed while soldering&lt;/li&gt;
+&lt;li&gt;Assembly time is about 5 minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Sample Code&lt;/h2&gt;
+
+&lt;p&gt;Pulses the Raspberry Pi's GPIO # 18 (PWM0) with a breathing effect.&lt;/p&gt;
+
+&lt;p&gt;To use this sample:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href="https://github.com/WiringPi/WiringPi"&gt;wiringPi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download and uncompress the &lt;a href="/Media/Default/Sample/mcpm/mcpm.zip"&gt;mcpm.zip&lt;/a&gt; archive to your Raspberry Pi&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+wget nwazet.com/Media/Default/Sample/mcpm/mcpm.zip
+unzip mcpm.zip
+&lt;/pre&gt;
+
+&lt;p&gt;You can either compile the code by typing 'make' or you can simply use the 'mcpm' binary that's including in 'mcpm.zip' by making it executable.&lt;/p&gt;
+
+&lt;pre&gt;
+chmod +x mcpm
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;As root (or using sudo), run './mcpm&amp;amp;' from the shell and enjoy the pretty lights ;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Auto-starting the creeper head lights on boot&lt;/h2&gt;
+
+&lt;p&gt;If you want the creeper to light up automatically when the Raspberry Pi boots up, follow these directions. It is assumed that you're running as 'root' or use 'sudo' as needed.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create the auto-start script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+nano /etc/init.d/mcpm.sh
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Paste the script below in the editor and save it. The script assumes that 'mcpm' was compiled in the '/home' folder. Adjust the auto-start script according to the actual location of the executable if it's not in '/home'.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+#! /bin/sh
+# /etc/init.d/mcpm.sh
+# http://wiki.debian.org/LSBInitScripts
+
+### BEGIN INIT INFO
+# Provides:          mcpm
+# Required-Start:    $local_fs $syslog
+# Required-Stop:     $local_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Basic startup &amp; shutdown script
+# Description:       Starts and stops an application on boot &amp; shutdown
+### END INIT INFO
+
+# Commands listed below will always run
+
+# System command handler
+case "$1" in
+  start)
+    # start the application
+    echo "Head case lights on"
+    /home/mcpm&amp;
+    ;;
+  stop)
+    # stop the application
+    echo "Head case lights off"
+    killall mcpm
+    ;;
+  help)
+    echo "Usage: /etc/init.d/mcpm.sh {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make the script executable and test the commands&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+chmod +x /etc/init.d/mcpm.sh
+/etc/init.d/mcpm.sh help
+/etc/init.d/mcpm.sh start
+/etc/init.d/mcpm.sh stop
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add mcpm.sh to the list of programs to start on boot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+update-rc.d mcpm.sh defaults
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you want to remove it from the list of programs to start on boot, do:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+update-rc.d mcpm.sh remove
+&lt;/pre&gt;
+
+&lt;p&gt;That's it! Now, the head lights will turn on and glow as soon as the Raspberry Pi boots up :)&lt;/p&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/pi-headcase"&gt;Nwazet Pi Head Case Series&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 04 Mar 2013 08:32:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-mcmonster</guid></item></channel></rss>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Data Acquisition</title><link>http://nwazet.com:80/product/data-acquisition</link><description>Data Acquisition</description><item><title>Raspberry Pi Infrared Camera</title><link>http://nwazet.com:80/pi-camera</link><description>&lt;p&gt;If the Raspberry Pi was a revolution in the way we design microcontroller projects and embedded systems, its camera has similar potential. This is no mere MJPEG, serial, or even USB camera like those that until now were in projects requiring photo or video capabilities. With its specialized CSI connector on the Raspberry Pi, and its uncompromising design, it redefines what it is possible to do on such an inexpensive setup.&lt;/p&gt;
+
+&lt;p&gt;The Raspberry Pi Camera can shoot 1080p30 true high definition video, as well as 5 megapixel static images.&lt;/p&gt;
+
+&lt;p&gt;It is fully supported by all recent distributions of Linux for the Raspberry Pi, making it easy to shoot photos and videos from the command-line, or from your own programs. &lt;a href="https://itunes.apple.com/gb/app/berrycam/id687071023"&gt;Mobile applications&lt;/a&gt; exist that enable control of the camera from a phone. Standard Linux image processing libraries can be used to &lt;a href="http://thinkrpi.wordpress.com/2013/05/22/opencv-and-camera-board-csi/"&gt;enable facial recognition&lt;/a&gt;, and other amazing applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;25mm x 20mm x 9mm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Video resolutions: 1080p30, 720p60, 640x480p60, 640x480p90&lt;/li&gt;
+&lt;li&gt;Photo resolution: 2592 x 1944 (5 megapixels)&lt;/li&gt;
+&lt;li&gt;Pi NoIR: no IR filter, includes blue filter&lt;/li&gt;
+&lt;li&gt;CSI bus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/wp-content/uploads/2013/07/RaspiCam-Documentation.pdf"&gt;Documentation for the camera can be downloaded from the Raspberry Pi Foundation's web site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/archives/tag/pi-noir"&gt;Pi NoIR blog post on the Raspberry Pi Foundation site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.raspberrypi.org/archives/5672"&gt;Python interface for the Raspberry Pi camera&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://infragram.org/"&gt;Infrared image processing &amp;amp; software/&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 10 Sep 2013 00:39:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-camera</guid></item><item><title>Nwazet Key Lime Pi Wire Scorpion Kit</title><link>http://nwazet.com:80/pi-wirescorpion</link><description>&lt;p&gt;The 'Pi Wire Scorpion' kit is designed to provide a practical enclosure for &lt;a href="/pi-keylime"&gt;our 'Nwazet Key Lime Pi' breakout board&lt;/a&gt; (included). Use it as you build your project or as part of a final installation: it will do a great job at securing wires in place thanks to nine built-in zip-tie cutouts. The 'Pi Wire Scorpion' kit accommodates all the features of the &lt;a href="/pi-keylime"&gt;'Nwazet Key Lime Pi'&lt;/a&gt;, works well with right-angle and straight pin headers and includes all the essential cables and connectors needed to complete your project quickly and neatly and &lt;a href="http://nwazet.com/jumper-wires-mm-6inch"&gt;your choice of premium jumper wires&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1x 'Key Lime Pi' kit&lt;/li&gt;
+&lt;li&gt;2x 'Pi Wire Scorpion' plates (Fluorescent green)&lt;/li&gt;
+&lt;li&gt;1x Raspberry Pi GPIO cable&lt;/li&gt;
+&lt;li&gt;1x JST-PH power cable&lt;/li&gt;
+&lt;li&gt;1x JST-PH power connector&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nwazet.com/jumper-wires-mm-6inch"&gt;40x Premium jumper wires&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;8x 4" x 0.10" zip ties&lt;/li&gt;
+&lt;li&gt;4x rubber feet&lt;/li&gt;
+&lt;li&gt;3x short black screws (bottom plate)&lt;/li&gt;
+&lt;li&gt;3x long black screws (top plate)&lt;/li&gt;
+&lt;li&gt;3x hex F/F standoffs (Key Lime Pi breakout support, bottom plate)&lt;/li&gt;
+&lt;li&gt;3x round spacers (top plate support)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Board dimensions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Width: 6cm (2.36")&lt;/li&gt;
+&lt;li&gt;Length: 8.8cm (3.46")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Mouting holes&lt;/h2&gt;
+
+&lt;p&gt;The following distances are expressed from center to center of the mounting holes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Width: 4.75cm (1.87")&lt;/li&gt;
+&lt;li&gt;Length: 7.50cm (2.95")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Assembly time&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~5 minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/connectors"&gt;Connectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/fasteners"&gt;Fasteners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/module"&gt;Modules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 21 Mar 2013 02:26:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-wirescorpion</guid></item><item><title>Nwazet Key Lime Pi: GPIO - Analog - FTDI - Power</title><link>http://nwazet.com:80/pi-keylime</link><description>&lt;p&gt;GPIO, analog inputs, FTDI serial connector and external power? Oh My!&lt;/p&gt;
+
+&lt;p&gt;The 'Key Lime Pi' kit breaks out the &lt;a href="/raspberry-pi"&gt;Raspberry Pi&lt;/a&gt;'s GPIO connector, adds &lt;a href="/mcp3008-10bit-adc"&gt;eight 10-bit analog inputs&lt;/a&gt;, converts the Pi's serial interface into a &lt;a href="http://www.ftdichip.com/Products/Cables/USBTTLSerial.htm"&gt;standard FTDI connector&lt;/a&gt; and allows for external power headers to be added if desired (&lt;a href="/40-pin-headers-straight-set-of-3"&gt;standard 0.1" pin headers&lt;/a&gt; and &lt;a href="/jst-ph-connector"&gt;JST-PH vertical header&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Analog readings are as fast and accurate as possible, thanks to the Pi's SPI interface (hardwired to CE0), a proper ground plane and a stabilized ADC power supply. If more than eight analog inputs are needed for a project, chaining to another 'Nwazet Key Lime Pi' board is possible by interconnecting the GND, MOSI, MISO, SCLK and CE1 lines with jumper wires.&lt;/p&gt;
+
+&lt;p&gt;For prototyping, the 'Key Lime Pi' board maximizes the real-estate available on &lt;a href="/small-clear-breadboard"&gt;small breadboards&lt;/a&gt; by hugging the center divider, leaving four rows out of five available for &lt;a href="/jumper-wires-mm-6inch"&gt;wiring&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For embedding a project into a permanent fixture, the board features three &lt;a href="/product/mounting-solution"&gt;mounting holes, placed on a standard 5mm grid&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Also, check out our '&lt;a href="http://nwazet.com/pi-wirescorpion"&gt;Key Lime Pi Wire Scorpion&lt;/a&gt;' for a turn-key mounting solution for this board.&lt;/p&gt;
+
+&lt;h2&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1x Nwazet Key Lime Pi PCB&lt;/li&gt;
+&lt;li&gt;1x 16 position DIL IC socket (649-DILB16P-223TLF)&lt;/li&gt;
+&lt;li&gt;1x 8 channel SPI ADC (MCP3008)&lt;/li&gt;
+&lt;li&gt;1x 1uF 10V ceramic capacitor (FK18X5R1A105K)&lt;/li&gt;
+&lt;li&gt;2x 0.1" pin header (40 pins)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Assembly Directions and Time&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;PCB Designator&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C1: ceramic capacitor&lt;/li&gt;
+&lt;li&gt;MCP3008: IC socket / ADC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For best results&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use a 30 Watt soldering iron&lt;/li&gt;
+&lt;li&gt;Use a fine soldering iron tip&lt;/li&gt;
+&lt;li&gt;Use fine rosin-core solder (0.022")&lt;/li&gt;
+&lt;li&gt;Use masking tape to hold parts in place as needed while soldering&lt;/li&gt;
+&lt;li&gt;Assembly time is around 15 minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;PCB Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Height: 38mm (1.49")&lt;/li&gt;
+&lt;li&gt;Width: 85mm (3.34")&lt;/li&gt;
+&lt;li&gt;Material: FR4&lt;/li&gt;
+&lt;li&gt;Thickness: 1.57mm (0.062")&lt;/li&gt;
+&lt;li&gt;Plating Finish: ENIG&lt;/li&gt;
+&lt;li&gt;Copper Weight: 2oz&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Sample Code&lt;/h2&gt;
+
+&lt;p&gt;See &lt;a href="/sample/tmp36.py"&gt;tmp36.py&lt;/a&gt; for a Python sample using the Key Lime Pi's ADC to read temperature data from a &lt;a href="http://www.analog.com/static/imported-files/data_sheets/TMP35_36_37.pdf"&gt;TMP36 analog sensor&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nwazet.com/pi-wirescorpion"&gt;Key Lime Pi Wire Scorpion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/mounting-solution"&gt;Cases &amp;amp; Plates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/connectors"&gt;Connectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/fasteners"&gt;Fasteners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/sensors"&gt;Sensors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 27 Feb 2013 06:15:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-keylime</guid></item><item><title>8-Channel 10-Bit Analog to Digital Converter</title><link>http://nwazet.com:80/mcp3008-10bit-adc</link><description>&lt;p&gt;The Raspberry Pi is a great computer but there's just one thing that most hardware hackers will find missing: a few inputs for connecting analog sensors. This is where this handy chip comes in with eight 10-bit channels accessible over SPI. Thanks to the Raspberry Pi's SPI interfaces and its two 'Chip Select' pins available off of the main GPIO connector, the problem is solved.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;10-bit resolution&lt;/li&gt;
+&lt;li&gt;± 1 LSB max DNL&lt;/li&gt;
+&lt;li&gt;± 1 LSB max INL &lt;/li&gt;
+&lt;li&gt;8 input channels&lt;/li&gt;
+&lt;li&gt;Analog inputs programmable as single-ended or pseudo-differential pairs&lt;/li&gt;
+&lt;li&gt;On-chip sample and hold&lt;/li&gt;
+&lt;li&gt;SPI serial interface (modes 0,0 and 1,1)&lt;/li&gt;
+&lt;li&gt;Single supply operation: 2.7V - 5.5V&lt;/li&gt;
+&lt;li&gt;200 ksps max. sampling rate at VDD=5V&lt;/li&gt;
+&lt;li&gt;75 ksps max. sampling rate at VDD=2.7V&lt;/li&gt;
+&lt;li&gt;Low power CMOS technology&lt;/li&gt;
+&lt;li&gt;5 nA typical standby current, 2 µA max.&lt;/li&gt;
+&lt;li&gt;500 µA max. active current at 5V&lt;/li&gt;
+&lt;li&gt;Industrial temp range: -40°C to +85°C &lt;/li&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Datasheets/MCP3008.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Applications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sensor Interface&lt;/li&gt;
+&lt;li&gt;Process Control&lt;/li&gt;
+&lt;li&gt;Data Acquisition&lt;/li&gt;
+&lt;li&gt;Battery Operated Systems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;How-To&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The following sample assumes that you're running the latest official &lt;a href="/os"&gt;Raspbian distribution&lt;/a&gt;, that you're logged in as root and that you haven't yet customized Raspbian to use SPI from a Python script. By default, the kernel module managing SPI communications is not loaded on Raspbian, so let's ensure that the 'spidev' device is available.&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# lsmod
+Module                  Size  Used by
+snd_bcm2835            12808  0
+snd_pcm                74834  1 snd_bcm2835
+snd_seq                52536  0
+snd_timer              19698  2 snd_seq,snd_pcm
+snd_seq_device          6300  1 snd_seq
+snd                    52489  5 snd_seq_device,snd_timer,snd_seq,snd_pcm,snd_bcm2835
+snd_page_alloc          4951  1 snd_pcm
+&lt;/pre&gt;
+
+&lt;p&gt;If 'spidev' device is not listed, we need to remove it from the kernel module 'blacklist' so that it's automatically loaded on the next boot:&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# nano /etc/modprobe.d/raspi-blacklist.conf
+&lt;/pre&gt;
+
+&lt;p&gt;Put a hash character in front of the 'blacklist spi-bcm2708' statement and save the file:&lt;/p&gt;
+
+&lt;pre&gt;
+#blacklist spi-bcm2708
+&lt;/pre&gt;
+
+&lt;p&gt;then, manually load the SPI device:&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# modprobe spidev
+&lt;/pre&gt;
+
+&lt;p&gt;The command should just complete without returning an error. Validate the list of modules:&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# lsmod
+Module                  Size  Used by
+spi_bcm2708             4401  0
+spidev                  5136  0
+snd_bcm2835            12808  0
+snd_pcm                74834  1 snd_bcm2835
+snd_seq                52536  0
+snd_timer              19698  2 snd_seq,snd_pcm
+snd_seq_device          6300  1 snd_seq
+snd                    52489  5 snd_seq_device,snd_timer,snd_seq,snd_pcm,snd_bcm2835
+snd_page_alloc          4951  1 snd_pcm
+&lt;/pre&gt;
+
+&lt;p&gt;The 'spidev' device should now be available.&lt;/p&gt;
+
+&lt;p&gt;Next, install the 'git' package. It will be needed to install other packages from Github.&lt;/p&gt;
+
+&lt;pre&gt;
+apt-get install git-core
+&lt;/pre&gt;
+
+&lt;p&gt;Install the 'python-dev' package. It will be needed to compile the 'py-spidev' package.&lt;/p&gt;
+
+&lt;pre&gt;
+apt-get install python-dev
+&lt;/pre&gt;
+
+&lt;p&gt;Download and compile the '&lt;a href="https://github.com/doceme/py-spidev"&gt;py-spidev&lt;/a&gt;' package.&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/# cd /home
+root@raspberrypi:/home# git clone git://github.com/doceme/py-spidev
+root@raspberrypi:/home# cd py-spidev/
+root@raspberrypi:/home# python setup.py install
+&lt;/pre&gt;
+
+&lt;p&gt;At this point, SPI is available from Python 2.7. Assuming that you have wired the MCP3008 to the &lt;a href="http://elinux.org/RPi_Low-level_peripherals"&gt;Raspberry Pi's SPI bus using CE0&lt;/a&gt; as the 'chip select' pin, you can read all eight analog inputs using the following Python script.&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/home# nano adc.py
+&lt;/pre&gt;
+
+&lt;p&gt;Paste the script below in the editor and save it.&lt;/p&gt;
+
+&lt;pre&gt;
+import spidev
+import time
+
+spi = spidev.SpiDev()
+spi.open(0,0)
+
+# read SPI data from MCP3008 chip, 8 possible adc's (0 thru 7)
+def readadc(adcnum):
+        if ((adcnum &gt; 7) or (adcnum &lt; 0)):
+                return -1
+        r = spi.xfer2([1,(8+adcnum)&lt;&lt;4,0])
+        adcout = ((r[1]&amp;3) &lt;&lt; 8) + r[2]
+        return adcout
+
+while True:
+        for adcInput in range(0,8):
+                print "ADC(", adcInput,")=", readadc(adcInput)
+        time.sleep(1)
+&lt;/pre&gt;
+
+&lt;p&gt;To execute the script&lt;/p&gt;
+
+&lt;pre&gt;
+root@raspberrypi:/home# python adc.py
+&lt;/pre&gt;
+
+&lt;p&gt;Sample output using a 10K Ohm trimpot connected to the ADC's pin 3 and all other pins pulled down to ground using a 10k resistor.&lt;/p&gt;
+
+&lt;pre&gt;
+ADC( 0 )= 0
+ADC( 1 )= 0
+ADC( 2 )= 0
+ADC( 3 )= 507
+ADC( 4 )= 0
+ADC( 5 )= 0
+ADC( 6 )= 0
+ADC( 7 )= 0
+&lt;/pre&gt;
+
+&lt;p&gt;Credits go to &lt;a href="http://jeremyblythe.blogspot.co.uk/2012/09/raspberry-pi-hardware-spi-analog-inputs.html"&gt;Jeremy&lt;/a&gt; for his work on the 'py-spidev' Python module which makes working with the MCP3008 straight forward. Alternatively, checkout &lt;a href="https://projects.drogon.net/raspberry-pi/wiringpi/spi-library/"&gt;wiringPi's SPI&lt;/a&gt; functions if you prefer using a 'C' API.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Related Tutorials &amp;amp; Samples&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nwazet: &lt;a href="http://nwazet.com/code/loading-i2c-spi-and-1-wire-drivers-on-the-raspberry-pi-under-raspbian-wheezy"&gt;Loading I2C, SPI and 1-Wire drivers on the Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jeremyblythe.blogspot.co.uk/2012/09/raspberry-pi-hardware-spi-analog-inputs.html"&gt;Jeremy's Blog: Raspberry Pi hardware SPI analog inputs using the MCP3008&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://projects.drogon.net/raspberry-pi/wiringpi/"&gt;wiringPi 'C' API for interfacing with SPI, I2C, GPIOs and more&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Adafruit Learning System
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://learn.adafruit.com/send-raspberry-pi-data-to-cosm/overview"&gt;Save and Graph Analog Temperature Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://learn.adafruit.com/reading-a-analog-in-and-controlling-audio-volume-with-the-raspberry-pi/overview"&gt;Converting analog inputs to digital and control audio volume&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/small-clear-breadboard"&gt;Small Clear Breadboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-gpio-ribbon"&gt;GPIO Ribbon Cable for Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/jumper-wires-mm-6inch"&gt;Jumper Wires Premium M/M 6" (10 pack)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Fri, 04 Jan 2013 05:36:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/mcp3008-10bit-adc</guid></item><item><title>Nwazet Data Acquisition Module</title><link>http://nwazet.com:80/data-acquisition-module</link><description>&lt;p&gt;Our Data Acquisition module (DAQ for short) is designed for Netduino Go! users looking for a &lt;strong&gt;simple, cost-effective&lt;/strong&gt; platform for integrating &lt;strong&gt;analog and digital I/Os, off-the-shelf I2C sensors, time tracking, SDHC storage (up to 16GB) and serial communications&lt;/strong&gt; to their projects. 
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;Nwazet DAQ Module vs. Shield Base | Buyer's Guide&lt;/h2&gt;
+
+&lt;p&gt;Since the release of the DAQ module, we have received multiple requests to &lt;a href="/Media/Default/Datasheets/DAQvsSB-BuyerGuide.pdf"&gt;"compare and contrast"&lt;/a&gt; the DAQ's features with the Shield Base module produced by Secret Labs. You can find the comparison sheet &lt;a href="/Media/Default/Datasheets/DAQvsSB-BuyerGuide.pdf"&gt;here&lt;/a&gt; and we hope that it clarifies any confusion that may have existed between the two products.&lt;/p&gt;
+
+&lt;h2&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;When we set out to design the DAQ module 5 months ago, we put a great deal of thought into the real-world scenarios shared by our customers when Netduino Go! launched and how many wanted to apply the power of the .Net Micro Framework in the context of rapid system prototyping, light industrial control systems, home automation, hydroponic growing systems, security systems, UAVs, robots and of course, Internet-connected devices.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;The first design choice we made was to choose an &lt;strong&gt;extremely robust spring-loaded wire connection system&lt;/strong&gt;, providing power, data and ground on every port where they're needed. On ports that are 5v and 3.3v tolerant, both power types are available. Because each wire is held securely in its place with strong springs that can only be released by applying pressure with a very small screwdriver, communications are more reliable and power to sensors and analog devices is more stable than in conventional systems using female pin headers. In addition, our spring-loaded wiring system enabled us to design a smaller and lighter board than would have been possible with screw connectors.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Our second design choice was to enable our customers to &lt;strong&gt;leverage the large array of existing I2C-compliant sensors on the market today&lt;/strong&gt; without having to wait long development cycles for similar Go! modules to be brought to market. To this end, we have partnered with &lt;a href="http://adafruit.com/"&gt;Adafruit&lt;/a&gt; to provide a variety of useful I2C sensors that work 'out-of-the-box' with our DAQ module in order to help you get started quickly with your designs. We are also committed to developing a comprehensive driver library for popular sensors from Adafruit and other vendors over time.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Our third design choice was to place &lt;strong&gt;user-controllable status LEDs on each I/O port of the DAQ module&lt;/strong&gt;, allowing for a simple and effective method of providing user feedback from an application at no additional cost and without consuming the DAQ's digital I/Os for that purpose alone. We also embedded extensive sub-system diagnostics into the DAQ, available on-demand, in plain English through the serial port to help with troubleshooting issues in the field as well as easing the development of custom application drivers.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Our final design choice was to provide a complete, easy to hack system, with &lt;strong&gt;SDHC storage, a real-time clock, optional external power&lt;/strong&gt;, and above all, &lt;strong&gt;capable of being used as a stand-alone 48Mhz ARM-Cortex M0 micro-controller&lt;/strong&gt; programmable in C/C++ using a standard 0.1" JTAG/SWD pin header. In fact, an &lt;a href="http://www.mouser.com/ProductDetail/STMicroelectronics/STM32F0DISCOVERY/?qs=/ha2pyFaduhFl6gZFYbDaOEf/X3Y112%252bUV9XB6DrTGJSqh1tvQuGDkgA/%252bluaDab"&gt;STM32F051 Discovery board&lt;/a&gt;, costing less than $10, was used for its embedded STLink/V2 interface throughout the entire development of the DAQ module firmware.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;We believe that you'll find this module extremely useful in unlocking the full potential of Netduino Go! and building amazing applications right now. We also have a feature road map for the DAQ module and you can expect to see more smart functions, performance improvements and your very own feedback embedded in upcoming versions of the firmware. Last but not least, the DAQ module will be &lt;strong&gt;ready to leverage Go!Bus protocol advancements&lt;/strong&gt; when the time comes.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;C# Software Library&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GPIOs (inputs, outputs, pull-ups, pull-downs, open-drain, push-pull, PWM)&lt;/li&gt;
+&lt;li&gt;PWM timer frequency configuration&lt;/li&gt;
+&lt;li&gt;Analog input sampling with automatic time stamp function&lt;/li&gt;
+&lt;li&gt;Interrupt (rising, falling, both), interrupt count-tracking and roll-over count tracking&lt;/li&gt;
+&lt;li&gt;FAT File system operations&lt;/li&gt;
+&lt;li&gt;I2C communications&lt;/li&gt;
+&lt;li&gt;USART communications (TTL)&lt;/li&gt;
+&lt;li&gt;Real Time clock (date, time, milliseconds, battery-backed)&lt;/li&gt;
+&lt;li&gt;Ability to read / write multiple or a single GPIO with one call&lt;/li&gt;
+&lt;li&gt;Status LED controller&lt;/li&gt;
+&lt;li&gt;System and user configuration registers (battery-backed)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Driver library supporting Adafruit and other I2C sensors&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/tsl2561-digital-luminosity-sensor"&gt;TSL2561 digital luminosity / lux / light&lt;/a&gt; sensor&lt;/li&gt;
+&lt;li&gt;&lt;a href="/bmp085-barometric-pressure-temperature-altitude-sensor"&gt;BMP085 Barometric Pressure/Temperature/Altitude&lt;/a&gt; sensor&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ina219-high-side-dc-current-sensor"&gt;INA219 High Side DC Current Sensor&lt;/a&gt; Breakout&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mouser.com/ProductDetail/Honeywell/HIH-6130-021-001/?qs=sGuegjY%252bjCAASjSn/5yJuAGmUinG3M9p"&gt;Honeywell HIH-6130&lt;/a&gt; temperature and humidity sensor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Documentation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Product/godaq/DAQ-Connectors.png"&gt;Wire connection map&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;A tiny flat-head screwdriver or similar tool is required to release wires from their spring-loaded cage.&lt;/li&gt;
+&lt;li&gt;See &lt;a href="https://bitbucket.org/fabienroyer/nwazet.go"&gt;BOM&lt;/a&gt; for complete specifications.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release notes&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;A battery is required in the battery-holder for the DAQ module to operate properly&lt;/li&gt;
+&lt;li&gt;If the DAQ module is in storage and is not going to be used for an extended period of time, remove the Lithium battery (unless you need to keep track of time) and remove the SD card for the reader.&lt;/li&gt;
+&lt;li&gt;The USART port is configured by default at 115,200 bps.&lt;/li&gt;
+&lt;li&gt;The USART must be explicitly configured by the application before serial data can be read.&lt;/li&gt;
+&lt;li&gt;Digital GPIO D4 is 3v tolerant only: it is internally connected to the ADC / DAC.&lt;/li&gt;
+&lt;li&gt;Digital GPIO D4 cannot be used in "Input Interrupt" mode.&lt;/li&gt;
+&lt;li&gt;Sensirion sensors are not fully I2C compliant and aren't supported in the initial release of the DAQ module firmware.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;First-time boot procedure&lt;/strong&gt; (and required when replacing the real-time clock battery):
+&lt;ol&gt;
+&lt;li&gt;Insert the 3v Lithium battery into the battery holder, positive side up&lt;/li&gt;
+&lt;li&gt;Connect the DAQ to a Netduino Go! socket that is powered&lt;/li&gt;
+&lt;li&gt;Wait for the white LED on the DAQ to turn ON and wait a second&lt;/li&gt;
+&lt;li&gt;Power the Netduino Go! board OFF, then back ON&lt;/li&gt;
+&lt;li&gt;Your DAQ module is now ready to use&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Tutorials and Code snippets&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/00-Boot"&gt;Boot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/01-Time"&gt;Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/02-AnalogInputs"&gt;Analog Inputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/03-DigitalOutputs"&gt;Digital Outputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/04-DigitalInputs"&gt;Digital Inputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/05-DigitalOutputsPWM"&gt;PWM Digital Outputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/06-StorageRegisters"&gt;System and User Storage Registers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/07-DigitalInputInterrupts"&gt;Interrupt Lines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/08-SerialCommunications"&gt;Serial Communications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/09-I2CCommunications"&gt;I2C Communications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/10-FileSystem"&gt;File System&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Cables&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/product/connectors"&gt;We offer cables of various lengths&lt;/a&gt;: be sure to select the one that best fits your project and mounting requirements.&lt;/p&gt;
+
+&lt;h2&gt;Mounting hardware&lt;/h2&gt;
+
+&lt;p&gt;Our &lt;a href="/platem"&gt;medium-size plate&lt;/a&gt; is ready to accommodate the DAQ module&lt;/p&gt;
+
+&lt;h2&gt;SD Card Storage&lt;/h2&gt;
+
+&lt;p&gt;We &lt;a href="/sd4gb"&gt;carry a 4GB SDHC card&lt;/a&gt; which works nicely with the DAQ module.&lt;/p&gt;
+
+&lt;h2&gt;Data Acquisition Module Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1.0 firmware release (September 7, 2012)&lt;/li&gt;
+&lt;li&gt;Go!Bus 1.0 compliant interface&lt;/li&gt;
+&lt;li&gt;Dimensions: 100mm x 80mm x 10.5mm, and 90mm x 70mm hole to hole&lt;/li&gt;
+&lt;li&gt;16 Mhz Go!Bus SPI communication&lt;/li&gt;
+&lt;li&gt;18 spring-loaded wire connectors
+&lt;ul&gt;
+&lt;li&gt;Prevent unintentional disconnections and faulty contacts&lt;/li&gt;
+&lt;li&gt;Wire release requires using a tiny screw driver&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;8 Analog Input connectors
+&lt;ul&gt;
+&lt;li&gt;12-bit precision&lt;/li&gt;
+&lt;li&gt;3.3v-tolerant only&lt;/li&gt;
+&lt;li&gt;Each connector provides a 3.3v power rail, data, and ground connections&lt;/li&gt;
+&lt;li&gt;Internal voltage reference monitor&lt;/li&gt;
+&lt;li&gt;Internal battery voltage monitor&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;8 Digital I/O connectors, configurable as any combination of:
+&lt;ul&gt;
+&lt;li&gt;8 digital inputs&lt;/li&gt;
+&lt;li&gt;8 digital outputs&lt;/li&gt;
+&lt;li&gt;8 PWM outputs&lt;/li&gt;
+&lt;li&gt;7 Interrupt-driven inputs (D0, D1, D2, D3, D5, D6, D7)&lt;/li&gt;
+&lt;li&gt;7 5v tolerant connectors (D0, D1, D2, D3, D5, D6, D7)&lt;/li&gt;
+&lt;li&gt;1 3.3v tolerant-only connector (D4)&lt;/li&gt;
+&lt;li&gt;Each connector provides a 5v power rail, a 3.3v power rail, data and ground connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;I2C port
+&lt;ul&gt;
+&lt;li&gt;Connect multiple I2C sensors on the same bus&lt;/li&gt;
+&lt;li&gt;10, 100 and 400 kHz support&lt;/li&gt;
+&lt;li&gt;Provide SCL, SDA, GND connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;USART port
+&lt;ul&gt;
+&lt;li&gt;RTS / CTS Hardware flow control support&lt;/li&gt;
+&lt;li&gt;Baud rate from 110 baud up to 921600 baud&lt;/li&gt;
+&lt;li&gt;Configured for 115200 baud by default&lt;/li&gt;
+&lt;li&gt;Provide RX, TX, RTS, CTS, GND connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SD card reader
+&lt;ul&gt;
+&lt;li&gt;SDHC cards supported up to 16 GB&lt;/li&gt;
+&lt;li&gt;Embedded FAT12/16/32 file system&lt;/li&gt;
+&lt;li&gt;Short file name (8.3) support only&lt;/li&gt;
+&lt;li&gt;SD card sold separately&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Real Time clock
+&lt;ul&gt;
+&lt;li&gt;32,768 kHz external time-keeping crystal&lt;/li&gt;
+&lt;li&gt;Year, month, day, hour, minute second, millisecond&lt;/li&gt;
+&lt;li&gt;4 user-defined 32-bit configuration registers&lt;/li&gt;
+&lt;li&gt;Battery backed &lt;strong&gt;(CR2016, no longer included as of 07/2014)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;19 red, user-controllable status LEDs
+&lt;ul&gt;
+&lt;li&gt;8 analog input status LEDs&lt;/li&gt;
+&lt;li&gt;8 GPIO status LEDs&lt;/li&gt;
+&lt;li&gt;1 SD card reader status LED&lt;/li&gt;
+&lt;li&gt;1 USART status LED &lt;/li&gt;
+&lt;li&gt;1 I2C status LED&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Built-in system diagnostics
+&lt;ul&gt;
+&lt;li&gt;User-configurable output to serial port&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Optional 0.1" power pin headers (5v, 3.3v, GND)&lt;/li&gt;
+&lt;li&gt;Optional 0.1" JTAG/SWD pin headers&lt;/li&gt;
+&lt;li&gt;MCU
+&lt;ul&gt;
+&lt;li&gt;ARM Cortex-M0 (&lt;a href="http://www.st.com/internet/mcu/product/251901.jsp"&gt;STM32F051R8T6&lt;/a&gt;) clocked @ 48 Mhz&lt;/li&gt;
+&lt;li&gt;16 Mhz external crystal for precise PWM, USART, I2C timing&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;OSHW design&lt;/li&gt;
+&lt;li&gt;OSS C# drivers &lt;/li&gt;
+&lt;li&gt;OSS C firmware (built with &lt;a href="http://www.iar.com/en/Products/IAR-Embedded-Workbench/"&gt;IAR Systems Workbench&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Downloads and Code Samples&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Sample code, drivers and schematics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 03 Jan 2013 08:45:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/data-acquisition-module</guid></item><item><title>Adafruit INA219 High Side DC Current Sensor</title><link>http://nwazet.com:80/ina219-high-side-dc-current-sensor</link><description>&lt;p&gt;This breakout board will solve all your power-monitoring problems. Instead of struggling with two multimeters, you can just use the handy INA219B chip on this breakout to both measure both the high side voltage and DC current draw over I2C with 1% precision. &lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;Most current-measuring devices such as our current panel meter are only good for low side measuring. That means that unless you want to get a battery involved, you have to stick the measurement resistor between the target ground and true ground. This can cause problems with circuits since electronics tend to not like it when the ground references change and move with varying current draw. This chip is much smarter and can handle high side current measuring, up to +26VDC, even though it is powered with 3.3v (Netduino / Nwazet DAQ module). It will also report back that high side voltage, which is great for tracking battery life or solar panels. &lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;A precision amplifier measures the voltage across the 0.1 ohm, 1% sense resistor. Since the amplifier maximum input difference is ±320mV, this means that it can measure up to ±3.2 Amps. With the internal 12 bit ADC, the resolution at ±3.2A range is 0.8mA. With the internal gain set at the minimum of div8, the max current is ±400mA and the resolution is 0.1mA. Advanced hackers can remove the 0.1 ohm current sense resistor and replace it with their own to change the range (say a 0.01 ohm to measure up 32 Amps with a resolution of 8mA).&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;A 6-pin header is included so you can easily attach this sensor to a breadboard as well as a 3.5mm terminal plug so you can easily attach and detach your load.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;Usage is simple: power the sensor itself with 3.3v and connect the two I2C pins up to your &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt;. Then connect your target power supply to VIN+ and the load to ground to VIN-.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/datasheets/ina219.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.adafruit.com/product/904"&gt;Sensor breakout board&lt;/a&gt; manufactured by Adafruit Industries&lt;/li&gt;
+&lt;li&gt;Uses the INA219B chip, see datasheet for detailed specifications&lt;/li&gt;
+&lt;li&gt;0.1 ohm 1% 2W current sense resistor&lt;/li&gt;
+&lt;li&gt;Up to +26V target voltage&lt;/li&gt;
+&lt;li&gt;Up to ±3.2A current measurement, with ±0.8mA resolution&lt;/li&gt;
+&lt;li&gt;0.9" x 0.8" PCB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C# driver&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrates seamlessly with the &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt; for Netduino Go!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Nwazet.GO / Samples / DAQmodule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 08 Sep 2012 05:43:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/ina219-high-side-dc-current-sensor</guid></item></channel></rss>

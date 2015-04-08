@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Designed by Komodex</title><link>http://nwazet.com:80/komodex</link><description>Designed by Komodex</description><item><title>Nwazet Go Pro Upgrade Kit</title><link>http://nwazet.com:80/prokit</link><description>&lt;p&gt;Get serious building solutions on the .Net Micro Framework with this superb kit! Be proud to showcase your work, presenting an image of quality from concept to finished product: your work deserves the polish of our black acrylic plates, laser-cut to exquisite precision around the best Netduino Go modules available today. All you need to bring is your own Netduino Go (the Netduino Go microcontroller is &lt;em&gt;not&lt;/em&gt; included in this kit).&lt;/p&gt;
+
+&lt;h3&gt;Composition&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href="/touch-display-module"&gt;Touch Screen&lt;/a&gt; will take complex user input and will display rich graphical feedback.&lt;br&gt;
+The &lt;a href="/seven-segment-display"&gt;7-segment&lt;/a&gt; module will show essential numeric data that must be visible at a glance.&lt;br&gt;
+The &lt;a href="/data-acquisition-module"&gt;Data Acquisition module&lt;/a&gt; will handle high volume inputs and outputs, serial communications, sensors, data storage and time.&lt;br&gt;
+The &lt;a href="/potentiometer"&gt;potentiometer&lt;/a&gt; is equipped with a &lt;a href="/black-dome-metal-knob"&gt;heavy metal knob&lt;/a&gt; providing a very satisfying user feedback and blending perfectly with the look and feel of the kit.&lt;br&gt;
+A powerful &lt;a href="/netduinogo"&gt;Netduino Go&lt;/a&gt; (&lt;em&gt;not&lt;/em&gt; included), juiced by our USB power supply, orchestrates your show.&lt;/p&gt;
+
+&lt;h3&gt;Prototyping&lt;/h3&gt;
+
+&lt;p&gt;The black acrylic plates feature two main prototyping areas, ready to receive &lt;a href="/small-clear-breadboard"&gt;two breadboards&lt;/a&gt; (included in the kit). Additionally, a third mini breadboard can be placed between the DAQ module connectors.&lt;br&gt;
+The kit includes two clear auto-adhesive breadboards, each providing two power rails and 400 connection points. The kit also includes &lt;a href="/jumper-wires-mm-6inch"&gt;forty 6" M/M premium jumper wires&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Value&lt;/h3&gt;
+
+&lt;p&gt;If you wanted to put this exact kit together yourself, you'd have to spend over $250.&lt;br&gt;
+By carefully selecting our parts and designing for manufacturing, we were able to offer it for $199. Our hope is that you'll invest the difference in building your next idea with us :)&lt;/p&gt;
+
+&lt;h3&gt;Assembly Instructions&lt;/h3&gt;
+
+&lt;p&gt;To assemble your kit, please follow &lt;a href="/prokitassembly"&gt;these detailed instructions&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Mon, 08 Oct 2012 07:46:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/prokit</guid></item><item><title>Komodex Seven Segment Display Module</title><link>http://nwazet.com:80/seven-segment-display</link><description>&lt;p&gt;Looking for a fast, easy way to display numeric data from your &lt;a href="/netduinogo"&gt;Netduino Go&lt;/a&gt;? This module features four white digits, a colon, and an apostrophe in the top right.It can be used to display sensor readings, temperatures, or even the current time. Be sure to check out Matt Isenhower's outstanding &lt;a href="http://komodex.com/blog/2012/07/getting-started-with-the-seven-segment-display-module/"&gt;'Getting Started' tutorial&lt;/a&gt; for his seven segment display module.&lt;/p&gt;
+
+&lt;h2&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Four digits&lt;/strong&gt;: display any number from 0-9999&lt;br&gt;
+&lt;strong&gt;Dimmable&lt;/strong&gt;: 1,024 levels of brightness&lt;br&gt;
+&lt;strong&gt;Custom characters&lt;/strong&gt;: each digit can be set to a custom value, allowing you to turn individual LEDs on or off&lt;br&gt;
+&lt;strong&gt;Colon&lt;/strong&gt;: a colon in the middle of the display can be turned on for use as a clock or stopwatch&lt;br&gt;
+&lt;strong&gt;Apostrophe&lt;/strong&gt;: an apostrophe in the top right of the display can be used as a secondary indicator, a degree symbol for temperature readings, etc.&lt;br&gt;
+&lt;strong&gt;Fully Go! Bus compliant&lt;/strong&gt;: simply plug it in to your Netduino Go and install the easy-to-use drivers to get started&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dimensions (WxHxD): 67mm x 32mm x 9mm&lt;/li&gt;
+&lt;li&gt;Mounting holes: four holes on a 5mm grid&lt;/li&gt;
+&lt;li&gt;Digit size: 10mm tall&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://komodex.com/labs/downloads"&gt;Schematics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://komodex.com/labs/downloads"&gt;Module drivers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://komodex.com/labs/downloads"&gt;Source Code and examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://komodex.com/labs/products/seven-segment-display"&gt;More information&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/product/connectors"&gt;We offer cables of various lengths&lt;/a&gt;: be sure to select the one that best fits your project and mounting requirements.&lt;/li&gt;
+&lt;li&gt;&lt;a href="/standoffaluff"&gt;Standoff Aluminium F/F 4-40 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/standoffalumf"&gt;Standoff Aluminium M/F 4-40 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/spaceralu"&gt;Spacer Aluminium 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nylonstandoff"&gt;Standoff Nylon F/F 4-40 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/rubber-feet"&gt;Adhesive Rubber Feet 4-pack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Tue, 14 Aug 2012 01:05:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/seven-segment-display</guid></item></channel></rss>

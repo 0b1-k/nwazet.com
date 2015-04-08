@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Open Source Hardware</title><link>http://nwazet.com:80/osh</link><description>Open Source Hardware</description><item><title>Adafruit MicroSD Card Adapter For Raspberry Pi</title><link>http://nwazet.com:80/pi-microsd-adapter</link><description>&lt;p&gt;With this microSD card adapter, you can help protect your Raspberry Pi from accidental damage to the SD card port and from file system corruptions caused by knocking the protruding SD card. &lt;/p&gt;
+
+&lt;p&gt;The adapter snaps into the Raspberry Pi's SD card slot, but only takes the space of half a card. Insert a micro-SD into it, and get a more compact and safer system.  The micro-SD is easily extracted by pushing on it a second time. &lt;/p&gt;
+
+&lt;p&gt;Please be aware that this adapter will not fit into most Raspberry Pi cases.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Compatible with any micro-SD card&lt;/li&gt;
+&lt;li&gt;Protrudes 3mm from the edge of the Raspberry Pi&lt;/li&gt;
+&lt;li&gt;5mm thick (clearance from the bottom of the Pi's PCB)&lt;/li&gt;
+&lt;li&gt;A micro-SD card is &lt;em&gt;not included&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Oct 2013 02:10:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-microsd-adapter</guid></item><item><title>Google CODER Jetpack for Raspberry Pi</title><link>http://nwazet.com:80/google-coder</link><description>&lt;p&gt;&lt;a href="http://googlecreativelab.github.io/coder/"&gt;Google Coder&lt;/a&gt; is a Free Open Source package designed to turn a &lt;a href="http://www.raspberrypi.org/faqs"&gt;Raspberry Pi&lt;/a&gt; computer into a simple, tiny, personal web server and web-based development environment. It's just what you need for crafting &lt;a href="http://www.w3schools.com/html/"&gt;HTML&lt;/a&gt;, &lt;a href="http://www.w3schools.com/css/default.asp"&gt;CSS&lt;/a&gt;, and &lt;a href="http://www.w3schools.com/js/default.asp"&gt;Javascript&lt;/a&gt; while you’re learning to code.&lt;/p&gt;
+
+&lt;p&gt;There are a ton of resources for learning &lt;a href="http://www.w3schools.com/html/"&gt;HTML&lt;/a&gt;, &lt;a href="http://www.w3schools.com/css/default.asp"&gt;CSS&lt;/a&gt;, and &lt;a href="http://www.w3schools.com/js/default.asp"&gt;Javascript&lt;/a&gt;: &lt;a href="http://www.codecademy.com/"&gt;Codecademy&lt;/a&gt; and &lt;a href="https://www.khanacademy.org/cs/programming"&gt;Khan Academy&lt;/a&gt;, to name two—and you can use Coder to accompany this instruction as you experiment with making your own programs. When you're ready to get started, read through the included Hello Coder application to acquaint yourself with how a Coder program works.&lt;/p&gt;
+
+&lt;p&gt;For those new to coding for the web, it’s a private platform for building web programs. If you’re already a web programmer, Coder can also be a fun sandbox for experimenting with new ideas, or making demos for other people to learn from.&lt;/p&gt;
+
+&lt;iframe width="590" height="332" src="//www.youtube.com/embed/wH24YwdayFg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3&gt;What's in the Nwazet Google CODER Jetpack?&lt;/h3&gt;
+
+&lt;p&gt;The Nwazet Google CODER Jetpack is &lt;strong&gt;pre-assembled and ready to go out-of-the-box with zero configuration required&lt;/strong&gt;. Just plug it into your network, add power and get coding!&lt;/p&gt;
+
+&lt;p&gt;The Jetpack includes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1x Raspberry Pi Model B&lt;/li&gt;
+&lt;li&gt;1x Nwazet MiniTux Case, stylish Green or
+Black design&lt;/li&gt;
+&lt;li&gt;1x SanDisk 8 GB Class 10  SD Card with Google CODER v4
+pre-installed, for super-responsive web sites&lt;/li&gt;
+&lt;li&gt;1x Ethernet cable, for
+maximum speed and zero configuration out of the box!&lt;/li&gt;
+&lt;li&gt;1x 5.5V 1A USB power adapter, perfect
+for powering the Raspberry Pi&lt;/li&gt;
+&lt;li&gt;1x 3' foot MicroUSB cable, to connect the Pi to the USB power adapter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more details on Google CODER, check out:
+&lt;a href="http://googlecreativelab.github.io/coder/"&gt;http://googlecreativelab.github.io/coder/&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Tue, 08 Oct 2013 04:14:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/google-coder</guid></item><item><title>Nwazet Mean Crafty Pi Monster - Lighting Board</title><link>http://nwazet.com:80/pi-mcmonster</link><description>&lt;p&gt;This simple backlighting kit looks fantastic inside of our &lt;a href="/pi-headcase"&gt;'Pi Head Cases'&lt;/a&gt; and comes with two big 10mm diffused LEDs. The difficult part will be choosing the color ;)&lt;/p&gt;
+
+&lt;p&gt;This kit is also an open invitation to hacking the Raspberry Pi's GPIO connector and learning basic electronics, perhaps starting with the lighting circuit itself: the printed circuit board is designed so that it's easy to go from a circuit built on a &lt;a href="/small-clear-breadboard"&gt;half-size breadboard&lt;/a&gt; to a permanent circuit, ready to be stacked above a Raspberry Pi (Model A or B with mounting holes).&lt;/p&gt;
+
+&lt;h2&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PCB: 'Mean Crafty Pi Monster' permanent prototyping board&lt;/li&gt;
+&lt;li&gt;LED1-2: 10mm diffused LED&lt;/li&gt;
+&lt;li&gt;PD1: 10K ohm resistor (part # CF14JT10K0)&lt;/li&gt;
+&lt;li&gt;BR1: 100 ohm resistor (part # CF14JT100RTR)&lt;/li&gt;
+&lt;li&gt;LR1: 100 ohm resistor (part # CF14JT100RTR)&lt;/li&gt;
+&lt;li&gt;SGD: MOSFET N-CHANNEL 60V 200mA (part # 2N7000)&lt;/li&gt;
+&lt;li&gt;LED_CTRL: 0.1" pin header (3 positions)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This kit also includes the following connectors and fasteners:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3x female / female jumper wires to connect the backlight circuit to the &lt;a href="http://elinux.org/RPi_Low-level_peripherals"&gt;Raspberry Pi's GPIO connector&lt;/a&gt;. The jumper wires will be of three different colors, typically red (3v3), black (GND) and yellow/blue/green (PWM).&lt;/li&gt;
+&lt;li&gt;2x 1" hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;2x 1/4" hex aluminum standoffs&lt;/li&gt;
+&lt;li&gt;2x 1/4" screws&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Assembly Directions and Time&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LED 1 &amp;amp; 2: align the LED lens against the edge of the PCB. Ensure that the shortest leg of the LED is on the side of the hole with a square shape (LED cathode indicator). Using a permanent marker, make a line on the LED's leads where the leads align with the soldering holes in the PCB. Gently bend the LED's leads downward at a 90 degree angle. The LED should now be ready to be inserted into the PCB with its shortest lead going into the square-shaped hole.&lt;/li&gt;
+&lt;li&gt;LED_CTRL: the 0.1" pin header should be inserted on the bottom of the board, with the long portion of the pins pointing downward.&lt;/li&gt;
+&lt;li&gt;Connect the female / female jumper wires as follows:
+&lt;ul&gt;
+&lt;li&gt;red (3v3) -&gt; GPIO pin #1 (first from the left on the bottom row)&lt;/li&gt;
+&lt;li&gt;black (GND) -&gt; GPIO pin #6 (third from the left on the top row)&lt;/li&gt;
+&lt;li&gt;yellow/blue/green (PWM) -&gt; GPIO 18 (GPIO 18 is pin 12 on the GPIO connector, 6th pin from the left on the top row of the connector)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Standoffs: add or remove the 1/4" standoffs as needed to align the LEDs with the eyes of the face plate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For best results:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use a 30 Watt soldering iron&lt;/li&gt;
+&lt;li&gt;Use a fine soldering iron tip&lt;/li&gt;
+&lt;li&gt;Use fine rosin-core solder (0.022")&lt;/li&gt;
+&lt;li&gt;Use masking tape to hold parts in place as needed while soldering&lt;/li&gt;
+&lt;li&gt;Assembly time is about 5 minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Sample Code&lt;/h2&gt;
+
+&lt;p&gt;Pulses the Raspberry Pi's GPIO # 18 (PWM0) with a breathing effect.&lt;/p&gt;
+
+&lt;p&gt;To use this sample:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href="https://github.com/WiringPi/WiringPi"&gt;wiringPi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download and uncompress the &lt;a href="/Media/Default/Sample/mcpm/mcpm.zip"&gt;mcpm.zip&lt;/a&gt; archive to your Raspberry Pi&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+wget nwazet.com/Media/Default/Sample/mcpm/mcpm.zip
+unzip mcpm.zip
+&lt;/pre&gt;
+
+&lt;p&gt;You can either compile the code by typing 'make' or you can simply use the 'mcpm' binary that's including in 'mcpm.zip' by making it executable.&lt;/p&gt;
+
+&lt;pre&gt;
+chmod +x mcpm
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;As root (or using sudo), run './mcpm&amp;amp;' from the shell and enjoy the pretty lights ;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Auto-starting the creeper head lights on boot&lt;/h2&gt;
+
+&lt;p&gt;If you want the creeper to light up automatically when the Raspberry Pi boots up, follow these directions. It is assumed that you're running as 'root' or use 'sudo' as needed.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create the auto-start script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+nano /etc/init.d/mcpm.sh
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Paste the script below in the editor and save it. The script assumes that 'mcpm' was compiled in the '/home' folder. Adjust the auto-start script according to the actual location of the executable if it's not in '/home'.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+#! /bin/sh
+# /etc/init.d/mcpm.sh
+# http://wiki.debian.org/LSBInitScripts
+
+### BEGIN INIT INFO
+# Provides:          mcpm
+# Required-Start:    $local_fs $syslog
+# Required-Stop:     $local_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Basic startup &amp; shutdown script
+# Description:       Starts and stops an application on boot &amp; shutdown
+### END INIT INFO
+
+# Commands listed below will always run
+
+# System command handler
+case "$1" in
+  start)
+    # start the application
+    echo "Head case lights on"
+    /home/mcpm&amp;
+    ;;
+  stop)
+    # stop the application
+    echo "Head case lights off"
+    killall mcpm
+    ;;
+  help)
+    echo "Usage: /etc/init.d/mcpm.sh {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make the script executable and test the commands&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+chmod +x /etc/init.d/mcpm.sh
+/etc/init.d/mcpm.sh help
+/etc/init.d/mcpm.sh start
+/etc/init.d/mcpm.sh stop
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add mcpm.sh to the list of programs to start on boot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+update-rc.d mcpm.sh defaults
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you want to remove it from the list of programs to start on boot, do:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+update-rc.d mcpm.sh remove
+&lt;/pre&gt;
+
+&lt;p&gt;That's it! Now, the head lights will turn on and glow as soon as the Raspberry Pi boots up :)&lt;/p&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/pi-headcase"&gt;Nwazet Pi Head Case Series&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 04 Mar 2013 08:32:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-mcmonster</guid></item><item><title>Nwazet Key Lime Pi: GPIO - Analog - FTDI - Power</title><link>http://nwazet.com:80/pi-keylime</link><description>&lt;p&gt;GPIO, analog inputs, FTDI serial connector and external power? Oh My!&lt;/p&gt;
+
+&lt;p&gt;The 'Key Lime Pi' kit breaks out the &lt;a href="/raspberry-pi"&gt;Raspberry Pi&lt;/a&gt;'s GPIO connector, adds &lt;a href="/mcp3008-10bit-adc"&gt;eight 10-bit analog inputs&lt;/a&gt;, converts the Pi's serial interface into a &lt;a href="http://www.ftdichip.com/Products/Cables/USBTTLSerial.htm"&gt;standard FTDI connector&lt;/a&gt; and allows for external power headers to be added if desired (&lt;a href="/40-pin-headers-straight-set-of-3"&gt;standard 0.1" pin headers&lt;/a&gt; and &lt;a href="/jst-ph-connector"&gt;JST-PH vertical header&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Analog readings are as fast and accurate as possible, thanks to the Pi's SPI interface (hardwired to CE0), a proper ground plane and a stabilized ADC power supply. If more than eight analog inputs are needed for a project, chaining to another 'Nwazet Key Lime Pi' board is possible by interconnecting the GND, MOSI, MISO, SCLK and CE1 lines with jumper wires.&lt;/p&gt;
+
+&lt;p&gt;For prototyping, the 'Key Lime Pi' board maximizes the real-estate available on &lt;a href="/small-clear-breadboard"&gt;small breadboards&lt;/a&gt; by hugging the center divider, leaving four rows out of five available for &lt;a href="/jumper-wires-mm-6inch"&gt;wiring&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For embedding a project into a permanent fixture, the board features three &lt;a href="/product/mounting-solution"&gt;mounting holes, placed on a standard 5mm grid&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Also, check out our '&lt;a href="http://nwazet.com/pi-wirescorpion"&gt;Key Lime Pi Wire Scorpion&lt;/a&gt;' for a turn-key mounting solution for this board.&lt;/p&gt;
+
+&lt;h2&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1x Nwazet Key Lime Pi PCB&lt;/li&gt;
+&lt;li&gt;1x 16 position DIL IC socket (649-DILB16P-223TLF)&lt;/li&gt;
+&lt;li&gt;1x 8 channel SPI ADC (MCP3008)&lt;/li&gt;
+&lt;li&gt;1x 1uF 10V ceramic capacitor (FK18X5R1A105K)&lt;/li&gt;
+&lt;li&gt;2x 0.1" pin header (40 pins)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Assembly Directions and Time&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;PCB Designator&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;C1: ceramic capacitor&lt;/li&gt;
+&lt;li&gt;MCP3008: IC socket / ADC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For best results&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use a 30 Watt soldering iron&lt;/li&gt;
+&lt;li&gt;Use a fine soldering iron tip&lt;/li&gt;
+&lt;li&gt;Use fine rosin-core solder (0.022")&lt;/li&gt;
+&lt;li&gt;Use masking tape to hold parts in place as needed while soldering&lt;/li&gt;
+&lt;li&gt;Assembly time is around 15 minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;PCB Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Height: 38mm (1.49")&lt;/li&gt;
+&lt;li&gt;Width: 85mm (3.34")&lt;/li&gt;
+&lt;li&gt;Material: FR4&lt;/li&gt;
+&lt;li&gt;Thickness: 1.57mm (0.062")&lt;/li&gt;
+&lt;li&gt;Plating Finish: ENIG&lt;/li&gt;
+&lt;li&gt;Copper Weight: 2oz&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Sample Code&lt;/h2&gt;
+
+&lt;p&gt;See &lt;a href="/sample/tmp36.py"&gt;tmp36.py&lt;/a&gt; for a Python sample using the Key Lime Pi's ADC to read temperature data from a &lt;a href="http://www.analog.com/static/imported-files/data_sheets/TMP35_36_37.pdf"&gt;TMP36 analog sensor&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nwazet.com/pi-wirescorpion"&gt;Key Lime Pi Wire Scorpion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/mounting-solution"&gt;Cases &amp;amp; Plates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/connectors"&gt;Connectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/fasteners"&gt;Fasteners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/sensors"&gt;Sensors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 27 Feb 2013 06:15:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-keylime</guid></item><item><title>Nwazet Pecan Pi Relays</title><link>http://nwazet.com:80/nwazet-pecan-pi-relays</link><description>&lt;p&gt;The Pecan Pi Relays kit is designed to be interfaced with the &lt;a href="/product/connectors"&gt;Raspberry Pi's GPIO connector&lt;/a&gt; and features six normally open relays, each capable of switching up to 16A @ 250VAC. The relays are rated for at least 1.5 million cycles. The Pecan Pi Relays kit requires an external power supply capable of providing ~800mA @ 5V, such as the &lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;, since the Raspberry Pi cannot supply enough current through its GPIO connector. The relay board can optionally power the Raspberry Pi. The kit is designed so that other boards can be chained through it. It is also easy to solder, even for a beginner.&lt;/p&gt;
+
+&lt;h3&gt;Kit features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;6x 16A @ 250VAC relays&lt;/li&gt;
+&lt;li&gt;6x relay ON LED&lt;/li&gt;
+&lt;li&gt;2x identical Raspberry Pi GPIO connectors allowing chaining of other devices and boards&lt;/li&gt;
+&lt;li&gt;Pin # 25, 17, 27, 22, 23 and 24 and a GND connection on the GPIO connectors control each relay&lt;/li&gt;
+&lt;li&gt;1x 0.1" external relay power pin header (GND, 5V), located in the upper right corner of the PCB&lt;/li&gt;
+&lt;li&gt;1x JST PH through-hole external relay power connector, located in the upper right corner of the PCB&lt;/li&gt;
+&lt;li&gt;1x 2" JST-PH power cable &lt;/li&gt;
+&lt;li&gt;1x 0.1" external Raspberry Pi power pin header (marked Ext. Pi Power on the PCB), allowing the Raspberry Pi to be powered through its GPIO connector (optional, jumper required) from the same external power supply used for the relays&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Relay Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TE | Schrack model # RZ03-1A4-D005&lt;/li&gt;
+&lt;li&gt;1 pole 16A, (NO) contact&lt;/li&gt;
+&lt;li&gt;DC coil: 400 mW&lt;/li&gt;
+&lt;li&gt;5kV/10mm coil-contact, reinforced insulation&lt;/li&gt;
+&lt;li&gt;Ambient temperature 85°C (clear cover: 70°C)&lt;/li&gt;
+&lt;li&gt;Product in accordance to IEC 60335-1&lt;/li&gt;
+&lt;li&gt;&lt;a href="/media/default/datasheets/ENG_DS_RZ_IK1.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;PCB Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Copper weight: 2oz&lt;/li&gt;
+&lt;li&gt;Material: FR4&lt;/li&gt;
+&lt;li&gt;Board thickness: 2.3622mm (0.093")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Schematics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nwazet.com/Media/Default/Product/pi-pecanrelays/Schematics.png"&gt;Schematics&lt;/a&gt; (see image gallery)&lt;/li&gt;
+&lt;li&gt;Schematics in Eagle format provided on request&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Bill of Materials&lt;/h3&gt;
+
+&lt;pre&gt;
+PCB Designator  Description                     Part #                  Quantity
+N/A             Schrack Relay                   RZ03-1A4-D005           6       
+R1-6            Wire contacts                   Phoenix Contact 1935174 4
+SGD1-6          MOSFET N-CHANNEL 60V 200mA      2N7000                  6
+PDR1-6          10K OHM 1/4W 5% CARBON FILM     CF14JT10K0              6
+LR1-6           1K OHM 1/4W 5% CARBON FILM      CF14CT52R102J           6
+BR1-6           100 OHM 1/4W 5% CARBON FILM     CF14JT100RTR-ND         6
+L1-6            Red 3mm Round LED (2v, 35mA)    LED3R                   6
+D1-6            1N4001 Series 50V 1A            1N4001-E3/54            6
+PCB             FR4, ENIG, black / yellow       Nwazet Pecan Pi Relays  1
+N/A             40 0.1" pin headers             N/A                     1
+&lt;/pre&gt;
+
+&lt;h3&gt;Assembly Directions and Time&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;About orienting the LEDs on the board: the shortest leg of the LED (cathode) corresponds to the ground (GND) as indicated by a dot on the silkscreen.&lt;/li&gt;
+&lt;li&gt;Please note that the resistors have different values even though they almost all look the same. Be sure to check their values before stuffing the board or the relays will not work properly.&lt;/li&gt;
+&lt;li&gt;Check the placement of the components against the Bill of Materials above.&lt;/li&gt;
+&lt;li&gt;Make sure the band on the diodes matches the silkscreen on the PCB.&lt;/li&gt;
+&lt;li&gt;Please be very careful when manipulating the MOSFETs, as these components are very sensitive to electrostatic discharge.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For best results:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use a 30 Watt soldering iron&lt;/li&gt;
+&lt;li&gt;Use a fine soldering iron tip&lt;/li&gt;
+&lt;li&gt;Use fine rosin-core solder (0.022")&lt;/li&gt;
+&lt;li&gt;Use masking tape to hold parts in place as needed while soldering&lt;/li&gt;
+&lt;li&gt;Assembly time is around an hour&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Troubleshooting&lt;/h3&gt;
+
+&lt;p&gt;If a relay fails to switch, please check the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Check the orientation of the corresponding diode D1-6, ensuring that the silver band on the diode is  pointing to the left (when facing the wire contacts) according to the silkscreen.&lt;/li&gt;
+&lt;li&gt;Make sure that the resistors (LR1-6, PDR1-6 and BR1-6) are in their proper locations. They don't all have the same value and will prevent the circuit from operating if mismatched.&lt;/li&gt;
+&lt;li&gt;Triple check your soldering of the parts on that section of the circuit.&lt;/li&gt;
+&lt;li&gt;Check that you're actually addressing the correct relay through the correct BCM pin number in your code, matching the PCB silkscreen on the GPIO connector.&lt;/li&gt;
+&lt;li&gt;Check that your code actually defines the GPIO pin number as an output.&lt;/li&gt;
+&lt;li&gt;It could also be that the MOSFET for this relay has been damaged (MOSFETs are very sensitive to ESD).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Sample Code&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The following Bash script shows how to use the &lt;a href="https://github.com/WiringPi/WiringPi"&gt;wiringPi gpio&lt;/a&gt; command to switch the relays ON / OFF indefinitely. We used this script for stress-testing the board and relays ;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For reference, the relays are mapped to the GPIOs of the Pi as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Relay # 1: GPIO 25&lt;/li&gt;
+&lt;li&gt;Relay # 2: GPIO 17&lt;/li&gt;
+&lt;li&gt;Relay # 3: GPIO 27&lt;/li&gt;
+&lt;li&gt;Relay # 4: GPIO 22&lt;/li&gt;
+&lt;li&gt;Relay # 5: GPIO 23&lt;/li&gt;
+&lt;li&gt;Relay # 6: GPIO 24&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+#!/bin/bash
+# Export the pins as outputs using the BCM pin numbering
+# The script assumes a Raspberry Pi Model B GPIO Rev. 2 connector
+# For Raspberry Pi Model B GPIO Rev. 1 connector, replace GPIO 27 by GPIO 21
+gpio -g mode 25 out
+gpio -g mode 17 out
+gpio -g mode 27 out
+gpio -g mode 22 out
+gpio -g mode 23 out
+gpio -g mode 24 out
+
+count=0
+while true
+do
+        echo "Count=${count}"
+        count=$((count+1))
+        #ON
+        gpio -g write 25 1
+        gpio -g write 17 1
+        gpio -g write 27 1
+        gpio -g write 22 1
+        gpio -g write 23 1
+        gpio -g write 24 1
+        # OFF
+        gpio -g write 25 0
+        gpio -g write 17 0
+        gpio -g write 27 0
+        gpio -g write 22 0
+        gpio -g write 23 0
+        gpio -g write 24 0
+done
+
+&lt;/pre&gt;
+
+&lt;h3&gt;Loading I2C, SPI and 1-Wire drivers&lt;/h3&gt;
+
+&lt;p&gt;If you need to control these relays through an I2C or SPI I/O expander, you may need to ensure that the appropriate drivers are loaded on your Raspberry Pi. Please check this &lt;a href="http://nwazet.com/code/loading-i2c-spi-and-1-wire-drivers-on-the-raspberry-pi-under-raspbian-wheezy"&gt;tutorial for details.&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;See also&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 07 Feb 2013 04:44:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pecan-pi-relays</guid></item><item><title>Raspberry Pi Model B</title><link>http://nwazet.com:80/raspberry-pi</link><description>&lt;p&gt;Quoting the &lt;a href="http://www.raspberrypi.org/faqs"&gt;Raspberry Pi Foundation's FAQ page&lt;/a&gt;: "What’s a Raspberry Pi? The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video. We want to see it being used by kids all over the world to learn programming.". We also think that the Raspberry Pi is a fantastic platform for hacking Internet-connected hardware projects :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi 'Model B'&lt;/li&gt;
+&lt;li&gt;512MB RAM&lt;/li&gt;
+&lt;li&gt;1x Ethernet port&lt;/li&gt;
+&lt;li&gt;2x USB 2.0 ports&lt;/li&gt;
+&lt;li&gt;1x SD card reader (required for booting)&lt;/li&gt;
+&lt;li&gt;1x GPIO connector (2x13 0.1" pin header)&lt;/li&gt;
+&lt;li&gt;Broadcom BCM2835 SoC (system on a chip), composed of:
+&lt;ul&gt;
+&lt;li&gt;ARM 11 CPU&lt;/li&gt;
+&lt;li&gt;Hardware Floating Point support&lt;/li&gt;
+&lt;li&gt;700Mhz clock; easy to overclock&lt;/li&gt;
+&lt;li&gt;Videocore 4 GPU capable of BluRay-quality playback, using H.264 at 40MBits/s, featuring a fast 3D core accessed using supplied OpenGL ES2.0 and OpenVG libraries&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-xbmc-raspberry-pi-included"&gt;Nwazet Pi Media Center&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-tuxedo-case"&gt;Nwazet Pi Tuxedo Case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/os"&gt;Nwazet Pre-Installed Pi Distro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver"&gt;Nwazet Pi Infrared Receiver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/raspberry-pi-heat-sink-set"&gt;Nwazet Raspberry Pi Heat Sink Set&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-power-supply-heat-sink-set"&gt;Nwazet Power Supply Heat Sink Set&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/usb-wifi"&gt;WiFi Connectivity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/connectors"&gt;Cables and connectors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Fri, 25 Jan 2013 01:19:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/raspberry-pi</guid></item><item><title>Nwazet Pi Media Center (Raspberry Pi included)</title><link>http://nwazet.com:80/nwazet-pi-xbmc-raspberry-pi-included</link><description>&lt;p&gt;The 'Nwazet Pi Media Center' is a tiny yet powerful media player, powered by a Raspberry Pi, running the media center software of your choice: &lt;a href="http://openelec.tv/"&gt;XBMC OpenElec&lt;/a&gt;, &lt;a href="http://www.raspbmc.com/"&gt;Raspbmc&lt;/a&gt;, &lt;a href="http://www.rasplex.com/"&gt;RasPlex&lt;/a&gt; or &lt;a href="http://xbian.org/"&gt;XBian&lt;/a&gt;. It ships as an easy to assemble kit and includes all the essentials out of the box. The kit can be secured on the back of a monitor with standard VESA 75 mounting holes.&lt;/p&gt;
+
+&lt;p&gt;This kit includes a Raspberry Pi. If you already have a Pi, check out our Pi-less kit: &lt;a href="/nwazet-pi-xbmc-raspberry-pi-not-included"&gt;Nwazet Pi Media Center (Raspberry Pi &lt;em&gt;not&lt;/em&gt; included)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pi XBMC kit&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi 'Model B' computer&lt;/li&gt;
+&lt;li&gt;Pre-installed media center software (SanDisk Class 10, 8GB SD card)&lt;/li&gt;
+&lt;li&gt;Nwazet Pi Tuxedo case&lt;/li&gt;
+&lt;li&gt;Nwazet Pi Power Supply&lt;/li&gt;
+&lt;li&gt;USB power adapter&lt;/li&gt;
+&lt;li&gt;HDMI cable&lt;/li&gt;
+&lt;li&gt;Ethernet cable&lt;/li&gt;
+&lt;li&gt;9V 1A power adapter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Assembly Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A step-by-step guide to assemble the kit &lt;a href="/tuxedo-case-assembly-instructions"&gt;can be found here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/wireless-usb-mini-keyboard"&gt;Wireless USB Mini Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver"&gt;Nwazet Pi Infrared Receiver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/usb-wifi"&gt;USB WiFi (802.11b/g/n)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/stereo-cable"&gt;Stereo Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/cool"&gt;Cooling Solutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver/harmony"&gt;How to configure the IR receiver with a Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 24 Jan 2013 02:20:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-xbmc-raspberry-pi-included</guid></item><item><title>Nwazet Pi Media Center (Raspberry Pi *not* included)</title><link>http://nwazet.com:80/nwazet-pi-xbmc-raspberry-pi-not-included</link><description>&lt;p&gt;The 'Nwazet Pi Media Center' is a tiny yet powerful media player, powered by a Raspberry Pi, running the media center software of your choice: &lt;a href="http://openelec.tv/"&gt;XBMC OpenElec&lt;/a&gt;, &lt;a href="http://www.raspbmc.com/"&gt;Raspbmc&lt;/a&gt;, &lt;a href="http://www.rasplex.com/"&gt;RasPlex&lt;/a&gt; &lt;a href="http://xbian.org/"&gt;or XBian&lt;/a&gt;. It ships as an easy to assemble kit. All you need to add is your own Raspberry Pi to complete the kit, which includes:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pi XBMC kit (w/o Raspberry Pi)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pre-installed media center software (SanDisk Class 10, 8GB SD card)&lt;/li&gt;
+&lt;li&gt;Works with any Raspberry Pi (even your original rev. 1)&lt;/li&gt;
+&lt;li&gt;Nwazet Pi Tuxedo case&lt;/li&gt;
+&lt;li&gt;Nwazet Pi Power Supply&lt;/li&gt;
+&lt;li&gt;USB power adapter&lt;/li&gt;
+&lt;li&gt;HDMI cable&lt;/li&gt;
+&lt;li&gt;Ethernet cable&lt;/li&gt;
+&lt;li&gt;9V 1A power adapter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you don't already own a Pi, check out our Pi-included kit: &lt;a href="/nwazet-pi-xbmc-raspberry-pi-included"&gt;Nwazet Pi Media Center (Raspberry Pi included)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assembly Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A step-by-step guide to assemble the kit &lt;a href="/tuxedo-case-assembly-instructions"&gt;can be found here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/wireless-usb-mini-keyboard"&gt;Wireless USB Mini Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver"&gt;Nwazet Pi Infrared Receiver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/usb-wifi"&gt;USB WiFi (802.11b/g/n)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/stereo-cable"&gt;Stereo Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver/harmony"&gt;How to configure the IR receiver with a Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 24 Jan 2013 01:21:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-xbmc-raspberry-pi-not-included</guid></item><item><title>Nwazet Pi Power Supply v2</title><link>http://nwazet.com:80/nwazet-pi-power-supply</link><description>&lt;p&gt;This power supply is designed to provide the Raspberry Pi with a clean and stable power source from a 9V wall-wart. As you may know, the Raspberry Pi can become unstable when used with power-hungry USB devices and this power supply will provide the head room needed to keep your setup running smoothly. For Raspberry Pi hackers out there, this power supply also features two additional voltage regulators, respectively outputting 800mA at 3.3v and 5V on power rails conveniently accessible through a vertical JST connector, as well as a standard 0.1" pin header. The center position on the power connectors (JST and pin header) is reserved for ground and it is common with the Raspberry Pi's ground. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The power supply now ships with a USB adapter and a 2" JST-PH power cable.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Improved heat sinking compared to the Nwazet Pi Power Supply v1&lt;/li&gt;
+&lt;li&gt;Fits perfectly in our Tuxedo case&lt;/li&gt;
+&lt;li&gt;Requires a 9V power adapter (not included)&lt;/li&gt;
+&lt;li&gt;1x &lt;a href="/media/default/datasheets/PJ-002AH-SMT.pdf"&gt;DC power connector&lt;/a&gt;, 5A input current rated, 2.1x5.5mm, center-positive barrel&lt;/li&gt;
+&lt;li&gt;2x &lt;a href="/media/default/datasheets/MC33269-D.PDF"&gt;MC33269 voltage regulators&lt;/a&gt; supplying 800mA @ 5v&lt;/li&gt;
+&lt;li&gt;1x &lt;a href="/media/default/datasheets/MC33269-D.PDF"&gt;MC33269 voltage regulator&lt;/a&gt; supplying 800mA @ 3.3v&lt;/li&gt;
+&lt;li&gt;1x &lt;a href="/Media/Default/Datasheets/ePH.pdf"&gt;JST PH connectors&lt;/a&gt;, top entry, 3 circuits (5v, GND, 3.3v)&lt;/li&gt;
+&lt;li&gt;1x 0.1" pin header connector, 3 circuits (5v, GND, 3.3v)&lt;/li&gt;
+&lt;li&gt;1x power indicator LED (red or white)&lt;/li&gt;
+&lt;li&gt;1x USB adapter&lt;/li&gt;
+&lt;li&gt;1x 2" JST-PH power cable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Related items&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/9vdc-1a-regulated-switching-power-adapter"&gt;9V DC, 1A, UL-listed, regulated switching power adapter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-usbadapter"&gt;USB A to Micro USB adapter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-usbadapter"&gt;2" JST PH power cable with 3 circuit connectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/jst-ph-connector"&gt;JST PH connector, through-hole, 3 circuits, 2mm pitch, top entry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/40-pin-headers-straight-set-of-3"&gt;0.1" 40-pin header&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/mounting-solution"&gt;Fasteners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-power-supply-heat-sink-set"&gt;Heat sinks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-xbmc-raspberry-pi-included"&gt;Nwazet XBMC media player&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-tuxedo-case"&gt;Nwazet Pi Tuxedo case&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;FAQs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Q: Why is one of the voltage regulators warmer than the others? A: There are 3 voltage regulators (5v x 2, 3.3v x 1) on the power supply board: one of the 5v regulators powers the Raspberry Pi when connected over USB, which is the regulator closest to the USB receptacle on the board. The two others don't do anything until they're used with the JST connectors or pin headers to power external projects or powering the Pi through the 5v pins of the Pi's GPIO connector. So, it's expected that only one of the 5v regulators will get hot when powering the Pi from a 9V wall-wart.&lt;/li&gt;
+&lt;li&gt;Q: Why are copper heat sinks changing color over time? A: It is a natural phenomenon with copper, which oxidizes in the presence of oxygen. If the copper is heated in the presence of oxygen, the heat speeds up oxidation and copper(II) oxide (black in color) is formed. Copper(II) will initially give the copper a darker red tint and, if given enough time, it will turn black. You can read about this process &lt;a href="http://en.wikipedia.org/wiki/Copper%28II%29_oxide"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 23 Jan 2013 01:19:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-power-supply</guid></item><item><title>Nwazet Pi Infrared Receiver (Model A, B, B+)</title><link>http://nwazet.com:80/nwazet-pi-infrared-receiver</link><description>&lt;p&gt;This little board plugs right into the Raspberry Pi's GPIO connector and decodes infrared signals sent to it from just about any generic IR remote control. This IR receiver is tuned for a 38kHz carrier frequency but it will accept IR frequencies slightly above or below that at the cost of a reduced range. The IR stream is fed to the Raspberry Pi on GPIO #18, which is the default pin used by the &lt;a href="http://aron.ws/projects/lirc_rpi/"&gt;Raspberry Pi's LIRC GPIO driver&lt;/a&gt;. If you're not familiar with LIRC, be sure to check out the &lt;a href="http://www.lirc.org/"&gt;project page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tutorials&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nwazet.com/nwazet-pi-infrared-receiver/harmony"&gt;Using a Logitech Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nwazet.com/mini-ir-remote"&gt;How-to create custom IR-decoding configuration files for LIRC&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Compatible with all Raspberry Pi models (A/B/B+)&lt;/li&gt;
+&lt;li&gt;IR decoder: &lt;a href="http://www.mouser.com/ds/2/427/tsop752w-82224.pdf"&gt;Vishay TSOP75238W&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Carrier Frequency: 38KHz&lt;/li&gt;
+&lt;li&gt;Transmission Distance: 30m (98.4 feet)&lt;/li&gt;
+&lt;li&gt;Output Current: 5 mA&lt;/li&gt;
+&lt;li&gt;Operating Voltage: 2.5V to 5.5V (3.3V on the Raspberry Pi)&lt;/li&gt;
+&lt;li&gt;Supply Current: 0.35 mA&lt;/li&gt;
+&lt;li&gt;Power Dissipation: 10 mW&lt;/li&gt;
+&lt;li&gt;Maximum Operating Temperature: +85 Celsius&lt;/li&gt;
+&lt;li&gt;Minimum Operating Temperature: -25 Celsius&lt;/li&gt;
+&lt;li&gt;Beam Angle: 75 degrees&lt;/li&gt;
+&lt;li&gt;Eagle design file: coming soon on Github&lt;/li&gt;
+&lt;li&gt;0.1" pin header friendly for hacking the Raspberry Pi's GPIO connector&lt;/li&gt;
+&lt;li&gt;Perfect fit in our 'Tuxedo Case'&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/kit"&gt;Nwazet Pi XBMC Media Player Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-tuxedo-case"&gt;Nwazet Pi Tuxedo Case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/component"&gt;Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver/harmony"&gt;How to configure the IR receiver with a Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 23 Jan 2013 01:00:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-infrared-receiver</guid></item><item><title>Nwazet Pi IR Receiver with Remote</title><link>http://nwazet.com:80/nwazet-pi-ir-receiver-with-remote</link><description>&lt;p&gt;Remote control your Raspberry Pi projects the easy way with our IR receiver and its matching remote. Both work great with LIRC, &lt;a href="/mini-ir-remote"&gt;for which a configuration file is provided&lt;/a&gt;. A great value when purchased together.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver"&gt;Nwazet Pi Infrared Receiver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver/harmony"&gt;How to configure the IR receiver with a Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Tue, 22 Jan 2013 17:15:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-ir-receiver-with-remote</guid></item><item><title>Nwazet Data Acquisition Module</title><link>http://nwazet.com:80/data-acquisition-module</link><description>&lt;p&gt;Our Data Acquisition module (DAQ for short) is designed for Netduino Go! users looking for a &lt;strong&gt;simple, cost-effective&lt;/strong&gt; platform for integrating &lt;strong&gt;analog and digital I/Os, off-the-shelf I2C sensors, time tracking, SDHC storage (up to 16GB) and serial communications&lt;/strong&gt; to their projects. 
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;Nwazet DAQ Module vs. Shield Base | Buyer's Guide&lt;/h2&gt;
+
+&lt;p&gt;Since the release of the DAQ module, we have received multiple requests to &lt;a href="/Media/Default/Datasheets/DAQvsSB-BuyerGuide.pdf"&gt;"compare and contrast"&lt;/a&gt; the DAQ's features with the Shield Base module produced by Secret Labs. You can find the comparison sheet &lt;a href="/Media/Default/Datasheets/DAQvsSB-BuyerGuide.pdf"&gt;here&lt;/a&gt; and we hope that it clarifies any confusion that may have existed between the two products.&lt;/p&gt;
+
+&lt;h2&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;When we set out to design the DAQ module 5 months ago, we put a great deal of thought into the real-world scenarios shared by our customers when Netduino Go! launched and how many wanted to apply the power of the .Net Micro Framework in the context of rapid system prototyping, light industrial control systems, home automation, hydroponic growing systems, security systems, UAVs, robots and of course, Internet-connected devices.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;The first design choice we made was to choose an &lt;strong&gt;extremely robust spring-loaded wire connection system&lt;/strong&gt;, providing power, data and ground on every port where they're needed. On ports that are 5v and 3.3v tolerant, both power types are available. Because each wire is held securely in its place with strong springs that can only be released by applying pressure with a very small screwdriver, communications are more reliable and power to sensors and analog devices is more stable than in conventional systems using female pin headers. In addition, our spring-loaded wiring system enabled us to design a smaller and lighter board than would have been possible with screw connectors.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Our second design choice was to enable our customers to &lt;strong&gt;leverage the large array of existing I2C-compliant sensors on the market today&lt;/strong&gt; without having to wait long development cycles for similar Go! modules to be brought to market. To this end, we have partnered with &lt;a href="http://adafruit.com/"&gt;Adafruit&lt;/a&gt; to provide a variety of useful I2C sensors that work 'out-of-the-box' with our DAQ module in order to help you get started quickly with your designs. We are also committed to developing a comprehensive driver library for popular sensors from Adafruit and other vendors over time.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Our third design choice was to place &lt;strong&gt;user-controllable status LEDs on each I/O port of the DAQ module&lt;/strong&gt;, allowing for a simple and effective method of providing user feedback from an application at no additional cost and without consuming the DAQ's digital I/Os for that purpose alone. We also embedded extensive sub-system diagnostics into the DAQ, available on-demand, in plain English through the serial port to help with troubleshooting issues in the field as well as easing the development of custom application drivers.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Our final design choice was to provide a complete, easy to hack system, with &lt;strong&gt;SDHC storage, a real-time clock, optional external power&lt;/strong&gt;, and above all, &lt;strong&gt;capable of being used as a stand-alone 48Mhz ARM-Cortex M0 micro-controller&lt;/strong&gt; programmable in C/C++ using a standard 0.1" JTAG/SWD pin header. In fact, an &lt;a href="http://www.mouser.com/ProductDetail/STMicroelectronics/STM32F0DISCOVERY/?qs=/ha2pyFaduhFl6gZFYbDaOEf/X3Y112%252bUV9XB6DrTGJSqh1tvQuGDkgA/%252bluaDab"&gt;STM32F051 Discovery board&lt;/a&gt;, costing less than $10, was used for its embedded STLink/V2 interface throughout the entire development of the DAQ module firmware.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;We believe that you'll find this module extremely useful in unlocking the full potential of Netduino Go! and building amazing applications right now. We also have a feature road map for the DAQ module and you can expect to see more smart functions, performance improvements and your very own feedback embedded in upcoming versions of the firmware. Last but not least, the DAQ module will be &lt;strong&gt;ready to leverage Go!Bus protocol advancements&lt;/strong&gt; when the time comes.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;C# Software Library&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GPIOs (inputs, outputs, pull-ups, pull-downs, open-drain, push-pull, PWM)&lt;/li&gt;
+&lt;li&gt;PWM timer frequency configuration&lt;/li&gt;
+&lt;li&gt;Analog input sampling with automatic time stamp function&lt;/li&gt;
+&lt;li&gt;Interrupt (rising, falling, both), interrupt count-tracking and roll-over count tracking&lt;/li&gt;
+&lt;li&gt;FAT File system operations&lt;/li&gt;
+&lt;li&gt;I2C communications&lt;/li&gt;
+&lt;li&gt;USART communications (TTL)&lt;/li&gt;
+&lt;li&gt;Real Time clock (date, time, milliseconds, battery-backed)&lt;/li&gt;
+&lt;li&gt;Ability to read / write multiple or a single GPIO with one call&lt;/li&gt;
+&lt;li&gt;Status LED controller&lt;/li&gt;
+&lt;li&gt;System and user configuration registers (battery-backed)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Driver library supporting Adafruit and other I2C sensors&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/tsl2561-digital-luminosity-sensor"&gt;TSL2561 digital luminosity / lux / light&lt;/a&gt; sensor&lt;/li&gt;
+&lt;li&gt;&lt;a href="/bmp085-barometric-pressure-temperature-altitude-sensor"&gt;BMP085 Barometric Pressure/Temperature/Altitude&lt;/a&gt; sensor&lt;/li&gt;
+&lt;li&gt;&lt;a href="/ina219-high-side-dc-current-sensor"&gt;INA219 High Side DC Current Sensor&lt;/a&gt; Breakout&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mouser.com/ProductDetail/Honeywell/HIH-6130-021-001/?qs=sGuegjY%252bjCAASjSn/5yJuAGmUinG3M9p"&gt;Honeywell HIH-6130&lt;/a&gt; temperature and humidity sensor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Documentation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Product/godaq/DAQ-Connectors.png"&gt;Wire connection map&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;A tiny flat-head screwdriver or similar tool is required to release wires from their spring-loaded cage.&lt;/li&gt;
+&lt;li&gt;See &lt;a href="https://bitbucket.org/fabienroyer/nwazet.go"&gt;BOM&lt;/a&gt; for complete specifications.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release notes&lt;/strong&gt;
+&lt;ol&gt;
+&lt;li&gt;A battery is required in the battery-holder for the DAQ module to operate properly&lt;/li&gt;
+&lt;li&gt;If the DAQ module is in storage and is not going to be used for an extended period of time, remove the Lithium battery (unless you need to keep track of time) and remove the SD card for the reader.&lt;/li&gt;
+&lt;li&gt;The USART port is configured by default at 115,200 bps.&lt;/li&gt;
+&lt;li&gt;The USART must be explicitly configured by the application before serial data can be read.&lt;/li&gt;
+&lt;li&gt;Digital GPIO D4 is 3v tolerant only: it is internally connected to the ADC / DAC.&lt;/li&gt;
+&lt;li&gt;Digital GPIO D4 cannot be used in "Input Interrupt" mode.&lt;/li&gt;
+&lt;li&gt;Sensirion sensors are not fully I2C compliant and aren't supported in the initial release of the DAQ module firmware.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;First-time boot procedure&lt;/strong&gt; (and required when replacing the real-time clock battery):
+&lt;ol&gt;
+&lt;li&gt;Insert the 3v Lithium battery into the battery holder, positive side up&lt;/li&gt;
+&lt;li&gt;Connect the DAQ to a Netduino Go! socket that is powered&lt;/li&gt;
+&lt;li&gt;Wait for the white LED on the DAQ to turn ON and wait a second&lt;/li&gt;
+&lt;li&gt;Power the Netduino Go! board OFF, then back ON&lt;/li&gt;
+&lt;li&gt;Your DAQ module is now ready to use&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Tutorials and Code snippets&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/00-Boot"&gt;Boot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/01-Time"&gt;Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/02-AnalogInputs"&gt;Analog Inputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/03-DigitalOutputs"&gt;Digital Outputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/04-DigitalInputs"&gt;Digital Inputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/05-DigitalOutputsPWM"&gt;PWM Digital Outputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/06-StorageRegisters"&gt;System and User Storage Registers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/07-DigitalInputInterrupts"&gt;Interrupt Lines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/08-SerialCommunications"&gt;Serial Communications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/09-I2CCommunications"&gt;I2C Communications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/code/DAQ/10-FileSystem"&gt;File System&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Cables&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/product/connectors"&gt;We offer cables of various lengths&lt;/a&gt;: be sure to select the one that best fits your project and mounting requirements.&lt;/p&gt;
+
+&lt;h2&gt;Mounting hardware&lt;/h2&gt;
+
+&lt;p&gt;Our &lt;a href="/platem"&gt;medium-size plate&lt;/a&gt; is ready to accommodate the DAQ module&lt;/p&gt;
+
+&lt;h2&gt;SD Card Storage&lt;/h2&gt;
+
+&lt;p&gt;We &lt;a href="/sd4gb"&gt;carry a 4GB SDHC card&lt;/a&gt; which works nicely with the DAQ module.&lt;/p&gt;
+
+&lt;h2&gt;Data Acquisition Module Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1.0 firmware release (September 7, 2012)&lt;/li&gt;
+&lt;li&gt;Go!Bus 1.0 compliant interface&lt;/li&gt;
+&lt;li&gt;Dimensions: 100mm x 80mm x 10.5mm, and 90mm x 70mm hole to hole&lt;/li&gt;
+&lt;li&gt;16 Mhz Go!Bus SPI communication&lt;/li&gt;
+&lt;li&gt;18 spring-loaded wire connectors
+&lt;ul&gt;
+&lt;li&gt;Prevent unintentional disconnections and faulty contacts&lt;/li&gt;
+&lt;li&gt;Wire release requires using a tiny screw driver&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;8 Analog Input connectors
+&lt;ul&gt;
+&lt;li&gt;12-bit precision&lt;/li&gt;
+&lt;li&gt;3.3v-tolerant only&lt;/li&gt;
+&lt;li&gt;Each connector provides a 3.3v power rail, data, and ground connections&lt;/li&gt;
+&lt;li&gt;Internal voltage reference monitor&lt;/li&gt;
+&lt;li&gt;Internal battery voltage monitor&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;8 Digital I/O connectors, configurable as any combination of:
+&lt;ul&gt;
+&lt;li&gt;8 digital inputs&lt;/li&gt;
+&lt;li&gt;8 digital outputs&lt;/li&gt;
+&lt;li&gt;8 PWM outputs&lt;/li&gt;
+&lt;li&gt;7 Interrupt-driven inputs (D0, D1, D2, D3, D5, D6, D7)&lt;/li&gt;
+&lt;li&gt;7 5v tolerant connectors (D0, D1, D2, D3, D5, D6, D7)&lt;/li&gt;
+&lt;li&gt;1 3.3v tolerant-only connector (D4)&lt;/li&gt;
+&lt;li&gt;Each connector provides a 5v power rail, a 3.3v power rail, data and ground connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;I2C port
+&lt;ul&gt;
+&lt;li&gt;Connect multiple I2C sensors on the same bus&lt;/li&gt;
+&lt;li&gt;10, 100 and 400 kHz support&lt;/li&gt;
+&lt;li&gt;Provide SCL, SDA, GND connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;USART port
+&lt;ul&gt;
+&lt;li&gt;RTS / CTS Hardware flow control support&lt;/li&gt;
+&lt;li&gt;Baud rate from 110 baud up to 921600 baud&lt;/li&gt;
+&lt;li&gt;Configured for 115200 baud by default&lt;/li&gt;
+&lt;li&gt;Provide RX, TX, RTS, CTS, GND connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SD card reader
+&lt;ul&gt;
+&lt;li&gt;SDHC cards supported up to 16 GB&lt;/li&gt;
+&lt;li&gt;Embedded FAT12/16/32 file system&lt;/li&gt;
+&lt;li&gt;Short file name (8.3) support only&lt;/li&gt;
+&lt;li&gt;SD card sold separately&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Real Time clock
+&lt;ul&gt;
+&lt;li&gt;32,768 kHz external time-keeping crystal&lt;/li&gt;
+&lt;li&gt;Year, month, day, hour, minute second, millisecond&lt;/li&gt;
+&lt;li&gt;4 user-defined 32-bit configuration registers&lt;/li&gt;
+&lt;li&gt;Battery backed &lt;strong&gt;(CR2016, no longer included as of 07/2014)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;19 red, user-controllable status LEDs
+&lt;ul&gt;
+&lt;li&gt;8 analog input status LEDs&lt;/li&gt;
+&lt;li&gt;8 GPIO status LEDs&lt;/li&gt;
+&lt;li&gt;1 SD card reader status LED&lt;/li&gt;
+&lt;li&gt;1 USART status LED &lt;/li&gt;
+&lt;li&gt;1 I2C status LED&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Built-in system diagnostics
+&lt;ul&gt;
+&lt;li&gt;User-configurable output to serial port&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Optional 0.1" power pin headers (5v, 3.3v, GND)&lt;/li&gt;
+&lt;li&gt;Optional 0.1" JTAG/SWD pin headers&lt;/li&gt;
+&lt;li&gt;MCU
+&lt;ul&gt;
+&lt;li&gt;ARM Cortex-M0 (&lt;a href="http://www.st.com/internet/mcu/product/251901.jsp"&gt;STM32F051R8T6&lt;/a&gt;) clocked @ 48 Mhz&lt;/li&gt;
+&lt;li&gt;16 Mhz external crystal for precise PWM, USART, I2C timing&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;OSHW design&lt;/li&gt;
+&lt;li&gt;OSS C# drivers &lt;/li&gt;
+&lt;li&gt;OSS C firmware (built with &lt;a href="http://www.iar.com/en/Products/IAR-Embedded-Workbench/"&gt;IAR Systems Workbench&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Downloads and Code Samples&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Sample code, drivers and schematics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 03 Jan 2013 08:45:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/data-acquisition-module</guid></item><item><title>Nwazet Touch Display Module</title><link>http://nwazet.com:80/touch-display-module</link><description>&lt;p&gt;&lt;strong&gt;Please note that we are no longer able to produce this Touch Display module due to the declining demand for Netduino products&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;Designed from the ground up for Netduino GO! boards, the [nwazet Touch Display Module is a bright, fine-pitched, 2.8", 240 x 320 TFT LCD screen capable of displaying up to 262K colors and features a resistive touchscreen. &lt;/p&gt;
+
+&lt;p&gt;Powered by an ARM Cortex-M3 processor running at 120 Mhz, our Touch Display Module is extremely responsive and ideal for building graphical user interfaces for your Netduino GO! applications.&lt;/p&gt;
+
+&lt;h2&gt;C# Software Library&lt;/h2&gt;
+
+&lt;p&gt;We wanted to offer more than raw power and bright colors: we wanted our Display Module to be incredibly simple to use too. To this end, we provide a lean and easy to use C# interface for driving the Touch Display Module with basic drawing commands, bitmap display commands, touch events handlers, keyboard entry and custom user interface widgets.&lt;/p&gt;
+
+&lt;h2&gt;[nwazet nutshell: free visual screen designer and C# code generator for your Touch Display Module&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/nutshell"&gt;&lt;img src="/Media/Default/Product/display/NwazetNutshell.png" style="width:250px;float:right;margin:6px;" alt="[nwazet nutshell"/&gt;&lt;/a&gt;
+We all know that designing a polished user-interface by crafting code can be a slow and tedious process. So, we created a visual design tool called [&lt;a href="/nutshell"&gt;nwazet nutshell&lt;/a&gt; for our Touch Display module: &lt;a href="/nutshell"&gt;Nutshell&lt;/a&gt; offers access to most of the features supported by the Touch Display's API and generates the corresponding C# code on the fly for you. Just copy/paste the resulting code in Visual Studio when you're done! You can &lt;a href="/nutshell"&gt;try out Nutshell right now&lt;/a&gt; without having to install anything since the tool runs JavaScript in your web browser. We promise you that you'll never go back to the old way of crafting a user interface on your microcontroller after you discover &lt;a href="/nutshell"&gt;Nutshell&lt;/a&gt;. &lt;a href="/nutshell"&gt;Nutshell&lt;/a&gt; is easy and intuitive: check out our &lt;a href="http://www.youtube.com/watch?v=RhpWrNJh_0k"&gt;tutorial&lt;/a&gt; and hit the ground running with your Touch Display.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href="https://github.com/nwazet/Nwazet.Nutshell"&gt;Nutshell source code&lt;/a&gt; is on GitHub.&lt;/p&gt;
+
+&lt;h2&gt;Cables&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="/product/connectors"&gt;We offer cables of various lengths&lt;/a&gt;: be sure to select the one that best fits your project and mounting requirements.&lt;/p&gt;
+
+&lt;h2&gt;Face Plates&lt;/h2&gt;
+
+&lt;p&gt;Our face plates (sold separately) are designed to protect the edge connector of our Touch Display module while providing a comfortable hand rest when using the touchscreen. Available in &lt;a href="/displayplateblack"&gt;black acrylic&lt;/a&gt; and &lt;a href="/displayplatebamboo"&gt;natural bamboo&lt;/a&gt;, the face plates will give your projects a polished fit-and-finish touch.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/displayplateblack"&gt;Touch Display Face Plate - Black Acrylic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/displayplatebamboo"&gt;Touch Display Face Plate - Bamboo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/BWT7UGYaBIE" frameborder="0" allowfullscreen style="margin-bottom:20px"&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;C# library, code samples, C Drivers and Eagle schematics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;STM32F2 ARM Cortex-M3 processor @ 120 MHz&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.displaytech-us.com/2-8-inch-tft"&gt;2.8 QVGA TFT Module from Displaytech SDT028ATFT&lt;/a&gt;
+&lt;em&gt;* 16-bit per pixel (65K colors) default
+*&lt;/em&gt; 18-bit per pixel (262K colors) possible&lt;/li&gt;
+&lt;li&gt;ILI9341 IC display driver&lt;/li&gt;
+&lt;li&gt;Resistive touchscreen&lt;/li&gt;
+&lt;li&gt;SPI interface up to 40 MHz&lt;/li&gt;
+&lt;li&gt;Native C driver derived from the MicroBuilder codebase&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Assembling Procedure&lt;/h2&gt;
+
+&lt;p&gt;This simple &lt;a href="http://fabienroyer.wordpress.com/2012/04/09/nwazet-touch-display-module-3-step-assembly-procedure/"&gt;tutorial&lt;/a&gt; describes the 3-step process for assembling a Touch Display Module.&lt;/p&gt;
+</description><pubDate>Thu, 03 Jan 2013 08:13:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/touch-display-module</guid></item><item><title>Nwazet Go Pro Upgrade Kit</title><link>http://nwazet.com:80/prokit</link><description>&lt;p&gt;Get serious building solutions on the .Net Micro Framework with this superb kit! Be proud to showcase your work, presenting an image of quality from concept to finished product: your work deserves the polish of our black acrylic plates, laser-cut to exquisite precision around the best Netduino Go modules available today. All you need to bring is your own Netduino Go (the Netduino Go microcontroller is &lt;em&gt;not&lt;/em&gt; included in this kit).&lt;/p&gt;
+
+&lt;h3&gt;Composition&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href="/touch-display-module"&gt;Touch Screen&lt;/a&gt; will take complex user input and will display rich graphical feedback.&lt;br&gt;
+The &lt;a href="/seven-segment-display"&gt;7-segment&lt;/a&gt; module will show essential numeric data that must be visible at a glance.&lt;br&gt;
+The &lt;a href="/data-acquisition-module"&gt;Data Acquisition module&lt;/a&gt; will handle high volume inputs and outputs, serial communications, sensors, data storage and time.&lt;br&gt;
+The &lt;a href="/potentiometer"&gt;potentiometer&lt;/a&gt; is equipped with a &lt;a href="/black-dome-metal-knob"&gt;heavy metal knob&lt;/a&gt; providing a very satisfying user feedback and blending perfectly with the look and feel of the kit.&lt;br&gt;
+A powerful &lt;a href="/netduinogo"&gt;Netduino Go&lt;/a&gt; (&lt;em&gt;not&lt;/em&gt; included), juiced by our USB power supply, orchestrates your show.&lt;/p&gt;
+
+&lt;h3&gt;Prototyping&lt;/h3&gt;
+
+&lt;p&gt;The black acrylic plates feature two main prototyping areas, ready to receive &lt;a href="/small-clear-breadboard"&gt;two breadboards&lt;/a&gt; (included in the kit). Additionally, a third mini breadboard can be placed between the DAQ module connectors.&lt;br&gt;
+The kit includes two clear auto-adhesive breadboards, each providing two power rails and 400 connection points. The kit also includes &lt;a href="/jumper-wires-mm-6inch"&gt;forty 6" M/M premium jumper wires&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Value&lt;/h3&gt;
+
+&lt;p&gt;If you wanted to put this exact kit together yourself, you'd have to spend over $250.&lt;br&gt;
+By carefully selecting our parts and designing for manufacturing, we were able to offer it for $199. Our hope is that you'll invest the difference in building your next idea with us :)&lt;/p&gt;
+
+&lt;h3&gt;Assembly Instructions&lt;/h3&gt;
+
+&lt;p&gt;To assemble your kit, please follow &lt;a href="/prokitassembly"&gt;these detailed instructions&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Mon, 08 Oct 2012 07:46:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/prokit</guid></item><item><title>Adafruit TSL2561 digital luminosity sensor</title><link>http://nwazet.com:80/tsl2561-digital-luminosity-sensor</link><description>&lt;p&gt;The TSL2561 luminosity sensor is an advanced digital light sensor, ideal for use in a wide range of light situations. Compared to low cost CdS cells, this sensor is more precise, allowing for exact lux calculations and can be configured for different gain/timing ranges to detect light ranges from up to 0.1 - 40,000+ Lux on the fly.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;The best part of this sensor is that it contains both infrared and full spectrum diodes. This means you can separately measure infrared, full-spectrum or human-visible light. Most sensors can only detect one or the other, which does not accurately represent what human eyes see (since we cannot perceive the IR light that is detected by most photo diodes) &lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+The sensor features an I2C interface. You can select one of three addresses so you can have up to three sensors on one board, each with a different I2C address. The built in ADC means you can use this with any microcontroller, even if it doesn't have analog inputs. The current draw is extremely low, so its great for low power data-logging systems. about 0.5mA when actively sensing, and less than 15 uA when in powerdown mode.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/datasheets/TSL2561.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.adafruit.com/product/439"&gt;Sensor breakout board&lt;/a&gt; manufactured by Adafruit Industries&lt;/li&gt;
+&lt;li&gt;Approximates Human eye Response&lt;/li&gt;
+&lt;li&gt;Precisely Measures Illuminance in Diverse Lighting Conditions&lt;/li&gt;
+&lt;li&gt;Temperature range: -30 to 80 *C&lt;/li&gt;
+&lt;li&gt;Dynamic range (Lux): 0.1 to 40,000 Lux&lt;/li&gt;
+&lt;li&gt;Voltage range: 2.7-3.6V&lt;/li&gt;
+&lt;li&gt;Interface: I2C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C# driver&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrates seamlessly with the &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt; for Netduino Go!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Nwazet.GO / Samples / DAQmodule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 08 Sep 2012 05:44:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/tsl2561-digital-luminosity-sensor</guid></item><item><title>Adafruit BMP085: Barometric, Temperature, Altitude</title><link>http://nwazet.com:80/bmp085-barometric-pressure-temperature-altitude-sensor</link><description>&lt;p&gt;This precision sensor from Bosch is the best low-cost sensing solution for measuring barometric pressure and temperature. Because pressure changes with altitude you can also use it as an altimeter! The sensor is soldered onto a PCB with a 3.3V regulator, I2C level shifter and pull-up resistors on the I2C pins.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/datasheets/BMP085_DataSheet_Rev.1.0_01July2008.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.adafruit.com/product/391"&gt;Sensor breakout board&lt;/a&gt; manufactured by Adafruit Industries&lt;/li&gt;
+&lt;li&gt;Vin: 3 to 5VDC (always use 3.3v with your &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Logic: 3 to 5V compliant&lt;/li&gt;
+&lt;li&gt;Pressure sensing range: 300-1100 hPa (9000m to -500m above sea level)&lt;/li&gt;
+&lt;li&gt;Up to 0.03hPa / 0.25m resolution&lt;/li&gt;
+&lt;li&gt;-40 to +85°C operational range, +-2°C temperature accuracy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C# driver&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrates seamlessly with the &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt; for Netduino Go!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Nwazet.GO / Samples / DAQmodule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 08 Sep 2012 05:44:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/bmp085-barometric-pressure-temperature-altitude-sensor</guid></item><item><title>Adafruit INA219 High Side DC Current Sensor</title><link>http://nwazet.com:80/ina219-high-side-dc-current-sensor</link><description>&lt;p&gt;This breakout board will solve all your power-monitoring problems. Instead of struggling with two multimeters, you can just use the handy INA219B chip on this breakout to both measure both the high side voltage and DC current draw over I2C with 1% precision. &lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;Most current-measuring devices such as our current panel meter are only good for low side measuring. That means that unless you want to get a battery involved, you have to stick the measurement resistor between the target ground and true ground. This can cause problems with circuits since electronics tend to not like it when the ground references change and move with varying current draw. This chip is much smarter and can handle high side current measuring, up to +26VDC, even though it is powered with 3.3v (Netduino / Nwazet DAQ module). It will also report back that high side voltage, which is great for tracking battery life or solar panels. &lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;A precision amplifier measures the voltage across the 0.1 ohm, 1% sense resistor. Since the amplifier maximum input difference is ±320mV, this means that it can measure up to ±3.2 Amps. With the internal 12 bit ADC, the resolution at ±3.2A range is 0.8mA. With the internal gain set at the minimum of div8, the max current is ±400mA and the resolution is 0.1mA. Advanced hackers can remove the 0.1 ohm current sense resistor and replace it with their own to change the range (say a 0.01 ohm to measure up 32 Amps with a resolution of 8mA).&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;A 6-pin header is included so you can easily attach this sensor to a breadboard as well as a 3.5mm terminal plug so you can easily attach and detach your load.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;Usage is simple: power the sensor itself with 3.3v and connect the two I2C pins up to your &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt;. Then connect your target power supply to VIN+ and the load to ground to VIN-.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/datasheets/ina219.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.adafruit.com/product/904"&gt;Sensor breakout board&lt;/a&gt; manufactured by Adafruit Industries&lt;/li&gt;
+&lt;li&gt;Uses the INA219B chip, see datasheet for detailed specifications&lt;/li&gt;
+&lt;li&gt;0.1 ohm 1% 2W current sense resistor&lt;/li&gt;
+&lt;li&gt;Up to +26V target voltage&lt;/li&gt;
+&lt;li&gt;Up to ±3.2A current measurement, with ±0.8mA resolution&lt;/li&gt;
+&lt;li&gt;0.9" x 0.8" PCB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C# driver&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrates seamlessly with the &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt; for Netduino Go!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Nwazet.GO / Samples / DAQmodule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 08 Sep 2012 05:43:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/ina219-high-side-dc-current-sensor</guid></item><item><title>Komodex Seven Segment Display Module</title><link>http://nwazet.com:80/seven-segment-display</link><description>&lt;p&gt;Looking for a fast, easy way to display numeric data from your &lt;a href="/netduinogo"&gt;Netduino Go&lt;/a&gt;? This module features four white digits, a colon, and an apostrophe in the top right.It can be used to display sensor readings, temperatures, or even the current time. Be sure to check out Matt Isenhower's outstanding &lt;a href="http://komodex.com/blog/2012/07/getting-started-with-the-seven-segment-display-module/"&gt;'Getting Started' tutorial&lt;/a&gt; for his seven segment display module.&lt;/p&gt;
+
+&lt;h2&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Four digits&lt;/strong&gt;: display any number from 0-9999&lt;br&gt;
+&lt;strong&gt;Dimmable&lt;/strong&gt;: 1,024 levels of brightness&lt;br&gt;
+&lt;strong&gt;Custom characters&lt;/strong&gt;: each digit can be set to a custom value, allowing you to turn individual LEDs on or off&lt;br&gt;
+&lt;strong&gt;Colon&lt;/strong&gt;: a colon in the middle of the display can be turned on for use as a clock or stopwatch&lt;br&gt;
+&lt;strong&gt;Apostrophe&lt;/strong&gt;: an apostrophe in the top right of the display can be used as a secondary indicator, a degree symbol for temperature readings, etc.&lt;br&gt;
+&lt;strong&gt;Fully Go! Bus compliant&lt;/strong&gt;: simply plug it in to your Netduino Go and install the easy-to-use drivers to get started&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dimensions (WxHxD): 67mm x 32mm x 9mm&lt;/li&gt;
+&lt;li&gt;Mounting holes: four holes on a 5mm grid&lt;/li&gt;
+&lt;li&gt;Digit size: 10mm tall&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://komodex.com/labs/downloads"&gt;Schematics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://komodex.com/labs/downloads"&gt;Module drivers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://komodex.com/labs/downloads"&gt;Source Code and examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://komodex.com/labs/products/seven-segment-display"&gt;More information&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/product/connectors"&gt;We offer cables of various lengths&lt;/a&gt;: be sure to select the one that best fits your project and mounting requirements.&lt;/li&gt;
+&lt;li&gt;&lt;a href="/standoffaluff"&gt;Standoff Aluminium F/F 4-40 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/standoffalumf"&gt;Standoff Aluminium M/F 4-40 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/spaceralu"&gt;Spacer Aluminium 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nylonstandoff"&gt;Standoff Nylon F/F 4-40 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/rubber-feet"&gt;Adhesive Rubber Feet 4-pack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Tue, 14 Aug 2012 01:05:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/seven-segment-display</guid></item><item><title>Nwazet Medium Plate</title><link>http://nwazet.com:80/platem</link><description>&lt;p&gt;This clear acrylic plate provides a happy medium between our &lt;a href="/plate"&gt;large&lt;/a&gt; and &lt;a href="/stackableplate"&gt;stackable&lt;/a&gt; versions. It is large enough to accommodate bigger modules such as our &lt;a href="/touch-display-module"&gt;Touch Display module&lt;/a&gt; and a &lt;a href="/netduinogo"&gt;Netduino Go! board&lt;/a&gt; as well as three smaller modules (&lt;a href="/product/module"&gt;buttons, leds, pots&lt;/a&gt;, etc.), a couple &lt;a href="/relay"&gt;relays&lt;/a&gt; and/or a &lt;a href="/power"&gt;power supply&lt;/a&gt;. It allows for mounting modules in a double-sided fashion as well. This plate can be ordered together with packs of 4-40 screws and standoffs, and with rubber feet.&lt;/p&gt;
+
+&lt;h2&gt;Dimensions&lt;/h2&gt;
+
+&lt;p&gt;The plate is a compact 129mm x 124mm. Holes are at 5mm intervals.&lt;/p&gt;
+
+&lt;h2&gt;See also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/standoffaluff"&gt;Standoff Aluminium F/F 4-40 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/standoffalumf"&gt;Standoff Aluminium M/F 4-40 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/spaceralu"&gt;Spacer Aluminium 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nylonstandoff"&gt;Standoff Nylon F/F 4-40 4-pack With Screws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/rubber-feet"&gt;Adhesive Rubber Feet 4-pack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Tue, 10 Jul 2012 00:20:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/platem</guid></item><item><title>Nwazet Go Tinker Upgrade Kit</title><link>http://nwazet.com:80/gotinkerkit</link><description>&lt;p&gt;Our Netduino Go! Tinker Kit is a solid value containing everything you need to get started in style with this fantastic plug-and-play electronics platform. All you need to bring is your own Netduino Go (the Netduino Go microcontroller is &lt;em&gt;not&lt;/em&gt; included in this kit).&lt;/p&gt;
+
+&lt;p&gt;The simple button and potentiometer input modules, together with the RGB LED, will let you discover and experiment on a very gentle learning curve, and the comfortable, powerful, TFT LCD touch display will accompany you as you grow into more elaborate projects. The modular nature of the system ensures that you will never feel constrained: just add some new modules and be on your way to new adventures in Making.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A Clean Building Slate&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The large prototyping plate coming with the kit will provide a clean surface on which to organize your project as you build it. It's also a beautiful showcase for your finished creation, worthy of being displayed on your walls. It comes with clear rubber feet providing an excellent grip and enough aluminum standoffs, screws and nuts to fasten all your modules.&lt;/p&gt;
+</description><pubDate>Thu, 10 May 2012 05:02:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/gotinkerkit</guid></item></channel></rss>

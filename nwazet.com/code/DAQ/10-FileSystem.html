@@ -1,0 +1,296 @@
+
+<!DOCTYPE html> 
+<html lang="en-US" class="static detail-sample contents"> 
+<head> 
+    <meta charset="utf-8" />
+    <title>Nwazet-10 - File System</title> 
+    <link href="http://nwazet.com/Themes/Nwazet/Styles/Site.min.css" rel="stylesheet" type="text/css" />
+<script src="http://nwazet.com/Modules/Orchard.jQuery/scripts/jquery-1.11.1.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="/Core/Shapes/scripts/html5.js" type="text/javascript"></script>
+<![endif]-->
+<meta content="Orchard" name="generator" />
+<meta content="IE=edge,chrome=1" name="X-UA-Compatible" />
+<meta content="4503599629930432" property="twitter:account_id" />
+<link href="http://nwazet.com/Media/Default/favicon/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+    <script>(function(d){d.className="dyn"+d.className.substring(6,d.className.length);})(document.documentElement);</script> 
+</head> 
+<body>
+
+
+<div id="layout-wrapper">
+    <header id="layout-header" class="group">
+        <div id="header">
+            <div class="zone zone-header">
+<div class="brandlogo"><a href="../../index.html"><img alt="Nwazet" src="http://nwazet.com/Themes/Nwazet/Content/NwazetLogo.png"/></a></div>
+<h1 id="branding"><a href="../../index.html">Nwazet</a></h1>
+<h2 id="punchline">Build.Something("Epic!")</h2>
+</div>
+            <div class="user-display">
+        <span class="user-actions" title="You do not need an account in order to be able to buy on this site."><a href="http://nwazet.com/Users/Account/LogOn?ReturnUrl=%2Fcode%2FDAQ%2F10-FileSystem" rel="nofollow">Sign In</a></span>
+</div>
+        </div>
+    </header>
+<div id="layout-main-container">
+<div id="layout-main" class="group">
+    <div id="layout-content" class="group">
+                        <div id="content" class="group">
+            <div class="zone zone-content">
+<article class="sample content-item">
+    <header>
+        
+
+<h1>10 - File System</h1>
+    </header>
+    <p>The DAQ module embeds a lightweight FAT file system supporting SDHC cards up to 16GB on a single partition. Up to 5 files and 5 directories can be open concurrently. File and directory names are limited to 8 characters with a 3 characters extension (8.3 short file names) in this release. There are no other restrictions other than the limits imposed by the FAT file system used to format the SD card: FAT12, FAT16 and FAT32 are supported file formats. Because the file system is entirely hosted on the DAQ module, there's no impact to the application resources other than the C# interface of the DAQ.</p>
+
+<h2>Volume functions</h2>
+
+<p><strong>void Mount()</strong>: initializes the SD card in SPI mode so that it can be used as a file system.</p>
+
+<p><strong>void UnMount()</strong>: closes any open files, frees all file system resources, and resets the SD card interface.</p>
+
+<h2>File functions</h2>
+
+<p><strong>UInt16 OpenFile(string filename, FileMode mode)</strong>: opens or creates a file and returns a file Id to be used in subsequent file operations.</p>
+
+<p><strong>void CloseFile(UInt16 fileId)</strong>: flushes the file content to disk and closes the file. The file Id becomes invalid and must not be used for further file operations.</p>
+
+<p><strong>UInt16 ReadFile(UInt16 fileId, byte[] buffer, int bytesToRead)</strong>: read data from a file and returns the actual byte count read.</p>
+
+<p><strong>UInt16 WriteFile(UInt16 fileId, byte[] buffer, int bytesToWrite)</strong>: write data to a file and returns the actual number of bytes written.</p>
+
+<p><strong>void SeekFile(UInt16 fileId, UInt32 offset)</strong>: move the file pointer to the specified offset in the file. The file will grow when seeking past the end of file.</p>
+
+<p><strong>void TruncateFile(UInt16 fileId)</strong>: truncate the file at the current location of the file pointer.</p>
+
+<p><strong>void SyncFile(UInt16 fileId)</strong>: forces the file content to be flushed to disk.</p>
+
+<p><strong>string ReadString(UInt16 fileId)</strong>: reads a carriage-return terminated string from the file.</p>
+
+<p><strong>Int32 WriteString(UInt16 fileId, string str)</strong>: writes a carriage-return terminated string to the file.</p>
+
+<p><strong>UInt32 GetFilePosition(UInt16 fileId)</strong>: returns the current position of the file pointer.</p>
+
+<p><strong>bool GetEndOfFile(UInt16 fileId)</strong>: returns 'true' if the end of the file has been reached.</p>
+
+<p><strong>UInt32 GetFileSize(UInt16 fileId)</strong>: returns the file size in bytes.</p>
+
+<p><strong>bool GetFileError(UInt16 fileId)</strong>: returns 'true' if an I/O error took place while attempting to access the file.</p>
+
+<h2>Directory functions</h2>
+
+<p><strong>UInt16 OpenDir(string directoryName)</strong>: just like files, directories must be opened before they can be used. Opening a directory returns an Id which can be used in subsequent directory operations.</p>
+
+<p><strong>void CloseDir(UInt16 dirId)</strong>: frees up the resources allocated for working with the directory. The Id becomes invalid and must not be used for further directory operations.</p>
+
+<p><strong>FileInfo ReadDir(UInt16 dirId)</strong>: used to enumerate files and directories on the file system. Returns a FileInfo object describing the properties of a file or a directory. '/' refers to the root directory. '0:/' is equivalent to the root directory and includes the partition number. Only partition '0' is currently supported. File and directory names longer than 8.3 will have a 'tilde' character in their name, such as: 'STM32F~1.PDF'</p>
+
+<p><strong>void MakeDir(string directoryName)</strong>: creates a directory on the file system. When creating nested directories, the parent directory must exist.</p>
+
+<pre>
+MakeDir("dir0");
+MakeDir("dir0/sub0");
+MakeDir("dir0/sub0/sub1");
+</pre>
+
+<p><strong>void ChangeDir(string path)</strong>: changes the current working directory.</p>
+
+<pre>
+ChangeDir("/dir0/sub0/sub1");
+</pre>
+
+<p><strong>string GetCurrentDir()</strong>: returns the path to the current working directory.</p>
+
+<h2>Disk space functions</h2>
+
+<p><strong>DiskSpaceInfo GetFreeSpace()</strong>: returns the total disk capacity and the remaining disk space in KB.</p>
+
+<h2>File and directory functions</h2>
+
+<p><strong>void Unlink(string objectName)</strong>: removes a file or a directory from the file system.</p>
+
+<p><strong>void ChangeAttribute(string objectName, byte attribute, byte attributeMask)</strong>: sets the 'Archive, 'System', 'Hidden', 'Read-Only' attributes of a file or a directory. The mask specifies which attribute bits are being set while the attributes excluded from the mask are reset.</p>
+
+<pre>
+ChangeAttribute(
+      filename,
+      FileAttribute.Archive | FileAttribute.Hidden,
+      FileAttribute.Archive | FileAttribute.Hidden);
+</pre>
+
+<p><strong>void ChangeTime(string objectName, DateTime dt)</strong>: sets an arbitrary creation time on a file or a directory.</p>
+
+<p><strong>void Rename(string OldObjectName, string NewObjectName)</strong>: changes the name of a file or a directory.</p>
+
+<h2>Sample Output</h2>
+
+<p>The SD card already contained a few files and directories.</p>
+
+<pre>
+Total disk space: 15541728 KB
+Total free space: 15540024 KB
+Attributes: 48
+Dir: DIR0
+Attributes: 34
+File: STRINGIO.TXT, bytes: 104
+Attributes: 32
+File: FILE.TXT, bytes: 104
+Attributes: 32
+File: COPY.TXT, bytes: 104
+Attributes: 32
+File: IMAGE.JPG, bytes: 59660
+Attributes: 32
+File: STM32F~1.PDF, bytes: 1610122
+</pre>
+
+
+<pre class="brush: csharp">using System;
+using System.Threading;
+using Microsoft.SPOT;
+using Microsoft.SPOT.Hardware;
+using SecretLabs.NETMF.Hardware.NetduinoGo;
+using Nwazet.Go.DAQ;
+namespace Tutorials {
+    public class FS {
+        public static NwazetDAQ daq = new NwazetDAQ();
+        public static void Main() {
+            try {
+                daq.Initialize(GoSockets.Socket1);
+
+                // Initialize the file system on the SD card
+                daq.FatFs.Mount();
+
+                var spaceInfo = daq.FatFs.GetFreeSpace();
+
+                Debug.Print(&quot;Total disk space: &quot; + spaceInfo.DiskCapacityKB + &quot; KB&quot;);
+                Debug.Print(&quot;Total free space: &quot; + spaceInfo.FreeDiskSpaceKB + &quot; KB&quot;);
+
+                var maxLine = 0;
+                
+                // Create a file
+                var fileId = daq.FatFs.OpenFile(&quot;file.txt&quot;, FileSystem.FileMode.CreateAlways | FileSystem.FileMode.Read | FileSystem.FileMode.Write);
+                
+                // Write some text to it...
+                daq.FatFs.WriteString(fileId, &quot;Line #&quot; + ++maxLine + &quot;: Hello World!\r\n&quot;);
+                daq.FatFs.WriteString(fileId, &quot;Line #&quot; + ++maxLine + &quot;: Violets are blue\r\n&quot;);
+                daq.FatFs.WriteString(fileId, &quot;Line #&quot; + ++maxLine + &quot;: Roses are red\r\n&quot;);
+                daq.FatFs.WriteString(fileId, &quot;Line #&quot; + ++maxLine + &quot;: This is only a test\r\n&quot;);
+
+                // Close it
+                daq.FatFs.CloseFile(fileId);
+
+                //
+                // Make a copy of the file...
+                //
+                var sourceFile = daq.FatFs.OpenFile(&quot;file.txt&quot;, FileSystem.FileMode.OpenExisting | FileSystem.FileMode.Read);
+                var destFile = daq.FatFs.OpenFile(&quot;copy.txt&quot;, FileSystem.FileMode.CreateAlways | FileSystem.FileMode.Write);
+                var buffer = new byte[1024];
+                while (true) {
+                    var bytesRead = daq.FatFs.ReadFile(sourceFile, buffer, buffer.Length);
+                    var bytesWritten = daq.FatFs.WriteFile(destFile, buffer, bytesRead);
+                    if (bytesRead != bytesWritten) {
+                        throw new ApplicationException(&quot;should never happen unless storage is full or corrupted&quot;);
+                    }
+                    if (bytesRead &lt; buffer.Length) {
+                        break;
+                    }
+                }
+                daq.FatFs.CloseFile(sourceFile);
+                daq.FatFs.CloseFile(destFile);
+
+                //
+                // Basic File system enumeration
+                //
+                var dirId = daq.FatFs.OpenDir(&quot;/&quot;); // open the root directory
+                while (true) {
+                    var fileInfo = daq.FatFs.ReadDir(dirId);
+                    if (fileInfo.IsEndOfDirectory) break;
+                    Debug.Print(&quot;Attributes: &quot; + fileInfo.Attribute);
+                    if (fileInfo.IsVolumeLabel) {
+                        Debug.Print(&quot;Volume: &quot; + fileInfo.Name);
+                        continue;
+                    }
+                    if (fileInfo.IsDirectory) {
+                        Debug.Print(&quot;Dir: &quot; + fileInfo.Name);
+                        continue;
+                    }
+                    Debug.Print(&quot;File: &quot; + fileInfo.Name + &quot;, bytes: &quot; + fileInfo.Size);
+                }
+                daq.FatFs.CloseDir(dirId);
+
+            } catch (FatFsException e) {
+                Debug.Print(e.Message);
+            }
+
+            // Release all file system resources
+            daq.FatFs.UnMount();
+        }
+    }
+}
+</pre>
+</article></div>
+        </div>
+            </div>
+</div>
+</div>
+<div id="layout-footer" class="group">
+    <footer id="footer">
+        <div id="footer-quad" class="group">
+                                            </div>
+            <div id="footer-sig" class="group">
+                <div class="zone zone-footer"><div class="bottomnav">
+    <span id="osh">Open Source Hardware and Software</span><br/>
+    <a href="../../shipping.html">Shipping</a> |
+    <a href="../../returns.html">Returns, Refunds &amp; Exchanges</a> |
+    <a href="../../privacy.html">Privacy</a> |
+    <a href="http://nwazet.com/contact">Contact us</a>
+</div>
+<div class="credits">
+    <a href="../../index.html" id="copyright">&#169; Nwazet 2011-2014</a> |
+    <span id="hostedby"><a href="http://orcsweb.com" target="_blank">Web Hosting By OrcsWeb.</a></span> |
+    <span id="poweredby">Powered by <a href="http://www.orchardproject.net" target="_blank">Orchard</a></span>
+</div>
+</div>
+            </div>
+    </footer>
+</div>
+    
+</div>
+
+<script src="http://platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+    twttr.conversion.trackPid('l4mn5');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4mn5&p_id=Twitter" />
+    <img height="1" width="1" style="display:none;" alt="" src="http://t.co/i/adsct?txn_id=l4mn5&amp;p_id=Twitter" />
+</noscript>
+
+<script src="http://nwazet.com/Modules/Nwazet.Commerce/scripts/referral.min.js" type="text/javascript"></script>
+<script src="../../Themes/Nwazet/scripts/SyntaxHighlighter/shCore.js" type="text/javascript"></script>
+<script src="../../Themes/Nwazet/scripts/SyntaxHighlighter/shBrushCSharp.js" type="text/javascript"></script>
+<script src="http://nwazet.com/Themes/Nwazet/scripts/nwazet.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function () {
+                SyntaxHighlighter.defaults['toolbar'] = false;
+                SyntaxHighlighter.all();
+            });
+        </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5109912-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

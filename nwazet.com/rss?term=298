@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Designed by Adafruit</title><link>http://nwazet.com:80/adafruit</link><description>Designed by Adafruit</description><item><title>Adafruit MicroSD Card Adapter For Raspberry Pi</title><link>http://nwazet.com:80/pi-microsd-adapter</link><description>&lt;p&gt;With this microSD card adapter, you can help protect your Raspberry Pi from accidental damage to the SD card port and from file system corruptions caused by knocking the protruding SD card. &lt;/p&gt;
+
+&lt;p&gt;The adapter snaps into the Raspberry Pi's SD card slot, but only takes the space of half a card. Insert a micro-SD into it, and get a more compact and safer system.  The micro-SD is easily extracted by pushing on it a second time. &lt;/p&gt;
+
+&lt;p&gt;Please be aware that this adapter will not fit into most Raspberry Pi cases.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Compatible with any micro-SD card&lt;/li&gt;
+&lt;li&gt;Protrudes 3mm from the edge of the Raspberry Pi&lt;/li&gt;
+&lt;li&gt;5mm thick (clearance from the bottom of the Pi's PCB)&lt;/li&gt;
+&lt;li&gt;A micro-SD card is &lt;em&gt;not included&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Oct 2013 02:10:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-microsd-adapter</guid></item><item><title>Adafruit TSL2561 digital luminosity sensor</title><link>http://nwazet.com:80/tsl2561-digital-luminosity-sensor</link><description>&lt;p&gt;The TSL2561 luminosity sensor is an advanced digital light sensor, ideal for use in a wide range of light situations. Compared to low cost CdS cells, this sensor is more precise, allowing for exact lux calculations and can be configured for different gain/timing ranges to detect light ranges from up to 0.1 - 40,000+ Lux on the fly.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;The best part of this sensor is that it contains both infrared and full spectrum diodes. This means you can separately measure infrared, full-spectrum or human-visible light. Most sensors can only detect one or the other, which does not accurately represent what human eyes see (since we cannot perceive the IR light that is detected by most photo diodes) &lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+The sensor features an I2C interface. You can select one of three addresses so you can have up to three sensors on one board, each with a different I2C address. The built in ADC means you can use this with any microcontroller, even if it doesn't have analog inputs. The current draw is extremely low, so its great for low power data-logging systems. about 0.5mA when actively sensing, and less than 15 uA when in powerdown mode.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/datasheets/TSL2561.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.adafruit.com/product/439"&gt;Sensor breakout board&lt;/a&gt; manufactured by Adafruit Industries&lt;/li&gt;
+&lt;li&gt;Approximates Human eye Response&lt;/li&gt;
+&lt;li&gt;Precisely Measures Illuminance in Diverse Lighting Conditions&lt;/li&gt;
+&lt;li&gt;Temperature range: -30 to 80 *C&lt;/li&gt;
+&lt;li&gt;Dynamic range (Lux): 0.1 to 40,000 Lux&lt;/li&gt;
+&lt;li&gt;Voltage range: 2.7-3.6V&lt;/li&gt;
+&lt;li&gt;Interface: I2C&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C# driver&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrates seamlessly with the &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt; for Netduino Go!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Nwazet.GO / Samples / DAQmodule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 08 Sep 2012 05:44:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/tsl2561-digital-luminosity-sensor</guid></item><item><title>Adafruit BMP085: Barometric, Temperature, Altitude</title><link>http://nwazet.com:80/bmp085-barometric-pressure-temperature-altitude-sensor</link><description>&lt;p&gt;This precision sensor from Bosch is the best low-cost sensing solution for measuring barometric pressure and temperature. Because pressure changes with altitude you can also use it as an altimeter! The sensor is soldered onto a PCB with a 3.3V regulator, I2C level shifter and pull-up resistors on the I2C pins.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/datasheets/BMP085_DataSheet_Rev.1.0_01July2008.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.adafruit.com/product/391"&gt;Sensor breakout board&lt;/a&gt; manufactured by Adafruit Industries&lt;/li&gt;
+&lt;li&gt;Vin: 3 to 5VDC (always use 3.3v with your &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Logic: 3 to 5V compliant&lt;/li&gt;
+&lt;li&gt;Pressure sensing range: 300-1100 hPa (9000m to -500m above sea level)&lt;/li&gt;
+&lt;li&gt;Up to 0.03hPa / 0.25m resolution&lt;/li&gt;
+&lt;li&gt;-40 to +85°C operational range, +-2°C temperature accuracy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C# driver&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrates seamlessly with the &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt; for Netduino Go!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Nwazet.GO / Samples / DAQmodule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 08 Sep 2012 05:44:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/bmp085-barometric-pressure-temperature-altitude-sensor</guid></item><item><title>Adafruit INA219 High Side DC Current Sensor</title><link>http://nwazet.com:80/ina219-high-side-dc-current-sensor</link><description>&lt;p&gt;This breakout board will solve all your power-monitoring problems. Instead of struggling with two multimeters, you can just use the handy INA219B chip on this breakout to both measure both the high side voltage and DC current draw over I2C with 1% precision. &lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;Most current-measuring devices such as our current panel meter are only good for low side measuring. That means that unless you want to get a battery involved, you have to stick the measurement resistor between the target ground and true ground. This can cause problems with circuits since electronics tend to not like it when the ground references change and move with varying current draw. This chip is much smarter and can handle high side current measuring, up to +26VDC, even though it is powered with 3.3v (Netduino / Nwazet DAQ module). It will also report back that high side voltage, which is great for tracking battery life or solar panels. &lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;A precision amplifier measures the voltage across the 0.1 ohm, 1% sense resistor. Since the amplifier maximum input difference is ±320mV, this means that it can measure up to ±3.2 Amps. With the internal 12 bit ADC, the resolution at ±3.2A range is 0.8mA. With the internal gain set at the minimum of div8, the max current is ±400mA and the resolution is 0.1mA. Advanced hackers can remove the 0.1 ohm current sense resistor and replace it with their own to change the range (say a 0.01 ohm to measure up 32 Amps with a resolution of 8mA).&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;A 6-pin header is included so you can easily attach this sensor to a breadboard as well as a 3.5mm terminal plug so you can easily attach and detach your load.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;Usage is simple: power the sensor itself with 3.3v and connect the two I2C pins up to your &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt;. Then connect your target power supply to VIN+ and the load to ground to VIN-.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/datasheets/ina219.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.adafruit.com/product/904"&gt;Sensor breakout board&lt;/a&gt; manufactured by Adafruit Industries&lt;/li&gt;
+&lt;li&gt;Uses the INA219B chip, see datasheet for detailed specifications&lt;/li&gt;
+&lt;li&gt;0.1 ohm 1% 2W current sense resistor&lt;/li&gt;
+&lt;li&gt;Up to +26V target voltage&lt;/li&gt;
+&lt;li&gt;Up to ±3.2A current measurement, with ±0.8mA resolution&lt;/li&gt;
+&lt;li&gt;0.9" x 0.8" PCB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C# driver&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrates seamlessly with the &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt; for Netduino Go!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Nwazet.GO / Samples / DAQmodule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 08 Sep 2012 05:43:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/ina219-high-side-dc-current-sensor</guid></item></channel></rss>

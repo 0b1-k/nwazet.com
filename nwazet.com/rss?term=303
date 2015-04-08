@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Netduino</title><link>http://nwazet.com:80/netduino</link><description>Netduino</description><item><title>Nwazet USB Power Supply Kit</title><link>http://nwazet.com:80/power</link><description>&lt;p&gt;The Nwazet Power Supply module is the easiest way to power your project away from a computer once you're done building it.&lt;/p&gt;
+
+&lt;p&gt;This power module is equipped with a standard center-positive 2.0mm barrel jack and will take any power supply, such as a wall-wart, a 9 volt battery or a cigarette-lighter adapter, between 7 and 20 volts and will output a nicely regulated 5 volts at up to 800 mA. &lt;/p&gt;
+
+&lt;p&gt;Just connect the USB cable that you're using today to the power supply module and you're good to go. &lt;/p&gt;
+
+&lt;p&gt;The module also features a large switch to let you turn your project ON / OFF smoothly and easily.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Power Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Voltage Input: 7v (min) to 20v (max)&lt;/li&gt;
+&lt;li&gt;Voltage Output: 5v regulated&lt;/li&gt;
+&lt;li&gt;Current Output: 800 mA (max)&lt;/li&gt;
+&lt;li&gt;1.0v Dropout&lt;/li&gt;
+&lt;li&gt;Barrel Jack: 2.0mm diameter with the positive voltage at the center&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The hole-to-hole dimensions of the module are 30mm x 25mm. &lt;/li&gt;
+&lt;li&gt;The total size of the board is 40mm x 35mm.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Schematics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Eagle schematics, BOM and datasheets.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note: No USB cable or wall-wart is provided with the power supply module. This module is sold as a kit and requires soldering.&lt;/p&gt;
+</description><pubDate>Wed, 09 May 2012 01:43:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/power</guid></item><item><title>Netduino Go</title><link>http://nwazet.com:80/netduinogo</link><description>&lt;p&gt;An Open Source | Open Hardware electronics platform using the .Net Micro Framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What's a Netduino Go! and how is it different from an Arduino platform?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The philosophy behind the Netduino Go! is to eliminate the complexity involved with building DIY electronic projects: it's like building with "Electronic LEGO blocks". You don't need to become an electrical and embedded software engineer to dream and build your creations. Instead, you can just plug in modules into a Netduino Go! board and hit the ground running.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How does Netduino Go! remove complexity?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Netduino Go! board features eight identical sockets used for powering and communicating with modules such as sensors, displays, input devices, etc. The sockets also expose a general purpose I/O line and two shared general purpose serial ports, which are also used to upgrade a module's firmware in the field. A Netduino Go! module behaves as an SPI slave device, receiving and executing high-level commands, isolating the user from the actual electronic and software implementation details required to make it work. Depending on the function of the module, data is sent back to the application running on the Netduino Go! board over the same SPI channel. Every Netduino Go! module ships with its own C# driver, wrapping the low-level SPI protocol details into a simple programming interface. This makes the Netduino Go! an ideal platform for learning embedded electronics as well as designing and prototyping professional-grade devices and embedded applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Powerful and efficient&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Netduino Go! is part of a new breed of 32-bit microcontrollers powered by powerful ARM-Cortex processors. It is programmable in C# or Visual Basic .Net. In contrast to the Arduino platform and IDE, the .Net Micro Framework is supported by &lt;a href="http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-csharp-express"&gt;Visual Studio Express&lt;/a&gt; which is a free, robust development environment, making it easier to create simple and complex projects alike. Best of all, you can debug your code as it is running on the board without requiring any extra hardware.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Freedom of choice&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While the Netduino Go! platform is growing with &lt;a href="/products"&gt;new modules specific to the platform&lt;/a&gt; being developed and supported by &lt;a href="http://wiki.netduino.com/List-of-all-GO-Modules.ashx"&gt;the community and by Secret Labs&lt;/a&gt; but it's important to know that Netduino Go! sockets are compatible with &lt;a href="http://www.ghielectronics.com/catalog/category/275/"&gt;.Net Gadgeteer modules&lt;/a&gt; with socket types "X", "S" and "U", offering a nice variety of sensors and connectors to get started building projects today.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Demos&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href="http://www.youtube.com/watch?v=78LesDVqMXs"&gt;demos we presented at the Seattle Mini Maker Faire&lt;/a&gt; last June to see some fun projects in action.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Datasheet&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MCU: &lt;a href="http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/DM00037051.pdf"&gt;STM32F405 ARM Cortex-M4 32-bit microcontroller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Speed: 168MHz&lt;/li&gt;
+&lt;li&gt;Flash: 384 KB&lt;/li&gt;
+&lt;li&gt;RAM: 100+ KB&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://netduino.com/netduinogo/specs.htm"&gt;Specifications and source code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 04 Apr 2012 18:25:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/netduinogo</guid></item><item><title>Netduino Mini</title><link>http://nwazet.com:80/netduinomini</link><description>&lt;p&gt;The Netduino Mini is an authentic Netduino microcontroller in a conveniently miniature package,
+making it ideal for embedding in the final version of your projects.&lt;/p&gt;
+
+&lt;h2&gt;Software, meet hardware.&lt;/h2&gt;
+
+&lt;p&gt;Netduino is an open source electronics platform using the .NET Micro Framework.
+Featuring a 32-bit microcontroller and a rich development environment.
+Suitable for engineers and hobbyists alike.&lt;/p&gt;
+
+&lt;h2&gt;Input. Output.&lt;/h2&gt;
+
+&lt;p&gt;Interface with switches, sensors, LEDs, serial devices, and more.
+Netduino Mini combines 16 GPIO (4 of which can be used as analog),
+RS232, I2C, UART, SPI, 4 PWM&lt;/p&gt;
+
+&lt;h2&gt;Code. Debug. Repeat.&lt;/h2&gt;
+
+&lt;p&gt;.NET Micro Framework combines the ease of high-level coding and the features of microcontrollers. 
+Enjoy event-based programming, multi-threading, line-by-line debugging, breakpoints and more.&lt;/p&gt;
+
+&lt;h2&gt;Very expandable.&lt;/h2&gt;
+
+&lt;p&gt;3rd-party accessories offer pre-built functionality like GPS location, servo control and battery power.
+Netduino is also pin compatible with Arduino shields. Drivers are required for some Arduino shields.&lt;/p&gt;
+
+&lt;h2&gt;Design files included.&lt;/h2&gt;
+
+&lt;p&gt;Netduino is an open source electronics platform. Design files and source code are included. 
+Learn from the designs. Remix. Enjoy the freedom of open source.&lt;/p&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://netduino.com/netduinomini/specs.htm"&gt;http://netduino.com/netduinomini/specs.htm&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Fri, 09 Mar 2012 22:44:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/netduinomini</guid></item></channel></rss>

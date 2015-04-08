@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Power Solutions</title><link>http://nwazet.com:80/product/power-solutions</link><description>Power Solutions</description><item><title>5.5V DC 1A USB Power Adapter With Cable - UL listed</title><link>http://nwazet.com:80/usb-1a-power-adapter</link><description>&lt;p&gt;This nice, small, lightweight, and efficient USB switching DC power supply is perfect to reliably power a Raspberry Pi, or any device that feeds on USB.&lt;/p&gt;
+
+&lt;p&gt;It is thin and fits in power strips without blocking other outlets. The output is regulated so you'll get a steady 5.5V DC up to 1A of current draw. The provided voltage is a little higher than 5V, to account for the voltage drop that usually happens in USB cords with greedy devices such as the Pi.&lt;/p&gt;
+
+&lt;p&gt;The provided 0.9m cord features a standard micro-USB. This supply is designed to work anywhere in the world on 100V-240V AC 50 or 60Hz wall power; you'll just need a low-cost plug adapter.&lt;/p&gt;
+
+&lt;p&gt;The red LED on top will let you know the adapter is powered. It works great for a variety of applications, micro-controllers and of course, the Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wall wart dimension above the power plug: 59mm x 24.3mm x 46.3mm (2.3" x 0.95" x 1.8")&lt;/li&gt;
+&lt;li&gt;Micro-USB Cable length: 90cm (35")&lt;/li&gt;
+&lt;li&gt;Cable diameter: 3.5mm (0.13")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Input voltage: 100V-240V AC (standard US plug, no ground)&lt;/li&gt;
+&lt;li&gt;Output voltage: 5.5 VDC @ 1A&lt;/li&gt;
+&lt;li&gt;Regulated, switched output&lt;/li&gt;
+&lt;li&gt;CE / UL listed&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Mon, 02 Sep 2013 23:12:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/usb-1a-power-adapter</guid></item><item><title>Nwazet Pi Power Supply v2</title><link>http://nwazet.com:80/nwazet-pi-power-supply</link><description>&lt;p&gt;This power supply is designed to provide the Raspberry Pi with a clean and stable power source from a 9V wall-wart. As you may know, the Raspberry Pi can become unstable when used with power-hungry USB devices and this power supply will provide the head room needed to keep your setup running smoothly. For Raspberry Pi hackers out there, this power supply also features two additional voltage regulators, respectively outputting 800mA at 3.3v and 5V on power rails conveniently accessible through a vertical JST connector, as well as a standard 0.1" pin header. The center position on the power connectors (JST and pin header) is reserved for ground and it is common with the Raspberry Pi's ground. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The power supply now ships with a USB adapter and a 2" JST-PH power cable.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Improved heat sinking compared to the Nwazet Pi Power Supply v1&lt;/li&gt;
+&lt;li&gt;Fits perfectly in our Tuxedo case&lt;/li&gt;
+&lt;li&gt;Requires a 9V power adapter (not included)&lt;/li&gt;
+&lt;li&gt;1x &lt;a href="/media/default/datasheets/PJ-002AH-SMT.pdf"&gt;DC power connector&lt;/a&gt;, 5A input current rated, 2.1x5.5mm, center-positive barrel&lt;/li&gt;
+&lt;li&gt;2x &lt;a href="/media/default/datasheets/MC33269-D.PDF"&gt;MC33269 voltage regulators&lt;/a&gt; supplying 800mA @ 5v&lt;/li&gt;
+&lt;li&gt;1x &lt;a href="/media/default/datasheets/MC33269-D.PDF"&gt;MC33269 voltage regulator&lt;/a&gt; supplying 800mA @ 3.3v&lt;/li&gt;
+&lt;li&gt;1x &lt;a href="/Media/Default/Datasheets/ePH.pdf"&gt;JST PH connectors&lt;/a&gt;, top entry, 3 circuits (5v, GND, 3.3v)&lt;/li&gt;
+&lt;li&gt;1x 0.1" pin header connector, 3 circuits (5v, GND, 3.3v)&lt;/li&gt;
+&lt;li&gt;1x power indicator LED (red or white)&lt;/li&gt;
+&lt;li&gt;1x USB adapter&lt;/li&gt;
+&lt;li&gt;1x 2" JST-PH power cable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Related items&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/9vdc-1a-regulated-switching-power-adapter"&gt;9V DC, 1A, UL-listed, regulated switching power adapter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-usbadapter"&gt;USB A to Micro USB adapter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-usbadapter"&gt;2" JST PH power cable with 3 circuit connectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/jst-ph-connector"&gt;JST PH connector, through-hole, 3 circuits, 2mm pitch, top entry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/40-pin-headers-straight-set-of-3"&gt;0.1" 40-pin header&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/mounting-solution"&gt;Fasteners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-power-supply-heat-sink-set"&gt;Heat sinks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-xbmc-raspberry-pi-included"&gt;Nwazet XBMC media player&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-tuxedo-case"&gt;Nwazet Pi Tuxedo case&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;FAQs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Q: Why is one of the voltage regulators warmer than the others? A: There are 3 voltage regulators (5v x 2, 3.3v x 1) on the power supply board: one of the 5v regulators powers the Raspberry Pi when connected over USB, which is the regulator closest to the USB receptacle on the board. The two others don't do anything until they're used with the JST connectors or pin headers to power external projects or powering the Pi through the 5v pins of the Pi's GPIO connector. So, it's expected that only one of the 5v regulators will get hot when powering the Pi from a 9V wall-wart.&lt;/li&gt;
+&lt;li&gt;Q: Why are copper heat sinks changing color over time? A: It is a natural phenomenon with copper, which oxidizes in the presence of oxygen. If the copper is heated in the presence of oxygen, the heat speeds up oxidation and copper(II) oxide (black in color) is formed. Copper(II) will initially give the copper a darker red tint and, if given enough time, it will turn black. You can read about this process &lt;a href="http://en.wikipedia.org/wiki/Copper%28II%29_oxide"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Wed, 23 Jan 2013 01:19:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-power-supply</guid></item><item><title>9V DC 1A Regulated Switching Power Adapter - UL listed</title><link>http://nwazet.com:80/9vdc-1a-regulated-switching-power-adapter</link><description>&lt;p&gt;This is a nice, small, light, efficient, switching DC supply. It is thin and fits in power strips without blocking other outlets. The output is regulated so you'll get a steady 9V DC up to 1A of current draw. The 1.5m cord features a 2.1mmx5.5mm, center-positive, barrel jack. This supply is designed to work anywhere in the world on 100V-240V AC wall power; you'll just need a low-cost plug adapter. It works great for a variety of applications, micro-controllers and of course, with our USB power supplies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wall wart: 57.86mm x 23.69mm x 48.5mm (2.28" x 0.93" x 1.91")&lt;/li&gt;
+&lt;li&gt;Cable length: 147cm (58")&lt;/li&gt;
+&lt;li&gt;Cable diameter: 3.5mm (0.13")&lt;/li&gt;
+&lt;li&gt;Barrel jack: 2.1mm x 5.5mm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Input voltage: 100V-240V AC&lt;/li&gt;
+&lt;li&gt;Output voltage: 9 VDC @ 1A&lt;/li&gt;
+&lt;li&gt;Regulated, switched output&lt;/li&gt;
+&lt;li&gt;CE / UL listed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/kit"&gt;Microcontrollers Kits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Fri, 18 Jan 2013 01:17:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/9vdc-1a-regulated-switching-power-adapter</guid></item><item><title>Micro USB adapter</title><link>http://nwazet.com:80/pi-usbadapter</link><description>&lt;p&gt;This compact adapter bridges standard USB A and Micro USB female plugs, from a USB power supply to a microcontroller, Raspberry Pi or phone. Its two male plugs are the shortest path between power and your device, for those cases where a cable just won't do.&lt;/p&gt;
+
+&lt;p&gt;We use that adapter in our &lt;a href="/pi-tuxedocase"&gt;Tuxedo Case&lt;/a&gt; and &lt;a href="/pi-xbmc"&gt;XBMC Bundle&lt;/a&gt; to connect the Raspberry Pi to our &lt;a href="/nwazet-pi-power-supply"&gt;power supply&lt;/a&gt;. It has exactly the right size, avoiding the mess of a cable inside the case.&lt;/p&gt;
+
+&lt;h2&gt;Related Products&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-xbmc"&gt;Nwazet Pi XBMC Bundle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pi-tuxedocase"&gt;Nwazet Pi Tuxedo Case&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Jan 2013 05:55:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/pi-usbadapter</guid></item><item><title>Adafruit INA219 High Side DC Current Sensor</title><link>http://nwazet.com:80/ina219-high-side-dc-current-sensor</link><description>&lt;p&gt;This breakout board will solve all your power-monitoring problems. Instead of struggling with two multimeters, you can just use the handy INA219B chip on this breakout to both measure both the high side voltage and DC current draw over I2C with 1% precision. &lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;Most current-measuring devices such as our current panel meter are only good for low side measuring. That means that unless you want to get a battery involved, you have to stick the measurement resistor between the target ground and true ground. This can cause problems with circuits since electronics tend to not like it when the ground references change and move with varying current draw. This chip is much smarter and can handle high side current measuring, up to +26VDC, even though it is powered with 3.3v (Netduino / Nwazet DAQ module). It will also report back that high side voltage, which is great for tracking battery life or solar panels. &lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;A precision amplifier measures the voltage across the 0.1 ohm, 1% sense resistor. Since the amplifier maximum input difference is ±320mV, this means that it can measure up to ±3.2 Amps. With the internal 12 bit ADC, the resolution at ±3.2A range is 0.8mA. With the internal gain set at the minimum of div8, the max current is ±400mA and the resolution is 0.1mA. Advanced hackers can remove the 0.1 ohm current sense resistor and replace it with their own to change the range (say a 0.01 ohm to measure up 32 Amps with a resolution of 8mA).&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;A 6-pin header is included so you can easily attach this sensor to a breadboard as well as a 3.5mm terminal plug so you can easily attach and detach your load.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;Usage is simple: power the sensor itself with 3.3v and connect the two I2C pins up to your &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt;. Then connect your target power supply to VIN+ and the load to ground to VIN-.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/datasheets/ina219.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.adafruit.com/product/904"&gt;Sensor breakout board&lt;/a&gt; manufactured by Adafruit Industries&lt;/li&gt;
+&lt;li&gt;Uses the INA219B chip, see datasheet for detailed specifications&lt;/li&gt;
+&lt;li&gt;0.1 ohm 1% 2W current sense resistor&lt;/li&gt;
+&lt;li&gt;Up to +26V target voltage&lt;/li&gt;
+&lt;li&gt;Up to ±3.2A current measurement, with ±0.8mA resolution&lt;/li&gt;
+&lt;li&gt;0.9" x 0.8" PCB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;C# driver&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Integrates seamlessly with the &lt;a href="/data-acquisition-module"&gt;Nwazet DAQ module&lt;/a&gt; for Netduino Go!&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bitbucket.org/fabienroyer/nwazet.go/src"&gt;Nwazet.GO / Samples / DAQmodule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Sat, 08 Sep 2012 05:43:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/ina219-high-side-dc-current-sensor</guid></item></channel></rss>

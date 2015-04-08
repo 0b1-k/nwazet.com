@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Frequently Asked Questions</title><link>http://nwazet.com:80/faq</link><description>Frequently Asked Questions</description><item><title>Who are you guys?</title><link>http://nwazet.com:80/Contents/Item/Display/22244</link><description>&lt;h3&gt;Us&lt;/h3&gt;
+
+&lt;p&gt;We are makers who believe in simplicity, openness and effective designs.&lt;/p&gt;
+
+&lt;h3&gt;Fabien Royer&lt;/h3&gt;
+
+&lt;h4&gt;Chief Hacker&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/People/FabienMedium.png" alt="Fabien" /&gt;
+I grew up in France, in the western suburbs of Paris.
+As a kid, I was fascinated by all things electronic, often taking devices apart to understand how they worked or putting together kits.
+At age 10, I discovered computers and I knew right then that I wanted to become a programmer.
+In 1980, my father bought a TI99/4A. A year later, I had created my first commercial video game.
+Shortly afterwards, I was introduced to Bertrand by a common friend, marking the beginning of our lifelong friendship.
+In 1985, Bertrand and I released F.R.E.E, a very ambitious adventure game for the Atari 800XL.&lt;/p&gt;
+
+&lt;p&gt;A few years later, I graduated with a Bachelor of Science degree in Computer Science, working as an IBM mainframe system programmer by day and
+researching computer networks and security by night, making connections in the United States in the process.
+In 1992, I moved to the U.S. where I worked on applications ranging from industrial motion control, data acquisition and process control systems,
+to web development and web commerce tools.
+I then designed a system and security monitoring product for Windows NT and co-founded a successful startup in 1997 until 2002 when IT spending dried up.&lt;/p&gt;
+
+&lt;p&gt;In 2003, I started working for Microsoft, first on Windows Core Security, then Core Networking and finally, on the Xbox 360 and Kinect.
+It is around 2007 that I discovered the Open Source Hardware movement and began teaching myself electronics and microcontrollers.&lt;/p&gt;
+
+&lt;p&gt;In 2011, I co-founded Nwazet with Bertrand out of passion for openness, creativity and bringing ideas to life.&lt;/p&gt;
+
+&lt;h3&gt;Bertrand Le Roy, PhD&lt;/h3&gt;
+
+&lt;h4&gt;Director of creativity&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/People/BertrandMedium.png" alt="Bertrand" /&gt;
+I grew up in the suburbs of beautiful Paris where I enjoyed a happy, nerdy childhood.
+At age 10, I got my first computer, a TI-99/4A.
+Two years later, I self-published my first video game, and sold thousands of copies.
+This is about the time when I met Fabien, the beginning of a lifelong friendship.
+Together, we built an ambitious adventure game on the Atari 800XL.&lt;/p&gt;
+
+&lt;p&gt;At age 20, I got accepted at
+&lt;a href="http://en.wikipedia.org/wiki/%C3%89cole_Normale_Sup%C3%A9rieure_de_Lyon"&gt;École Normale Supérieure de Lyon&lt;/a&gt;
+where I studied physics and mathematics and then got myself a PhD in Mathematical Physics (my thesis title was "Ternary Algebraic Structures").
+After that, I decided that I had understood all the mysteries of the world (joking). Wanting to go back to computer stuff, I joined a small web agency
+where I built what was probably the first CMS based on the nascent .NET platform.&lt;/p&gt;
+
+&lt;p&gt;Microsoft recruited me shortly after that and moved me and my family across the Atlantic to work on building the next version of ASP.NET.
+During the eight years I spent there, I evangelized for the Open Source philosophy, participated in the adoption of jQuery
+and founded the effort to develop the Orchard CMS.&lt;/p&gt;
+
+&lt;p&gt;In 2011, I co-founded Nwazet with Fabien, with the goal of freeing our imaginations and materializing our ideas in alignment with our convictions about openness.&lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 19:49:20 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22244</guid></item><item><title>How do I get in touch with you?</title><link>http://nwazet.com:80/Contents/Item/Display/22245</link><description>&lt;p&gt;You can reach us by email at contact &lt;at&gt; nwazet &lt;dot&gt; com or you can use our &lt;a href="http://nwazet.com/contact"&gt;contact page&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 19:55:38 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22245</guid></item><item><title>Do you offer custom design services?</title><link>http://nwazet.com:80/Contents/Item/Display/22246</link><description>&lt;h2&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Before launching Nwazet, we were members of the Microsoft teams who built ASP.NET, contributed defense-in-depth features in Windows and its networking stack and built many Xbox 360, Kinect and Xbox Live features.&lt;/p&gt;
+
+&lt;h2&gt;Services&lt;/h2&gt;
+
+&lt;p&gt;We enjoy contributing our expertise to interesting and inspiring projects, helping others achieve their goals. To this end, we have been providing software, hardware and firmware development services in parallel with our own product development efforts.&lt;/p&gt;
+
+&lt;h3&gt;Custom Electronic Design Services&lt;/h3&gt;
+
+&lt;p&gt;We design custom products, primarily using ARM-Cortex MCUs, embedded Linux boards, such as the Raspberry Pi and our own Open Source libraries. We're also open to working with new and different technologies and enjoy adapting to new challenges.&lt;/p&gt;
+
+&lt;p&gt;We can help you with defining product requirements, building prototypes, guiding you through the process of transforming your ideas into industrial designs and getting them manufactured.&lt;/p&gt;
+
+&lt;h3&gt;Custom Laser-cutting Services&lt;/h3&gt;
+
+&lt;p&gt;A product becomes great when form and function work well together and is pleasing to the senses. We apply this philosophy to our own products with laser-cut enclosures, enabling us to quickly create appealing,  cost-effective custom cases. Don't hesitate to contact us if you need help designing the perfect enclosure for your own product.&lt;/p&gt;
+
+&lt;h3&gt;Orchard Web CMS Services&lt;/h3&gt;
+
+&lt;p&gt;We have unparalleled expertise with the &lt;a href="http://www.orchardproject.net/"&gt;Orchard&lt;/a&gt; CMS. In fact, we have been building custom &lt;a href="http://www.orchardproject.net/"&gt;Orchard&lt;/a&gt; web sites and modules for high-profile, high-traffic, &lt;a href="http://www.onestop.com/"&gt;customers&lt;/a&gt; for the past two years. Of course, we also provide consulting services around Orchard and we can assist you with reshaping your existing content management system, implementing your e-commerce strategy and integrating with mobile applications on this modern and competitive platform.&lt;/p&gt;
+
+&lt;h2&gt;Contact Us&lt;/h2&gt;
+
+&lt;p&gt;If you believe that we can assist you on a project, please don't hesitate to contact us:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/contact"&gt;Contact us&lt;/a&gt;&lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 19:58:21 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22246</guid></item><item><title>What is your privacy policy?</title><link>http://nwazet.com:80/Contents/Item/Display/22247</link><description>&lt;h2&gt;Privacy Policy&lt;/h2&gt;
+
+&lt;p&gt;This policy covers how we use your personal information. We take your privacy seriously and will take all measures to protect your personal information. &lt;/p&gt;
+
+&lt;h3&gt;What Information Do We Collect?&lt;/h3&gt;
+
+&lt;p&gt;We only collect information that we need that is related to your order. This includes your:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Billing Address&lt;/li&gt;
+&lt;li&gt;Shipping Address&lt;/li&gt;
+&lt;li&gt;Email Address &lt;/li&gt;
+&lt;li&gt;Phone number&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition we also collect information on your IP address, browser type, and referrer URL data. We use this data to prevent hacking attempts, help us know what web browsers people are using, and find out where our visitors are coming from so that we can improve our marketing. &lt;/p&gt;
+
+&lt;h3&gt;How Is My Information Used?&lt;/h3&gt;
+
+&lt;p&gt;Your information is only used to fill your order. We do not sell or redistribute your information to anyone.&lt;/p&gt;
+
+&lt;h3&gt;Security and Storage&lt;/h3&gt;
+
+&lt;p&gt;Only your billing, shipping, and order contents data is stored on our server. This information is encrypted using a Secure Sockets Layer before it is transmitted between our servers and your browser. We do not store your Credit Card data. &lt;/p&gt;
+
+&lt;h3&gt;Cookies and Browser Information&lt;/h3&gt;
+
+&lt;p&gt;Cookies are small files that reside on your computer and allow us to recognize you on your next visit or store your shopping cart contents. We use them only to track this information.&lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 20:00:13 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22247</guid></item><item><title>What payment types do you accept?</title><link>http://nwazet.com:80/Contents/Item/Display/22250</link><description>&lt;h2&gt;Payment Policy&lt;/h2&gt;
+
+&lt;h3&gt;Accepted Methods of Payment&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Credit Card (Google Checkout, Visa, Master Card, American Express, Discover)&lt;/li&gt;
+&lt;li&gt;Check, cashier check, money Order, wire transfer:
+only for established resellers (please &lt;a href="/contact"&gt;contact us&lt;/a&gt;);
+no personal checks are accepted&lt;/li&gt;
+&lt;li&gt;PayPal on request&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Credit Card Charges&lt;/h3&gt;
+
+&lt;p&gt;Your credit card will be charged when you place your order. If we are not able to fulfill your order for any reason your credit card will be refunded. &lt;/p&gt;
+
+&lt;h3&gt;Mailing Address For Check/Money Order&lt;/h3&gt;
+
+&lt;p&gt;Please &lt;a href="/contact"&gt;contact us&lt;/a&gt; for check or money orders.&lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 20:11:24 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22250</guid></item><item><title>How is my credit card information going to be protected?</title><link>http://nwazet.com:80/Contents/Item/Display/22280</link><description>&lt;p&gt;Your credit card information never reaches our servers at all, and we only ever see the last four digits and expiration date. When you enter your credit card information, everything is encrypted through SSL, and your data is directly transmitted from your browser to the payment gateway. In exchange, the gateway is giving us back a one-time token that we then use to charge your card. The payment gateway is the only place where your credit card information exists (see &lt;a href="https://stripe.com/us/features#seamless-security" title="the Stripe web site"&gt;the Stripe web site&lt;/a&gt; for more information).
+The only personal data that we store with your order are: the reference of the transaction, your name, your billing and shipping addresses, your email, phone number, the contents of the order, last 4 digits and expiration date of the credit card used, and a shipping tracker URL.&lt;/p&gt;
+</description><pubDate>Tue, 22 Oct 2013 23:04:35 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22280</guid></item><item><title>What does 'nwazet' mean?</title><link>http://nwazet.com:80/Contents/Item/Display/22248</link><description>&lt;p&gt;'nwazet' is phonetic for 'hazelnut' in French. You can hear how to pronounce the word &lt;a href="http://www.forvo.com/word/noisette/"&gt;here&lt;/a&gt; :)&lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 20:05:21 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22248</guid></item><item><title>Do you have distributors inside and outside of the United States?</title><link>http://nwazet.com:80/Contents/Item/Display/22249</link><description>&lt;p&gt;Yes, our list of distributors can be found &lt;a href="/distributors"&gt;here&lt;/a&gt;. If you are a distributor yourself and wish to add our products to your shop, please &lt;a href="/contact"&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 20:09:04 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22249</guid></item><item><title>What is your shipping policy?</title><link>http://nwazet.com:80/Contents/Item/Display/22251</link><description>&lt;h2&gt;Shipping Policy&lt;/h2&gt;
+
+&lt;h3&gt;Turnaround&lt;/h3&gt;
+
+&lt;p&gt;All orders are shipped within 48 hours Monday - Friday 8am - 5pm, except for items on back order.&lt;/p&gt;
+
+&lt;h3&gt;Carriers&lt;/h3&gt;
+
+&lt;p&gt;We use the USPS to deliver orders. As requested, we can use FedEx, UPS or DHL on a case by case basis and for reseller orders.&lt;/p&gt;
+
+&lt;h3&gt;Order Tracking&lt;/h3&gt;
+
+&lt;p&gt;If a tracking # is provided by the shipping carrier, we will update your order with the tracking information. Please note that some orders using 1st Class USPS mail will not have tracking numbers. &lt;/p&gt;
+
+&lt;h3&gt;Shipping Rates&lt;/h3&gt;
+
+&lt;p&gt;The rate charged for the shipping of your order is based on the weight of your products, and your location. Before the final checkout page you will be shown what the cost of shipping will be, and you will have a chance to not place your order if you decide not to. &lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 20:15:06 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22251</guid></item><item><title>Do you take back orders?</title><link>http://nwazet.com:80/Contents/Item/Display/22252</link><description>&lt;h2&gt;Back Orders&lt;/h2&gt;
+
+&lt;p&gt;If an item goes on back order we will ship you the complete order once all the items are in stock. When the item becomes available we will ship the complete order. We will contact you if any part of your order is on back order and will give you the opportunity to cancel it or remove the unavailable items. You will be refunded for the whole order or for the cancelled items.&lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 20:16:56 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22252</guid></item><item><title>How do you handle return, refund and exchange requests?</title><link>http://nwazet.com:80/Contents/Item/Display/22253</link><description>&lt;h2&gt;Returns, Refunds and Exchanges Policy&lt;/h2&gt;
+
+&lt;h3&gt;How To Return An Item&lt;/h3&gt;
+
+&lt;p&gt;Before returning an item, please &lt;a href="/contact"&gt;contact us&lt;/a&gt; first, indicating the reason for the return. Your item must be in its original unused condition to be returned, unless there is a manufacturing defect. You must return the item within 30 days of your purchase. Please include a signed letter in the return package stating the reason for the return and the original receipt.&lt;/p&gt;
+
+&lt;h3&gt;Restocking Fee&lt;/h3&gt;
+
+&lt;p&gt;All items are subject to a 10% restocking fee, which will be deducted from your refund. We do not refund the shipping and handling charges incurred during the initial purchase.&lt;/p&gt;
+
+&lt;h3&gt;Return Exceptions&lt;/h3&gt;
+
+&lt;p&gt;Items cannot be returned if they are opened, have been used or have been altered.&lt;/p&gt;
+
+&lt;h3&gt;How To Return A Defective Item&lt;/h3&gt;
+
+&lt;p&gt;Please &lt;a href="/contact"&gt;contact us&lt;/a&gt; to request an exchange for the same item, describing the issue in details. We will provide you with a return label and a tracking number for the defective part. Upon receiving the defective item, we will ship out the replacement part.&lt;/p&gt;
+
+&lt;h3&gt;Exchanges&lt;/h3&gt;
+
+&lt;p&gt;We do not provide exchanges.&lt;/p&gt;
+</description><pubDate>Mon, 21 Oct 2013 20:20:02 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22253</guid></item><item><title>Can you mark my package as a gift?</title><link>http://nwazet.com:80/Contents/Item/Display/22314</link><description>&lt;p&gt;We're sorry, but we can't: we would basically be helping you commit tax evasion.&lt;/p&gt;
+</description><pubDate>Thu, 24 Oct 2013 18:10:49 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22314</guid></item><item><title>Will my package ship with an invoice?</title><link>http://nwazet.com:80/Contents/Item/Display/22316</link><description>&lt;p&gt;Yes, your invoice will be attached to the outside of the package. This prevents your order from being held at customs if you're outside the US.&lt;/p&gt;
+</description><pubDate>Thu, 24 Oct 2013 18:23:24 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/Contents/Item/Display/22316</guid></item></channel></rss>

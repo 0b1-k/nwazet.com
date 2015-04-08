@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Networking</title><link>http://nwazet.com:80/product/networking</link><description>Networking</description><item><title>Bluetooth 4.0 CSR USB Module</title><link>http://nwazet.com:80/bluetooth</link><description>&lt;p&gt;Add Bluetooth capability to your computer instantly with this USB Bluetooth 4.0 adapter. It is backward-compatible with earlier Bluetooth versions and supports the latest Bluetooth v4.0 Low Energy standard.&lt;/p&gt;
+
+&lt;p&gt;While this adapter has been tested on Linux and Windows, it should work just fine with any computer thanks to its common chipset. We had excellent results testing it for serial data transfers (RFCOMM) between systems equipped with old and recent Bluetooth transceivers.&lt;/p&gt;
+
+&lt;p&gt;Drivers for CSR Bluetooth modules are built into all versions of Windows and should not require any extra effort to work our of the box: just plug it in and let Windows install its built-in Bluetooth driver.&lt;/p&gt;
+
+&lt;p&gt;For Linux, the Bluez Bluetooth stack works great and we have a step-by-step tutorial, including a Python demo, showing how to use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RFCOMM client / server Python demo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To get you off to a great start, &lt;a href="http://nwazet.com/bt-rfcomm-demo"&gt;we've written a complete article and matching demo code showing how to install and use this Bluetooth module from Python&lt;/a&gt;. The code was written and tested on Ubuntu and the Raspberry Pi but should run as-is on any Linux distribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Specifications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bluetooth v4.0 and earlier versions&lt;/li&gt;
+&lt;li&gt;Max bandwidth: 3MBps&lt;/li&gt;
+&lt;li&gt;Max range: 50m (line of sight)&lt;/li&gt;
+&lt;li&gt;USB host chipset: CSR8510&lt;/li&gt;
+&lt;li&gt;Sensitivity: -86dBm&lt;/li&gt;
+&lt;li&gt;Transmission: +6dBm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: it has been reported that these modules share a small pool of MAC addresses. This means that it is possible to run into conflicts if using several of these modules within the same room-size area.&lt;/p&gt;
+</description><pubDate>Wed, 16 Jul 2014 03:48:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/bluetooth</guid></item><item><title>Mini USB WiFi (802.11b/g/n)</title><link>http://nwazet.com:80/mini-usb-wifi</link><description>&lt;p&gt;When there is no nearby Ethernet connection, you'll need a USB wifi adapter to connect your Raspberry Pi to the Internet or to your local network. This very small adapter will barely stick out, and will be recognized by all our Linux distributions without the need to install any new drivers. We picked this adapter for those cases where a compact project is more important than range. For better range, we recommend &lt;a href="/usb-wifi"&gt;our larger USB WiFi adapter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Raspbian Configuration&lt;/h2&gt;
+
+&lt;p&gt;To use this WiFi module with the Raspbian distribution on the Raspberry Pi, please follow these steps:&lt;/p&gt;
+
+&lt;p&gt;From the console, as root (or using sudo), edit the network interfaces configuration file.&lt;/p&gt;
+
+&lt;pre&gt;
+nano /etc/network/interfaces
+&lt;/pre&gt;
+
+&lt;p&gt;Edit the file to include a wlan0 interface with the SSID and pre-shared key of the network you want to join.&lt;/p&gt;
+
+&lt;pre&gt;
+auto lo
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+auto wlan0
+iface wlan0 inet dhcp
+wpa-ssid "YourSSID"
+wpa-psk "YourKey"
+&lt;/pre&gt;
+
+&lt;p&gt;Reboot the Raspberry Pi after saving the updated configuration file.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;USB 2.0/1.1&lt;/li&gt;
+&lt;li&gt;WiFi IEEE 802.11b/g/n (2.4GHz)&lt;/li&gt;
+&lt;li&gt;Sticks out only 8mm from the USB port&lt;/li&gt;
+&lt;li&gt;Data Rate: 1Mbps to 150Mbps down and up&lt;/li&gt;
+&lt;li&gt;Realtek RTl8192cu Chipset&lt;/li&gt;
+&lt;li&gt;Dimensions: 19 x 14.3 x 6.2mm&lt;/li&gt;
+&lt;li&gt;Weight: 2.2g&lt;/li&gt;
+&lt;li&gt;Range up to 3 times farther than 802.11g&lt;/li&gt;
+&lt;li&gt;Integrated Antenna&lt;/li&gt;
+&lt;li&gt;RF Output Power: typically 13 ~17 dBm&lt;/li&gt;
+&lt;li&gt;Data Security: 64/128-bit WEP Encryption, WPA, WPA-PSK, WPA2, WPA2-PSK, TKIP/AES&lt;/li&gt;
+&lt;li&gt;Ad-Hoc, Infrastructure WLAN network, Wireless roaming, Data rate auto fall-back&lt;/li&gt;
+&lt;li&gt;Plug-and-Play setup and installation&lt;/li&gt;
+&lt;li&gt;Green LED activity indicator&lt;/li&gt;
+&lt;li&gt;Operating Temperature 0°C to 40°C&lt;/li&gt;
+&lt;li&gt;Storage Temperature -20°C to 75°C&lt;/li&gt;
+&lt;li&gt;Operating Humidity 10% ~ 90% (Non Condensing)&lt;/li&gt;
+&lt;li&gt;Storage Humidity 5% ~ 95% (Non Condensing)&lt;/li&gt;
+&lt;li&gt;Regulatory Compliance FCC (USA), CE Mark (Europe), RoHS Compliant, Wi-Fi Compliant&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Oct 2013 02:10:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/mini-usb-wifi</guid></item><item><title>USB WiFi (802.11b/g/n)</title><link>http://nwazet.com:80/usb-wifi</link><description>&lt;p&gt;When there is no nearby Ethernet connection, you'll need a USB wifi adapter to connect your Raspberry Pi to the Internet or to your local network. This small adapter will do the job flawlessly, and will be recognized by all our Linux distributions without the need to install any new drivers. We picked this adapter because of its great range, which makes it a lot more useful than shorter modules with necessarily smaller antennas.&lt;/p&gt;
+
+&lt;h2&gt;Raspbian Configuration&lt;/h2&gt;
+
+&lt;p&gt;To use this WiFi module with the Raspbian distribution on the Raspberry Pi, please follow these steps:&lt;/p&gt;
+
+&lt;p&gt;From the console, as root (or using sudo), edit the network interfaces configuration file.&lt;/p&gt;
+
+&lt;pre&gt;
+nano /etc/network/interfaces
+&lt;/pre&gt;
+
+&lt;p&gt;Edit the file to include a wlan0 interface with the SSID and pre-shared key of the network you want to join.&lt;/p&gt;
+
+&lt;pre&gt;
+auto lo
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+auto wlan0
+iface wlan0 inet dhcp
+wpa-ssid "YourSSID"
+wpa-psk "YourKey"
+&lt;/pre&gt;
+
+&lt;p&gt;Reboot the Raspberry Pi after saving the updated configuration file.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;USB 2.0/1.1&lt;/li&gt;
+&lt;li&gt;WiFi IEEE 802.11b/g/n (2.4GHz)&lt;/li&gt;
+&lt;li&gt;Data Rate: 1Mbps to 150Mbps down and up&lt;/li&gt;
+&lt;li&gt;Realtek RTl8192cu Chipset&lt;/li&gt;
+&lt;li&gt;Dimensions: 59 x 18 x 8mm&lt;/li&gt;
+&lt;li&gt;Weight: 6g&lt;/li&gt;
+&lt;li&gt;Range up to 3 times farther than 802.11g&lt;/li&gt;
+&lt;li&gt;Integrated Antenna&lt;/li&gt;
+&lt;li&gt;RF Output Power: typically 13 ~17 dBm&lt;/li&gt;
+&lt;li&gt;Data Security: 64/128-bit WEP Encryption, WPA, WPA-PSK, WPA2, WPA2-PSK, TKIP/AES&lt;/li&gt;
+&lt;li&gt;Ad-Hoc, Infrastructure WLAN network, Wireless roaming, Data rate auto fall-back&lt;/li&gt;
+&lt;li&gt;Plug-and-Play setup and installation&lt;/li&gt;
+&lt;li&gt;Green LED activity indicator&lt;/li&gt;
+&lt;li&gt;Operating Temperature 0°C to 40°C&lt;/li&gt;
+&lt;li&gt;Storage Temperature -20°C to 75°C&lt;/li&gt;
+&lt;li&gt;Operating Humidity 10% ~ 90% (Non Condensing)&lt;/li&gt;
+&lt;li&gt;Storage Humidity 5% ~ 95% (Non Condensing)&lt;/li&gt;
+&lt;li&gt;Regulatory Compliance FCC (USA), CE Mark (Europe), RoHS Compliant, Wi-Fi Compliant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/raspberry-pi-heat-sink-set"&gt;Raspberry Pi Heat Sink Set&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-power-supply-heat-sink-set"&gt;Nwazet Power Supply Heat Sink Set&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Jan 2013 07:35:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/usb-wifi</guid></item><item><title>Ethernet Cable (Cat. 5, 350MHz, 10ft)</title><link>http://nwazet.com:80/ethernet-cable</link><description>&lt;p&gt;This Ethernet cable can connect your 10Mbps, 100Mbps, or 1Gbps switch, router, or modem to a Raspberry Pi, or any compatible device. Its length of ten feet (approximately 3m) will fit the most common scenarios.&lt;/p&gt;
+
+&lt;h2&gt;Specifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;length: 10ft&lt;/li&gt;
+&lt;li&gt;Category 5&lt;/li&gt;
+&lt;li&gt;350MHz&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/hdmi-cable"&gt;HDMI Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/stereo-cable"&gt;Stereo Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-xbmc-raspberry-pi-included"&gt;Nwazet Pi XBMC (Raspberry Pi included)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 17 Jan 2013 06:30:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/ethernet-cable</guid></item></channel></rss>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Display Solutions</title><link>http://nwazet.com:80/product/display-solutions</link><description>Display Solutions</description><item><title>Four Digit Seven Segment Display</title><link>http://nwazet.com:80/fourdigitsevensegment</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;This nice blue seven segment display provides excellent segment uniformity and is highly visible up to seven meters away. It provides great readability even in bright ambient light. It looks slick with its white segments on a black surface.&lt;/p&gt;
+
+&lt;h2&gt;Related Components&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/leddriver"&gt;AS1100PL LED Driver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Datasheets/fourdigitsevensegment.pdf"&gt;Manufacturer Datasheet&lt;/a&gt; (See KW4-561CBB)&lt;/li&gt;
+&lt;li&gt;14.2mm (0.56") digit height&lt;/li&gt;
+&lt;li&gt;Color: blue (470nm +/- 25nm at 20mA)&lt;/li&gt;
+&lt;li&gt;Common cathode display&lt;/li&gt;
+&lt;li&gt;Maximum power dissipation per segment: 100mW&lt;/li&gt;
+&lt;li&gt;Maximum pulse peak forward current per segment (1/10th duty cycle, 0.1ms pulse width): 100mA&lt;/li&gt;
+&lt;li&gt;Maximum forward current per segment: 25mA&lt;/li&gt;
+&lt;li&gt;Maximum Additional power consumption above 50&amp;deg;C: 0.4mA/&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Maximum reverse voltage: 5V&lt;/li&gt;
+&lt;li&gt;Maximum reverse current: 50&amp;micro;A&lt;/li&gt;
+&lt;li&gt;Typical forward voltage: 3.2V at 20mA&lt;/li&gt;
+&lt;li&gt;Maximum forward voltage: 4V at 20mA&lt;/li&gt;
+&lt;li&gt;Operating temperature range: -40&amp;deg;C - +80&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Minimum luminous intensity: 6mcd&lt;/li&gt;
+&lt;li&gt;Typical luminous intensity: 12mcd&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/sevensegment.png" alt="Dimensions" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/sevensegmentwiring.PNG" alt="Wiring" /&gt;&lt;/p&gt;
+</description><pubDate>Thu, 30 Aug 2012 07:06:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/fourdigitsevensegment</guid></item><item><title>AS1100PL LED Driver</title><link>http://nwazet.com:80/leddriver</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;This LED driver is a drop-in replacement for the more expensive MAX7219CNG. This little chip is extremely useful when you need to control lots of LEDs, such as a LED matrix or a seven-segment display. Each driver can control up to 64 pixels or segments, and you can chain them to control more. They take SPI input to reliably produce a stable display. In addition, this driver natively understands LED matrices and segment displays so you don't have to make your life any harder than it already is by forcing you to map bits to pins.&lt;/p&gt;
+
+&lt;p&gt;The device includes a BCD code-B decoder, a multiplex scan circuitry, segment and display drivers, and a 64 Bit memory. The memory is used to store the LED settings, so that continuous reprogramming is not necessary. &lt;/p&gt;
+
+&lt;p&gt;Every individual segment can be addressed and updated separately. Only one external resistor is required to set the current through the LED display.&lt;/p&gt;
+
+&lt;p&gt;Brightness can be controlled either in an analog or digital way. The user can choose the internal code-B decoder to display numeric digits or to address each segment directly.&lt;/p&gt;
+
+&lt;p&gt;The AS1100 features an extremely low shutdown current of only 20µA and an operational current of less than 500µA. The number of visible digits can be programmed as well. The AS1100 can be reset by software and an external clock can be used. Several test modes support easy debugging.&lt;/p&gt;
+
+&lt;h2&gt;Related Components&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/ledmatrix"&gt;8x8 LED Matrix (Red Square Pixels)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/foudigitsevensegment"&gt;4 Digit Seven Segment LED Display&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Related Tutorials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://weblogs.asp.net/bleroy/archive/2011/03/24/driving-a-led-matrix-from-a-netduino-one-more-time-the-right-way.aspx"&gt;Driving a LED matrix from a Netduino one more time: The Right Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabienroyer.wordpress.com/2011/03/13/using-a-max7219max7221-led-display-driver-with-a-netduino/"&gt;Using a MAX7219/MAX7221 LED display driver with a netduino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Media/Default/Datasheets/AS1100_Datasheet_v1_36.pdf"&gt;AS1100PL Manufacturer Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Compare to &lt;a href="http://datasheets.maxim-ic.com/en/ds/MAX7219-MAX7221.pdf"&gt;MAX7219CNG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;10MHz Serial Interface&lt;/li&gt;
+&lt;li&gt;Individual LED Segment Control&lt;/li&gt;
+&lt;li&gt;Decode/No-Decode Digit Selection&lt;/li&gt;
+&lt;li&gt;20µA Low-Power Shutdown (Data Retained)&lt;/li&gt;
+&lt;li&gt;Extremely low Operating Current 0.5mA in open loop&lt;/li&gt;
+&lt;li&gt;Digital and Analog Brightness Control&lt;/li&gt;
+&lt;li&gt;Display Blanked on Power-Up&lt;/li&gt;
+&lt;li&gt;Drive Common-Cathode LED Display&lt;/li&gt;
+&lt;li&gt;Software Reset &lt;/li&gt;
+&lt;li&gt;Optional External clock&lt;/li&gt;
+&lt;li&gt;24-pin DIP package&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 30 Aug 2012 06:12:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/leddriver</guid></item><item><title>8x8 LED Matrix (Red Square Pixels)</title><link>http://nwazet.com:80/ledmatrix</link><description>&lt;h2&gt;Product Description&lt;/h2&gt;
+
+&lt;p&gt;A LED matrix is a great way to start playing with displays: as a simple array of LEDs with simple wiring, it's a system that is easy to understand and use. These LED matrices are controlled by 8 wires for rows, and eight for columns, making it easy to turn any pixel on or off. Pair it with our &lt;a href="/leddriver"&gt;LED Driver&lt;/a&gt; and all you have to do is send 8 bytes through SPI to enjoy a nice and stable 8x8 image.&lt;/p&gt;
+
+&lt;p&gt;This LED matrix is the same display that our &lt;a href="/pix6t4"&gt;PIX-6T4 handheld game console kit&lt;/a&gt; uses.&lt;/p&gt;
+
+&lt;h2&gt;Related Components&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/leddriver"&gt;AS1100PL LED Driver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Related Tutorials&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://weblogs.asp.net/bleroy/archive/2010/12/06/displaying-an-image-on-a-led-matrix-with-a-netduino.aspx"&gt;Displaying an image on a LED matrix with a Netduino using persistence of vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabienroyer.wordpress.com/2010/12/03/driving-an-8x8-led-matrix-with-a-netduino-using-persistence-of-vision/"&gt;Driving an 8×8 LED matrix with a netduino using persistence of vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://weblogs.asp.net/bleroy/archive/2011/03/24/driving-a-led-matrix-from-a-netduino-one-more-time-the-right-way.aspx"&gt;Driving a LED matrix from a Netduino one more time: The Right Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fabienroyer.wordpress.com/2011/03/13/using-a-max7219max7221-led-display-driver-with-a-netduino/"&gt;Using a MAX7219/MAX7221 LED display driver with a netduino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Datasheet&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://netduinohelpers.codeplex.com"&gt;C# Driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;8x8 LED Matrix&lt;/li&gt;
+&lt;li&gt;Emitted Color: SH Hi-Red (Peak Wavelength: 660 nm)&lt;/li&gt;
+&lt;li&gt;Square 3mm pixels&lt;/li&gt;
+&lt;li&gt;Material: GaAlAs/GaAs&lt;/li&gt;
+&lt;li&gt;Forward Voltage: 1.80 - 2.20V&lt;/li&gt;
+&lt;li&gt;Absolute Maximum Ratings
+&lt;ul&gt;
+&lt;li&gt;Reverse Voltage(Vr): 5 V&lt;/li&gt;
+&lt;li&gt;Forward Current (If): 25 mA&lt;/li&gt;
+&lt;li&gt;Pulse Forward Current (Ifp): 100 mA&lt;/li&gt;
+&lt;li&gt;Power Dissipation (Pd): 60*64 mW&lt;/li&gt;
+&lt;li&gt;Operating Temperature(Topr): -40&amp;deg;C to +80&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Storage Temperature (Ttsg): -40&amp;deg;C to +85&amp;deg;C&lt;/li&gt;
+&lt;li&gt;Lead Soldering Temperature: 260&amp;deg;C&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/media/default/datasheets/ledmatrix.pdf"&gt;Specification document&lt;/a&gt; (see NFM-12883A)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/LEDMatrix.PNG" alt="Dimensions" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/Media/Default/Datasheets/LEDMatrixWiring.PNG" alt="Wiring" /&gt;&lt;/p&gt;
+</description><pubDate>Thu, 30 Aug 2012 05:24:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/ledmatrix</guid></item></channel></rss>

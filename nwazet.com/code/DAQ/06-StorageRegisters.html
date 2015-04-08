@@ -1,0 +1,246 @@
+
+<!DOCTYPE html> 
+<html lang="en-US" class="static detail-sample contents"> 
+<head> 
+    <meta charset="utf-8" />
+    <title>Nwazet-06 - System and User Storage Registers</title> 
+    <link href="http://nwazet.com/Themes/Nwazet/Styles/Site.min.css" rel="stylesheet" type="text/css" />
+<script src="http://nwazet.com/Modules/Orchard.jQuery/scripts/jquery-1.11.1.min.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="/Core/Shapes/scripts/html5.js" type="text/javascript"></script>
+<![endif]-->
+<meta content="Orchard" name="generator" />
+<meta content="IE=edge,chrome=1" name="X-UA-Compatible" />
+<meta content="4503599629930432" property="twitter:account_id" />
+<link href="http://nwazet.com/Media/Default/favicon/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+    <script>(function(d){d.className="dyn"+d.className.substring(6,d.className.length);})(document.documentElement);</script> 
+</head> 
+<body>
+
+
+<div id="layout-wrapper">
+    <header id="layout-header" class="group">
+        <div id="header">
+            <div class="zone zone-header">
+<div class="brandlogo"><a href="../../index.html"><img alt="Nwazet" src="http://nwazet.com/Themes/Nwazet/Content/NwazetLogo.png"/></a></div>
+<h1 id="branding"><a href="../../index.html">Nwazet</a></h1>
+<h2 id="punchline">Build.Something("Epic!")</h2>
+</div>
+            <div class="user-display">
+        <span class="user-actions" title="You do not need an account in order to be able to buy on this site."><a href="http://nwazet.com/Users/Account/LogOn?ReturnUrl=%2Fcode%2FDAQ%2F06-StorageRegisters" rel="nofollow">Sign In</a></span>
+</div>
+        </div>
+    </header>
+<div id="layout-main-container">
+<div id="layout-main" class="group">
+    <div id="layout-content" class="group">
+                        <div id="content" class="group">
+            <div class="zone zone-content">
+<article class="sample content-item">
+    <header>
+        
+
+<h1>06 - System and User Storage Registers</h1>
+    </header>
+    <p>The DAQ features five 32-bit battery-backed registers. One of the register is reserved for system configuration while the four others are user-controlled. The system configuration register is accessed through the DaqConfig.IsOptionEnabled() and DaqConfig.SetOption() API calls which get and set specific option bits in the register. The user registers are treated as unsigned 32-bit values accessed through the DaqConfig.GetUserRegister() and DaqConfig.SetUserRegister() API calls. Changes made to the system and user registers are stored on the DAQ with the DaqConfig.Commit() call.
+<br><br>
+Sample output:</p>
+
+<pre>
+System config options:
+    ClockConfigured: True
+    ClockTimeSet: True
+    DiagnosticsToSerial: True
+User register[1] = 3735928559
+User register[2] = 322424845
+User register[3] = 195948557
+User register[4] = 3133020853
+</pre>
+
+<h2>System Diagnostic Messages</h2>
+
+<p>The DAQ module features built-in diagnostic messages which are disabled by default in the System register configuration. When enabled, diagnostic messages are sent to a dumb terminal such as <a href="http://en.wikipedia.org/wiki/Tera_Term">TeraTerm</a> or <a href="http://en.wikipedia.org/wiki/HyperACCESS">HyperTerminal</a> connected to the USART port (RX, TX, GND) on the DAQ. Each DAQ sub-system (File System, I2C, USART, RTC, ADC, GPIO, etc...) reports diagnostic messages when something goes wrong, when configuration settings are invalid or during their boot-time initialization. These diagnostics are particularly useful when troubleshooting application and driver issues as they generally provide more in-depth details than the C# exceptions thrown by the DAQ.</p>
+
+<h2>Enabling System Diagnostic Messages</h2>
+
+<p>The following code can be used to check for and enable system diagnostic messages:</p>
+
+<pre>
+            using (var daqConfig = new DaqConfig(daq)) {
+                if (daqConfig.IsOptionEnabled(DaqSetting.DiagnosticsToSerial) == false) {
+                    daqConfig.SetOption(DaqSetting.DiagnosticsToSerial, true);
+                    daqConfig.Commit(daq);
+                    daq.Reboot();
+                }
+            }
+</pre>
+
+<h2>Dumb Terminal Communication Settings</h2>
+
+<p>By default, the DAQ uses the following communication settings:</p>
+
+<pre>
+Baud rate: 115200
+Data: 8 bit
+Parity: None
+Stop bits: 1
+Flow Control: None
+Terminal Emulation: VT100
+</pre>
+
+<h2>Color-Coding Scheme</h2>
+
+<p>The DAQ module uses VT100 escape sequences to write color-coded strings to the dumb terminal, indicating the message severity.</p>
+
+<pre>
+White: informational
+Yellow: informational
+Red: failure
+Green: success
+</pre>
+
+<h2>Sample Boot Time Diagnostic Messages Output</h2>
+
+<p>On boot, the DAQ produces diagnostic messages such as these:</p>
+
+<pre>
+[nwazet DAQ module init | Rev: [nwazet.daqL.1.0
+Clock freq. kHz:
+        SYSCLK: 16000000
+        HCLK: 16000000
+        PCLK: 16000000
+        ADCCLK: 14000000
+        CECCLK: 32786
+        I2C1CLK: 8000000
+        USART1CLK: 16000000
+RTC init
+RTC init ok
+Time: 2012/09/13, 15:11:30.0
+Backup registers:
+        SR: 0x7
+        U1: 0xdeadbeef
+        U2: 0x1337d00d
+        U3: 0xbadf00d
+        U4: 0xbabe1ab5
+ADC init
+ADC init ok
+SPI channel 2 init
+SPI channel 2 ok
+Digital GPIO init
+Digital GPIO init ok
+I2C init
+I2C init ok
+SysTick init (1ms freq.)
+SysTick init ok
+File system reset
+File system reset ok
+[nwazet DAQ module ready
+</pre>
+
+
+<pre class="brush: csharp">using System;
+using System.Threading;
+using Microsoft.SPOT;
+using Microsoft.SPOT.Hardware;
+using SecretLabs.NETMF.Hardware.NetduinoGo;
+using Nwazet.Go.DAQ;
+namespace Tutorials {
+    public class StorageRegisters {
+        public static NwazetDAQ daq = new NwazetDAQ();
+        public static void Main() {
+            daq.Initialize(GoSockets.Socket1);
+
+            var daqConfig = new DaqConfig(daq);
+
+            // DAQ system configuration register settings
+            Debug.Print(&quot;System config options:&quot;);
+            // Real Time Clock configured and enabled?
+            Debug.Print(&quot;\tClockConfigured: &quot; + daqConfig.IsOptionEnabled(DaqSetting.ClockConfigured));
+            // Real Time Clock Date / Time set?
+            Debug.Print(&quot;\tClockTimeSet: &quot; + daqConfig.IsOptionEnabled(DaqSetting.ClockTimeSet));
+            // Internal diagnostics output to USART enabled?
+            Debug.Print(&quot;\tDiagnosticsToSerial: &quot; + daqConfig.IsOptionEnabled(DaqSetting.DiagnosticsToSerial));
+
+            // User configuration registers
+            Debug.Print(&quot;User register[1] = &quot; + daqConfig.GetUserRegister(Register.User1));
+            Debug.Print(&quot;User register[2] = &quot; + daqConfig.GetUserRegister(Register.User2));
+            Debug.Print(&quot;User register[3] = &quot; + daqConfig.GetUserRegister(Register.User3));
+            Debug.Print(&quot;User register[4] = &quot; + daqConfig.GetUserRegister(Register.User4));
+
+            // Set arbitrary values into the user configuration registers
+            daqConfig.SetUserRegister(Register.User1, 0xdeadbeef);
+            daqConfig.SetUserRegister(Register.User2, 0x1337d00d);
+            daqConfig.SetUserRegister(Register.User3, 0x0badf00d);
+            daqConfig.SetUserRegister(Register.User4, 0xbabe1ab5);
+
+            // Commit changes to all registers
+            daqConfig.Commit(daq);
+        }
+    }
+}
+</pre>
+</article></div>
+        </div>
+            </div>
+</div>
+</div>
+<div id="layout-footer" class="group">
+    <footer id="footer">
+        <div id="footer-quad" class="group">
+                                            </div>
+            <div id="footer-sig" class="group">
+                <div class="zone zone-footer"><div class="bottomnav">
+    <span id="osh">Open Source Hardware and Software</span><br/>
+    <a href="../../shipping.html">Shipping</a> |
+    <a href="../../returns.html">Returns, Refunds &amp; Exchanges</a> |
+    <a href="../../privacy.html">Privacy</a> |
+    <a href="http://nwazet.com/contact">Contact us</a>
+</div>
+<div class="credits">
+    <a href="../../index.html" id="copyright">&#169; Nwazet 2011-2014</a> |
+    <span id="hostedby"><a href="http://orcsweb.com" target="_blank">Web Hosting By OrcsWeb.</a></span> |
+    <span id="poweredby">Powered by <a href="http://www.orchardproject.net" target="_blank">Orchard</a></span>
+</div>
+</div>
+            </div>
+    </footer>
+</div>
+    
+</div>
+
+<script src="http://platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+    twttr.conversion.trackPid('l4mn5');
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4mn5&p_id=Twitter" />
+    <img height="1" width="1" style="display:none;" alt="" src="http://t.co/i/adsct?txn_id=l4mn5&amp;p_id=Twitter" />
+</noscript>
+
+<script src="http://nwazet.com/Modules/Nwazet.Commerce/scripts/referral.min.js" type="text/javascript"></script>
+<script src="../../Themes/Nwazet/scripts/SyntaxHighlighter/shCore.js" type="text/javascript"></script>
+<script src="../../Themes/Nwazet/scripts/SyntaxHighlighter/shBrushCSharp.js" type="text/javascript"></script>
+<script src="http://nwazet.com/Themes/Nwazet/scripts/nwazet.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function () {
+                SyntaxHighlighter.defaults['toolbar'] = false;
+                SyntaxHighlighter.all();
+            });
+        </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5109912-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

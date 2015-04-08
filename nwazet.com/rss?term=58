@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Kits &amp; Systems</title><link>http://nwazet.com:80/product/kit</link><description>Kits &amp; Systems</description><item><title>Nwazet Pi Model B+ Camera Box Bundle</title><link>http://nwazet.com:80/camera-bundle-bplus</link><description>&lt;p&gt;This bundle includes a specially designed black matte Raspberry Pi model B+ case, a wide-angle lens giving the Raspberry Pi Camera module a ~180 viewing angle and all the parts needed to mount it all to a wall or ceiling.&lt;/p&gt;
+
+&lt;h2&gt;Assembly Instructions&lt;/h2&gt;
+
+&lt;p&gt;Please &lt;a href="/camera-box-bplus/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the camera box.&lt;/p&gt;
+
+&lt;h2&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Get instant value from the Pi Camera Box using our tiny snapshot server &lt;a href="/code/nwazet-tiny-python-snapshot-server"&gt;sample script&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voilà! :)&lt;/p&gt;
+
+&lt;h2&gt;What model of Raspberry Pi does this bundle fit?&lt;/h2&gt;
+
+&lt;p&gt;This bundle works with a Raspberry Pi model B+ (not included). If you are looking for the same bundle for a Raspberry Pi model B, please &lt;a href="/camera-bundle"&gt;follow this link&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Mon, 28 Jul 2014 23:17:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/camera-bundle-bplus</guid></item><item><title>Nwazet Pi Model B Camera Box Bundle</title><link>http://nwazet.com:80/camera-bundle</link><description>&lt;p&gt;This bundle includes a specially designed black matte Raspberry Pi case, a wide-angle lens giving the Raspberry Pi Camera module a ~180 viewing angle and all the parts needed to mount it all to a wall or ceiling.&lt;/p&gt;
+
+&lt;h2&gt;Assembly Instructions&lt;/h2&gt;
+
+&lt;p&gt;Please &lt;a href="/camera-box-bplus/assembly"&gt;follow this step-by-step guide&lt;/a&gt; to assemble the camera box.&lt;/p&gt;
+
+&lt;h2&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;Get instant value from the Pi Camera Box using our tiny snapshot server &lt;a href="/code/nwazet-tiny-python-snapshot-server"&gt;sample script&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voila! :)&lt;/p&gt;
+
+&lt;h2&gt;What model of Raspberry Pi does this bundle fit?&lt;/h2&gt;
+
+&lt;p&gt;This bundle works with a Raspberry Pi model B (not included). If you are looking for the same bundle for a Raspberry Pi model B+, please &lt;a href="/camera-bundle-bplus"&gt;follow this link&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Thu, 12 Sep 2013 22:52:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/camera-bundle</guid></item><item><title>Nwazet Pecan Pi Relays</title><link>http://nwazet.com:80/nwazet-pecan-pi-relays</link><description>&lt;p&gt;The Pecan Pi Relays kit is designed to be interfaced with the &lt;a href="/product/connectors"&gt;Raspberry Pi's GPIO connector&lt;/a&gt; and features six normally open relays, each capable of switching up to 16A @ 250VAC. The relays are rated for at least 1.5 million cycles. The Pecan Pi Relays kit requires an external power supply capable of providing ~800mA @ 5V, such as the &lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;, since the Raspberry Pi cannot supply enough current through its GPIO connector. The relay board can optionally power the Raspberry Pi. The kit is designed so that other boards can be chained through it. It is also easy to solder, even for a beginner.&lt;/p&gt;
+
+&lt;h3&gt;Kit features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;6x 16A @ 250VAC relays&lt;/li&gt;
+&lt;li&gt;6x relay ON LED&lt;/li&gt;
+&lt;li&gt;2x identical Raspberry Pi GPIO connectors allowing chaining of other devices and boards&lt;/li&gt;
+&lt;li&gt;Pin # 25, 17, 27, 22, 23 and 24 and a GND connection on the GPIO connectors control each relay&lt;/li&gt;
+&lt;li&gt;1x 0.1" external relay power pin header (GND, 5V), located in the upper right corner of the PCB&lt;/li&gt;
+&lt;li&gt;1x JST PH through-hole external relay power connector, located in the upper right corner of the PCB&lt;/li&gt;
+&lt;li&gt;1x 2" JST-PH power cable &lt;/li&gt;
+&lt;li&gt;1x 0.1" external Raspberry Pi power pin header (marked Ext. Pi Power on the PCB), allowing the Raspberry Pi to be powered through its GPIO connector (optional, jumper required) from the same external power supply used for the relays&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Relay Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TE | Schrack model # RZ03-1A4-D005&lt;/li&gt;
+&lt;li&gt;1 pole 16A, (NO) contact&lt;/li&gt;
+&lt;li&gt;DC coil: 400 mW&lt;/li&gt;
+&lt;li&gt;5kV/10mm coil-contact, reinforced insulation&lt;/li&gt;
+&lt;li&gt;Ambient temperature 85°C (clear cover: 70°C)&lt;/li&gt;
+&lt;li&gt;Product in accordance to IEC 60335-1&lt;/li&gt;
+&lt;li&gt;&lt;a href="/media/default/datasheets/ENG_DS_RZ_IK1.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;PCB Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Copper weight: 2oz&lt;/li&gt;
+&lt;li&gt;Material: FR4&lt;/li&gt;
+&lt;li&gt;Board thickness: 2.3622mm (0.093")&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Schematics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nwazet.com/Media/Default/Product/pi-pecanrelays/Schematics.png"&gt;Schematics&lt;/a&gt; (see image gallery)&lt;/li&gt;
+&lt;li&gt;Schematics in Eagle format provided on request&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Bill of Materials&lt;/h3&gt;
+
+&lt;pre&gt;
+PCB Designator  Description                     Part #                  Quantity
+N/A             Schrack Relay                   RZ03-1A4-D005           6       
+R1-6            Wire contacts                   Phoenix Contact 1935174 4
+SGD1-6          MOSFET N-CHANNEL 60V 200mA      2N7000                  6
+PDR1-6          10K OHM 1/4W 5% CARBON FILM     CF14JT10K0              6
+LR1-6           1K OHM 1/4W 5% CARBON FILM      CF14CT52R102J           6
+BR1-6           100 OHM 1/4W 5% CARBON FILM     CF14JT100RTR-ND         6
+L1-6            Red 3mm Round LED (2v, 35mA)    LED3R                   6
+D1-6            1N4001 Series 50V 1A            1N4001-E3/54            6
+PCB             FR4, ENIG, black / yellow       Nwazet Pecan Pi Relays  1
+N/A             40 0.1" pin headers             N/A                     1
+&lt;/pre&gt;
+
+&lt;h3&gt;Assembly Directions and Time&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;About orienting the LEDs on the board: the shortest leg of the LED (cathode) corresponds to the ground (GND) as indicated by a dot on the silkscreen.&lt;/li&gt;
+&lt;li&gt;Please note that the resistors have different values even though they almost all look the same. Be sure to check their values before stuffing the board or the relays will not work properly.&lt;/li&gt;
+&lt;li&gt;Check the placement of the components against the Bill of Materials above.&lt;/li&gt;
+&lt;li&gt;Make sure the band on the diodes matches the silkscreen on the PCB.&lt;/li&gt;
+&lt;li&gt;Please be very careful when manipulating the MOSFETs, as these components are very sensitive to electrostatic discharge.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For best results:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use a 30 Watt soldering iron&lt;/li&gt;
+&lt;li&gt;Use a fine soldering iron tip&lt;/li&gt;
+&lt;li&gt;Use fine rosin-core solder (0.022")&lt;/li&gt;
+&lt;li&gt;Use masking tape to hold parts in place as needed while soldering&lt;/li&gt;
+&lt;li&gt;Assembly time is around an hour&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Troubleshooting&lt;/h3&gt;
+
+&lt;p&gt;If a relay fails to switch, please check the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Check the orientation of the corresponding diode D1-6, ensuring that the silver band on the diode is  pointing to the left (when facing the wire contacts) according to the silkscreen.&lt;/li&gt;
+&lt;li&gt;Make sure that the resistors (LR1-6, PDR1-6 and BR1-6) are in their proper locations. They don't all have the same value and will prevent the circuit from operating if mismatched.&lt;/li&gt;
+&lt;li&gt;Triple check your soldering of the parts on that section of the circuit.&lt;/li&gt;
+&lt;li&gt;Check that you're actually addressing the correct relay through the correct BCM pin number in your code, matching the PCB silkscreen on the GPIO connector.&lt;/li&gt;
+&lt;li&gt;Check that your code actually defines the GPIO pin number as an output.&lt;/li&gt;
+&lt;li&gt;It could also be that the MOSFET for this relay has been damaged (MOSFETs are very sensitive to ESD).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Sample Code&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The following Bash script shows how to use the &lt;a href="https://github.com/WiringPi/WiringPi"&gt;wiringPi gpio&lt;/a&gt; command to switch the relays ON / OFF indefinitely. We used this script for stress-testing the board and relays ;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For reference, the relays are mapped to the GPIOs of the Pi as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Relay # 1: GPIO 25&lt;/li&gt;
+&lt;li&gt;Relay # 2: GPIO 17&lt;/li&gt;
+&lt;li&gt;Relay # 3: GPIO 27&lt;/li&gt;
+&lt;li&gt;Relay # 4: GPIO 22&lt;/li&gt;
+&lt;li&gt;Relay # 5: GPIO 23&lt;/li&gt;
+&lt;li&gt;Relay # 6: GPIO 24&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+#!/bin/bash
+# Export the pins as outputs using the BCM pin numbering
+# The script assumes a Raspberry Pi Model B GPIO Rev. 2 connector
+# For Raspberry Pi Model B GPIO Rev. 1 connector, replace GPIO 27 by GPIO 21
+gpio -g mode 25 out
+gpio -g mode 17 out
+gpio -g mode 27 out
+gpio -g mode 22 out
+gpio -g mode 23 out
+gpio -g mode 24 out
+
+count=0
+while true
+do
+        echo "Count=${count}"
+        count=$((count+1))
+        #ON
+        gpio -g write 25 1
+        gpio -g write 17 1
+        gpio -g write 27 1
+        gpio -g write 22 1
+        gpio -g write 23 1
+        gpio -g write 24 1
+        # OFF
+        gpio -g write 25 0
+        gpio -g write 17 0
+        gpio -g write 27 0
+        gpio -g write 22 0
+        gpio -g write 23 0
+        gpio -g write 24 0
+done
+
+&lt;/pre&gt;
+
+&lt;h3&gt;Loading I2C, SPI and 1-Wire drivers&lt;/h3&gt;
+
+&lt;p&gt;If you need to control these relays through an I2C or SPI I/O expander, you may need to ensure that the appropriate drivers are loaded on your Raspberry Pi. Please check this &lt;a href="http://nwazet.com/code/loading-i2c-spi-and-1-wire-drivers-on-the-raspberry-pi-under-raspbian-wheezy"&gt;tutorial for details.&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;See also&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-power-supply"&gt;Nwazet Pi Power Supply&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 07 Feb 2013 04:44:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pecan-pi-relays</guid></item><item><title>Nwazet Pi Media Center (Raspberry Pi included)</title><link>http://nwazet.com:80/nwazet-pi-xbmc-raspberry-pi-included</link><description>&lt;p&gt;The 'Nwazet Pi Media Center' is a tiny yet powerful media player, powered by a Raspberry Pi, running the media center software of your choice: &lt;a href="http://openelec.tv/"&gt;XBMC OpenElec&lt;/a&gt;, &lt;a href="http://www.raspbmc.com/"&gt;Raspbmc&lt;/a&gt;, &lt;a href="http://www.rasplex.com/"&gt;RasPlex&lt;/a&gt; or &lt;a href="http://xbian.org/"&gt;XBian&lt;/a&gt;. It ships as an easy to assemble kit and includes all the essentials out of the box. The kit can be secured on the back of a monitor with standard VESA 75 mounting holes.&lt;/p&gt;
+
+&lt;p&gt;This kit includes a Raspberry Pi. If you already have a Pi, check out our Pi-less kit: &lt;a href="/nwazet-pi-xbmc-raspberry-pi-not-included"&gt;Nwazet Pi Media Center (Raspberry Pi &lt;em&gt;not&lt;/em&gt; included)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pi XBMC kit&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Raspberry Pi 'Model B' computer&lt;/li&gt;
+&lt;li&gt;Pre-installed media center software (SanDisk Class 10, 8GB SD card)&lt;/li&gt;
+&lt;li&gt;Nwazet Pi Tuxedo case&lt;/li&gt;
+&lt;li&gt;Nwazet Pi Power Supply&lt;/li&gt;
+&lt;li&gt;USB power adapter&lt;/li&gt;
+&lt;li&gt;HDMI cable&lt;/li&gt;
+&lt;li&gt;Ethernet cable&lt;/li&gt;
+&lt;li&gt;9V 1A power adapter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Assembly Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A step-by-step guide to assemble the kit &lt;a href="/tuxedo-case-assembly-instructions"&gt;can be found here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/wireless-usb-mini-keyboard"&gt;Wireless USB Mini Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver"&gt;Nwazet Pi Infrared Receiver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/usb-wifi"&gt;USB WiFi (802.11b/g/n)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/stereo-cable"&gt;Stereo Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/cool"&gt;Cooling Solutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver/harmony"&gt;How to configure the IR receiver with a Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 24 Jan 2013 02:20:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-xbmc-raspberry-pi-included</guid></item><item><title>Nwazet Pi Media Center (Raspberry Pi *not* included)</title><link>http://nwazet.com:80/nwazet-pi-xbmc-raspberry-pi-not-included</link><description>&lt;p&gt;The 'Nwazet Pi Media Center' is a tiny yet powerful media player, powered by a Raspberry Pi, running the media center software of your choice: &lt;a href="http://openelec.tv/"&gt;XBMC OpenElec&lt;/a&gt;, &lt;a href="http://www.raspbmc.com/"&gt;Raspbmc&lt;/a&gt;, &lt;a href="http://www.rasplex.com/"&gt;RasPlex&lt;/a&gt; &lt;a href="http://xbian.org/"&gt;or XBian&lt;/a&gt;. It ships as an easy to assemble kit. All you need to add is your own Raspberry Pi to complete the kit, which includes:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pi XBMC kit (w/o Raspberry Pi)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pre-installed media center software (SanDisk Class 10, 8GB SD card)&lt;/li&gt;
+&lt;li&gt;Works with any Raspberry Pi (even your original rev. 1)&lt;/li&gt;
+&lt;li&gt;Nwazet Pi Tuxedo case&lt;/li&gt;
+&lt;li&gt;Nwazet Pi Power Supply&lt;/li&gt;
+&lt;li&gt;USB power adapter&lt;/li&gt;
+&lt;li&gt;HDMI cable&lt;/li&gt;
+&lt;li&gt;Ethernet cable&lt;/li&gt;
+&lt;li&gt;9V 1A power adapter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you don't already own a Pi, check out our Pi-included kit: &lt;a href="/nwazet-pi-xbmc-raspberry-pi-included"&gt;Nwazet Pi Media Center (Raspberry Pi included)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Assembly Instructions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A step-by-step guide to assemble the kit &lt;a href="/tuxedo-case-assembly-instructions"&gt;can be found here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;See also&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/wireless-usb-mini-keyboard"&gt;Wireless USB Mini Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver"&gt;Nwazet Pi Infrared Receiver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/mini-ir-remote"&gt;Mini IR Remote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/usb-wifi"&gt;USB WiFi (802.11b/g/n)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/stereo-cable"&gt;Stereo Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/nwazet-pi-infrared-receiver/harmony"&gt;How to configure the IR receiver with a Harmony remote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Thu, 24 Jan 2013 01:21:00 GMT</pubDate><guid isPermaLink="true">http://nwazet.com:80/nwazet-pi-xbmc-raspberry-pi-not-included</guid></item></channel></rss>
